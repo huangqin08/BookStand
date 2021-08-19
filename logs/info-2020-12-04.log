@@ -1,0 +1,22 @@
+[2020-12-04 09:45:49,104] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 23222
+[2020-12-04 09:45:49,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 200 335654
+[2020-12-04 09:45:49,144] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 200 335654
+[2020-12-04 09:45:49,160] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 200 335654
+[2020-12-04 09:45:49,162] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 200 138618
+[2020-12-04 09:45:49,172] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 200 161173
+[2020-12-04 09:45:49,179] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 200 356232
+[2020-12-04 09:45:49,197] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 200 15649
+[2020-12-04 09:45:49,201] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 200 138618
+[2020-12-04 09:45:49,216] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 200 138618
+[2020-12-04 09:45:49,218] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 200 356232
+[2020-12-04 09:45:49,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 200 138618
+[2020-12-04 09:45:49,232] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 200 138618
+[2020-12-04 09:45:49,239] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 200 15649
+[2020-12-04 09:45:49,245] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 200 13525
+[2020-12-04 09:45:49,253] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 200 15649
+[2020-12-04 09:45:49,254] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 200 15649
+[2020-12-04 09:45:49,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 200 138618
+[2020-12-04 09:45:49,555] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-12-04 09:45:49,556] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2291
+[2020-12-04 09:46:20,946] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 23222
+[2020-12-04 09:47:25,830] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 23222

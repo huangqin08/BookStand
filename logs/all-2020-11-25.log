@@ -1,0 +1,198 @@
+[2020-11-25 10:52:08,745] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 21979
+[2020-11-25 10:52:08,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 200 335654
+[2020-11-25 10:52:08,788] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 200 335654
+[2020-11-25 10:52:08,814] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 200 335654
+[2020-11-25 10:52:08,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-25 10:52:08,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 200 161173
+[2020-11-25 10:52:08,846] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 200 356232
+[2020-11-25 10:52:08,862] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-25 10:52:08,871] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 200 138618
+[2020-11-25 10:52:08,876] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 200 356232
+[2020-11-25 10:52:08,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 200 138618
+[2020-11-25 10:52:08,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 200 138618
+[2020-11-25 10:52:08,899] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 200 138618
+[2020-11-25 10:52:08,907] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 200 15649
+[2020-11-25 10:52:08,917] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 200 13525
+[2020-11-25 10:52:08,918] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 200 15649
+[2020-11-25 10:52:08,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-25 10:52:08,937] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-25 10:52:09,211] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-25 10:52:09,212] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2291
+[2020-11-25 10:52:12,112] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-25 10:52:12,186] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2650
+[2020-11-25 10:52:18,344] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 21979
+[2020-11-25 11:03:32,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 21979
+[2020-11-25 11:05:17,010] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22173
+[2020-11-25 11:05:32,946] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 88, in novel_detail
+    logger.info('{}'.format(locals()))
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 251, in __repr__
+    return '<%s %r>' % (self.__class__.__name__, data)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 513, in __repr__
+    return '<%s: %s>' % (self.__class__.__name__, self)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\models.py", line 43, in __str__
+    return self.name
+AttributeError: 'Novels' object has no attribute 'name'
+[2020-11-25 11:05:33,046] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696 HTTP/1.1" 500 88065
+[2020-11-25 11:06:35,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22735
+[2020-11-25 11:06:58,389] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 88, in novel_detail
+    logger.info('{}'.format(locals()))
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 251, in __repr__
+    return '<%s %r>' % (self.__class__.__name__, data)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 513, in __repr__
+    return '<%s: %s>' % (self.__class__.__name__, self)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\models.py", line 43, in __str__
+    return self.name
+AttributeError: 'Novels' object has no attribute 'name'
+[2020-11-25 11:06:58,434] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696 HTTP/1.1" 500 88064
+[2020-11-25 11:08:40,502] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 88, in novel_detail
+    logger.info('{}'.format(locals()))
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 251, in __repr__
+    return '<%s %r>' % (self.__class__.__name__, data)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 513, in __repr__
+    return '<%s: %s>' % (self.__class__.__name__, self)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\models.py", line 43, in __str__
+    return self.name
+AttributeError: 'Novels' object has no attribute 'name'
+[2020-11-25 11:08:40,588] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696 HTTP/1.1" 500 88200
+[2020-11-25 11:09:20,857] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第24章 彼此的第一次！>, 'new_novels': <QuerySet [<Novels: 叶辰孙怡夏若雪>, <Novels: 斗罗大陆4终极斗罗123>]>, 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>, <NovelsType: 其他>]>, 'gid': 'bdf3c8762e3e11ebbcda5800e3fb0696', 'request': <WSGIRequest: GET '/novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696'>}
+[2020-11-25 11:09:20,967] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696 HTTP/1.1" 200 19100
+[2020-11-25 11:09:21,057] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 11:10:00,095] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第24章 彼此的第一次！>, 'new_novels': <QuerySet [<Novels: 叶辰孙怡夏若雪>, <Novels: 斗罗大陆4终极斗罗123>]>, 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>, <NovelsType: 其他>]>, 'gid': 'bdf3c8762e3e11ebbcda5800e3fb0696', 'request': <WSGIRequest: GET '/novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696'>}
+[2020-11-25 11:10:00,121] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696 HTTP/1.1" 200 18736
+[2020-11-25 11:10:00,148] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 11:10:10,308] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第24章 彼此的第一次！>, 'new_novels': <QuerySet [<Novels: 叶辰孙怡夏若雪>, <Novels: 斗罗大陆4终极斗罗123>]>, 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>, <NovelsType: 其他>]>, 'gid': 'bdf3c8762e3e11ebbcda5800e3fb0696', 'request': <WSGIRequest: GET '/novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696'>}
+[2020-11-25 11:10:10,330] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696 HTTP/1.1" 200 18892
+[2020-11-25 11:10:10,362] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 11:10:32,743] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-25 11:10:32,755] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-25 11:10:32,794] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2557
+[2020-11-25 11:10:35,293] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第24章 彼此的第一次！>, 'new_novels': <QuerySet [<Novels: 叶辰孙怡夏若雪>, <Novels: 斗罗大陆4终极斗罗123>]>, 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>, <NovelsType: 其他>]>, 'gid': 'bdf3c8762e3e11ebbcda5800e3fb0696', 'request': <WSGIRequest: GET '/novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696'>}
+[2020-11-25 11:10:35,309] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/bdf3c8762e3e11ebbcda5800e3fb0696 HTTP/1.1" 200 18892
+[2020-11-25 11:10:41,727] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/02eb5b0a2e3f11eb91ad5800e3fb0696
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 102, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\xinxi\\PycharmProjects\\Scrapy_Novels\\novels\\novels\\file\\第24章 彼此的第一次！\\第24章 彼此的第一次！.txt'
+[2020-11-25 11:10:41,774] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/02eb5b0a2e3f11eb91ad5800e3fb0696 HTTP/1.1" 500 77794
+[2020-11-25 11:10:51,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8197
+[2020-11-25 11:10:51,968] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_0H2be4N.jpg HTTP/1.1" 200 138618
+[2020-11-25 11:10:54,430] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9663
+[2020-11-25 11:10:54,448] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 11:10:54,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 200 13525
+[2020-11-25 11:10:58,777] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 9628
+[2020-11-25 11:10:58,802] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_7bp9ebG.jpg HTTP/1.1" 200 138618
+[2020-11-25 11:10:58,803] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l_ENR4gcI.jpg HTTP/1.1" 200 335654
+[2020-11-25 11:11:02,894] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=3 HTTP/1.1" 200 9648
+[2020-11-25 11:11:02,920] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_IvTRqgU.jpg HTTP/1.1" 200 161173
+[2020-11-25 11:11:02,921] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iY8T35w.jpg HTTP/1.1" 200 161173
+[2020-11-25 11:11:05,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=4 HTTP/1.1" 200 9611
+[2020-11-25 11:11:05,801] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l.jpg HTTP/1.1" 200 161173
+[2020-11-25 11:11:05,802] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-25 11:11:08,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=5 HTTP/1.1" 200 8708
+[2020-11-25 11:11:10,476] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 9663
+[2020-11-25 11:11:10,494] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:28:31,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 23219
+[2020-11-25 14:28:31,756] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-25 14:28:31,757] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2291
+[2020-11-25 14:29:12,895] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 23219
+[2020-11-25 14:29:27,610] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'novel': <Novels: 海贼之文虎大将>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>, <NovelsType: 其他>]>, 'gid': '11111111', 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-25 14:29:27,635] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 8823
+[2020-11-25 14:29:27,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-25 14:29:30,604] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'novel': <Novels: 万族之劫>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>, <NovelsType: 其他>]>, 'gid': '1111111', 'request': <WSGIRequest: GET '/novels/detail/1111111'>}
+[2020-11-25 14:29:30,613] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111111 HTTP/1.1" 200 9147
+[2020-11-25 14:29:30,627] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s.jpg HTTP/1.1" 200 13525
+[2020-11-25 14:29:39,456] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'novel': <Novels: 万族之劫>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>, <NovelsType: 其他>]>, 'gid': '1111111', 'request': <WSGIRequest: GET '/novels/detail/1111111'>}
+[2020-11-25 14:29:39,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111111 HTTP/1.1" 200 9147
+[2020-11-25 14:29:48,750] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-25 14:29:48,804] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2453
+[2020-11-25 14:30:01,181] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.6656410308531677 HTTP/1.1" 200 2301
+[2020-11-25 14:30:05,851] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-25 14:30:05,885] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 3047
+[2020-11-25 14:30:22,737] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-25 14:30:22,752] [views.py:28] [views:index] [INFO]- 缓存中的key为：9df761e22ee711eb9b075800e3fb0696----浏览器中的key为:9df761e22ee711eb9b075800e3fb0696
+[2020-11-25 14:30:22,840] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 23787
+[2020-11-25 14:30:25,491] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10164
+[2020-11-25 14:30:27,106] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 15370
+[2020-11-25 14:30:27,142] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_IEXM0i4.jpg HTTP/1.1" 200 13525
+[2020-11-25 14:30:27,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s_BeqaKZW.jpg HTTP/1.1" 200 15649
+[2020-11-25 14:30:27,152] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iuMjulY.jpg HTTP/1.1" 200 161173
+[2020-11-25 14:30:27,191] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:30:27,192] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/3/3370/3370s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:30:27,196] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/0/425/425s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:31:22,345] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 15534
+[2020-11-25 14:31:22,370] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/3/3370/3370s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:31:22,381] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/0/425/425s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:31:22,481] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:31:55,031] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 16764
+[2020-11-25 14:31:55,060] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/3/3370/3370s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:31:55,066] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/0/425/425s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:31:55,073] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /static/media/http://www.biquku.la/d/image/2/2729/2729s.jpg HTTP/1.1" 500 59
+[2020-11-25 14:32:36,967] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 16666
+[2020-11-25 14:32:37,009] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/111s_IEXM0i4.jpg
+[2020-11-25 14:32:37,024] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/8797s_BeqaKZW.jpg
+[2020-11-25 14:32:37,027] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/8797s_BeqaKZW.jpg HTTP/1.1" 404 5664
+[2020-11-25 14:32:37,024] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/111s_IEXM0i4.jpg HTTP/1.1" 404 5661
+[2020-11-25 14:32:37,045] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/57840l_iuMjulY.jpg
+[2020-11-25 14:32:37,047] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/111s_uSgAxsF.jpg
+[2020-11-25 14:32:37,048] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/57840l_iuMjulY.jpg HTTP/1.1" 404 5667
+[2020-11-25 14:32:37,049] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/111s_uSgAxsF.jpg HTTP/1.1" 404 5661
+[2020-11-25 14:33:09,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_delete_novel/111111111111 HTTP/1.1" 302 0
+[2020-11-25 14:33:09,639] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 15330
+[2020-11-25 14:33:09,663] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/8797s_BeqaKZW.jpg
+[2020-11-25 14:33:09,675] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/111s_IEXM0i4.jpg
+[2020-11-25 14:33:09,678] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/8797s_BeqaKZW.jpg HTTP/1.1" 404 5664
+[2020-11-25 14:33:09,684] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/111s_uSgAxsF.jpg
+[2020-11-25 14:33:09,685] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/111s_IEXM0i4.jpg HTTP/1.1" 404 5661
+[2020-11-25 14:33:09,687] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/111s_uSgAxsF.jpg HTTP/1.1" 404 5661
+[2020-11-25 14:33:12,321] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_delete_novel/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 302 0
+[2020-11-25 14:33:12,353] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 13900
+[2020-11-25 14:33:12,378] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/111s_IEXM0i4.jpg
+[2020-11-25 14:33:12,387] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/8797s_BeqaKZW.jpg
+[2020-11-25 14:33:12,388] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/111s_IEXM0i4.jpg HTTP/1.1" 404 5661
+[2020-11-25 14:33:12,388] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/8797s_BeqaKZW.jpg HTTP/1.1" 404 5664
+[2020-11-25 14:33:14,423] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_delete_novel/a7ada7eb32d54d1da103480f1b7481dc HTTP/1.1" 302 0
+[2020-11-25 14:33:14,453] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 12649
+[2020-11-25 14:33:14,479] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/111s_IEXM0i4.jpg
+[2020-11-25 14:33:14,480] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/111s_IEXM0i4.jpg HTTP/1.1" 404 5661
+[2020-11-25 14:33:18,542] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 12649
+[2020-11-25 14:33:18,564] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novels/111s_IEXM0i4.jpg
+[2020-11-25 14:33:18,565] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novels/111s_IEXM0i4.jpg HTTP/1.1" 404 5661
+[2020-11-25 14:33:19,966] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10164
+[2020-11-25 15:02:06,197] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-25 15:02:06,198] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2291
+[2020-11-25 15:02:09,732] [base.py:93] [base:get_response] [WARNING]- Not Found: /user/index
+[2020-11-25 15:02:09,732] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /user/index HTTP/1.1" 404 3410
+[2020-11-25 16:43:45,362] [views.py:28] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:9df761e22ee711eb9b075800e3fb0696
+[2020-11-25 16:43:45,372] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-25 16:43:45,382] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-25 16:43:45,416] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 3098

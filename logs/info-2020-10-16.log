@@ -1,0 +1,544 @@
+[2020-10-16 09:19:43,074] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 09:19:43,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2619
+[2020-10-16 09:19:43,289] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-10-16 09:19:43,293] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2084
+[2020-10-16 09:19:46,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.8245102978074001 HTTP/1.1" 200 2446
+[2020-10-16 09:20:10,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6485
+[2020-10-16 09:20:36,833] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 09:20:36,870] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2629
+[2020-10-16 09:20:42,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6485
+[2020-10-16 09:22:51,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6485
+[2020-10-16 09:22:59,419] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 09:22:59,452] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2640
+[2020-10-16 09:23:01,752] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6485
+[2020-10-16 09:23:27,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 09:23:27,596] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2791
+[2020-10-16 09:23:32,309] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6485
+[2020-10-16 09:24:25,035] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 09:24:29,730] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 09:24:41,509] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 09:24:54,500] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 09:24:59,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 10:11:25,608] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 10:11:39,514] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:11:39,556] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2672
+[2020-10-16 10:11:51,556] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:11:51,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2573
+[2020-10-16 10:13:15,670] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:13:15,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2605
+[2020-10-16 10:13:29,346] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:13:29,380] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2577
+[2020-10-16 10:14:54,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:14:54,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2851
+[2020-10-16 10:14:58,114] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:14:58,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2448
+[2020-10-16 10:15:07,414] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.6127166784695972 HTTP/1.1" 200 2765
+[2020-10-16 10:15:11,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:15:11,901] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:15:57,458] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:15:57,491] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2434
+[2020-10-16 10:15:59,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 10:16:40,701] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 10:17:49,444] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 10:17:49,453] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:17:49,501] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2682
+[2020-10-16 10:17:56,152] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 10:17:58,745] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 10:17:58,755] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:17:58,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2971
+[2020-10-16 10:18:01,711] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6495
+[2020-10-16 10:18:08,107] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 10:18:08,116] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:18:08,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2597
+[2020-10-16 10:18:45,427] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:18:45,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2608
+[2020-10-16 10:19:22,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:19:22,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2743
+[2020-10-16 10:19:36,441] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:19:36,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2620
+[2020-10-16 10:19:38,758] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.49773469411962545 HTTP/1.1" 200 2523
+[2020-10-16 10:19:54,533] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:19:54,586] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2502
+[2020-10-16 10:20:09,415] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:20:09,439] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:26:26,096] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:26:26,129] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2470
+[2020-10-16 10:26:38,698] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:26:38,715] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:26:46,444] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:26:48,165] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:41:55,116] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:42:19,999] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:42:20,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2659
+[2020-10-16 10:42:31,278] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 10:42:31,319] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2549
+[2020-10-16 10:42:42,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:42:42,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:42:42,990] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2514
+[2020-10-16 10:42:54,717] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.608479596192864 HTTP/1.1" 200 2539
+[2020-10-16 10:42:56,381] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.4253382937858394 HTTP/1.1" 200 2415
+[2020-10-16 10:43:03,537] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:43:03,545] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:43:03,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2560
+[2020-10-16 10:43:44,715] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:43:44,739] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:43:51,956] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:43:53,290] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:43:57,526] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 10:43:57,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2664
+[2020-10-16 10:44:06,882] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.6998743241597378 HTTP/1.1" 200 2512
+[2020-10-16 10:44:08,698] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.6565173505393236 HTTP/1.1" 200 2968
+[2020-10-16 10:44:13,377] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 10:44:13,398] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:44:19,369] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:44:19,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:44:20,402] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:44:20,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:44:20,841] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:44:21,278] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 10:44:21,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 13:34:53,852] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 13:34:53,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2380
+[2020-10-16 14:07:42,207] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:07:42,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2825
+[2020-10-16 14:07:51,250] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.5796767925253965 HTTP/1.1" 200 2618
+[2020-10-16 14:07:52,742] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.6158727736046681 HTTP/1.1" 200 2722
+[2020-10-16 14:07:53,760] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.8566407945485193 HTTP/1.1" 200 2667
+[2020-10-16 14:08:00,062] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.IntegrityError: (1062, "Duplicate entry 'admin222' for key 'user.username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\user\views.py", line 56, in user_login
+    user.save()
+  File "D:\Envs\Django2020\lib\site-packages\django\contrib\auth\base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\sql\compiler.py", line 1280, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'admin222' for key 'user.username'")
+[2020-10-16 14:08:03,272] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /user/login HTTP/1.1" 500 194954
+[2020-10-16 14:09:38,993] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:09:39,039] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2599
+[2020-10-16 14:09:49,999] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.IntegrityError: (1062, "Duplicate entry 'admin222' for key 'user.username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\user\views.py", line 56, in user_login
+    user.save()
+  File "D:\Envs\Django2020\lib\site-packages\django\contrib\auth\base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\sql\compiler.py", line 1280, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\Envs\Django2020\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'admin222' for key 'user.username'")
+[2020-10-16 14:09:50,167] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /user/login HTTP/1.1" 500 194757
+[2020-10-16 14:15:25,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:15:25,080] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:15:30,145] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:15:30,183] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2676
+[2020-10-16 14:15:42,701] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:15:42,717] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:15:47,209] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:15:49,573] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 14:15:49,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:15:49,615] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2618
+[2020-10-16 14:15:55,489] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:16:08,611] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:16:08,632] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:16:13,536] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:16:14,843] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:16:15,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:16:15,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 14:26:53,627] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:26:53,685] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2720
+[2020-10-16 14:27:05,030] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:27:05,049] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-16 14:27:05,057] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:27:05,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2721
+[2020-10-16 14:27:25,508] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:27:25,572] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2445
+[2020-10-16 14:27:46,622] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 14:27:46,679] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2614
+[2020-10-16 14:27:57,754] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.5291905777341184 HTTP/1.1" 200 2603
+[2020-10-16 14:28:01,629] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:28:01,653] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-16 14:28:01,672] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:28:01,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2610
+[2020-10-16 14:29:24,181] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:29:24,236] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2758
+[2020-10-16 14:29:34,564] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:29:34,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-16 14:29:34,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:29:34,638] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2777
+[2020-10-16 14:30:15,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 14:30:15,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2776
+[2020-10-16 14:30:24,107] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:30:24,123] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:30:26,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:30:42,045] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:31:31,733] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 14:31:31,746] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:31:31,801] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2839
+[2020-10-16 14:32:15,630] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 14:32:15,732] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2432
+[2020-10-16 14:36:18,686] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:36:18,754] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2706
+[2020-10-16 14:36:25,787] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2752
+[2020-10-16 14:37:14,749] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:37:14,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2744
+[2020-10-16 14:45:45,330] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:45:45,404] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2574
+[2020-10-16 14:45:54,852] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.07348072072368583 HTTP/1.1" 200 2713
+[2020-10-16 14:45:55,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.7812591101073436 HTTP/1.1" 200 2332
+[2020-10-16 14:46:01,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:46:01,742] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:46:04,686] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:46:05,579] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:46:06,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:46:07,444] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:46:08,242] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:46:08,939] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:47:41,887] [views.py:236] [views:index] [INFO]- 缓存中的key为：379c0da20f7b11ebab685800e3fb0696----浏览器中的key为:379c0da20f7b11ebab685800e3fb0696
+[2020-10-16 14:47:41,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:47:43,648] [views.py:236] [views:index] [INFO]- 缓存中的key为：379c0da20f7b11ebab685800e3fb0696----浏览器中的key为:379c0da20f7b11ebab685800e3fb0696
+[2020-10-16 14:47:43,651] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:48:43,324] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:48:43,453] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2740
+[2020-10-16 14:49:14,317] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:49:14,376] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2646
+[2020-10-16 14:49:29,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:49:29,906] [views.py:236] [views:index] [INFO]- 缓存中的key为：b42ca0620f7b11eb9d3c5800e3fb0696----浏览器中的key为:b42ca0620f7b11eb9d3c5800e3fb0696
+[2020-10-16 14:49:29,910] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:50:09,913] [views.py:236] [views:index] [INFO]- 缓存中的key为：b42ca0620f7b11eb9d3c5800e3fb0696----浏览器中的key为:379c0da20f7b11ebab685800e3fb0696
+[2020-10-16 14:50:09,932] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:50:13,445] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /user/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\user\views.py", line 233, in index
+    liulanqi_key = cache.get('liulanqi:' + user.uid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-10-16 14:50:13,607] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /user/index HTTP/1.1" 500 74816
+[2020-10-16 14:54:32,476] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:54:32,479] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:54:32,489] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /user/login HTTP/1.1" 500 59
+[2020-10-16 14:54:32,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2522
+[2020-10-16 14:54:42,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:54:42,879] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2778
+[2020-10-16 14:54:50,860] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:54:50,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2685
+[2020-10-16 14:55:03,206] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:55:03,224] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:03,228] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:04,977] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:04,982] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:05,357] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:05,361] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:05,899] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:05,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:06,513] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:06,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:06,989] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:06,996] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:07,598] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:07,602] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:08,105] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:08,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:08,664] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:08,668] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:09,116] [views.py:236] [views:index] [INFO]- 缓存中的key为：7cc4f9e60f7c11eb9c4c5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:09,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:31,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:55:31,503] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2441
+[2020-10-16 14:55:41,874] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:55:41,893] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:55:41,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:44,704] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:55:44,707] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:45,417] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:55:45,421] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:45,940] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:55:45,943] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:46,410] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:55:46,413] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:46,974] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:55:46,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:55:55,205] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:7cc4f9e60f7c11eb9c4c5800e3fb0696
+[2020-10-16 14:55:55,220] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-16 14:55:55,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:55:55,341] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2316
+[2020-10-16 14:56:18,251] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:56:18,254] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:18,900] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:56:18,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:19,608] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:56:19,611] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:20,211] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:56:20,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:20,843] [views.py:236] [views:index] [INFO]- 缓存中的key为：94f2cf640f7c11ebbabb5800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:56:20,846] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:32,745] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 14:56:32,764] [views.py:236] [views:index] [INFO]- 缓存中的key为：a323c7e20f7c11eba3a85800e3fb0696----浏览器中的key为:a323c7e20f7c11eba3a85800e3fb0696
+[2020-10-16 14:56:32,767] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:34,339] [views.py:236] [views:index] [INFO]- 缓存中的key为：a323c7e20f7c11eba3a85800e3fb0696----浏览器中的key为:a323c7e20f7c11eba3a85800e3fb0696
+[2020-10-16 14:56:34,344] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:34,976] [views.py:236] [views:index] [INFO]- 缓存中的key为：a323c7e20f7c11eba3a85800e3fb0696----浏览器中的key为:a323c7e20f7c11eba3a85800e3fb0696
+[2020-10-16 14:56:34,980] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:35,528] [views.py:236] [views:index] [INFO]- 缓存中的key为：a323c7e20f7c11eba3a85800e3fb0696----浏览器中的key为:a323c7e20f7c11eba3a85800e3fb0696
+[2020-10-16 14:56:35,533] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:36,049] [views.py:236] [views:index] [INFO]- 缓存中的key为：a323c7e20f7c11eba3a85800e3fb0696----浏览器中的key为:a323c7e20f7c11eba3a85800e3fb0696
+[2020-10-16 14:56:36,054] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:36,483] [views.py:236] [views:index] [INFO]- 缓存中的key为：a323c7e20f7c11eba3a85800e3fb0696----浏览器中的key为:a323c7e20f7c11eba3a85800e3fb0696
+[2020-10-16 14:56:36,489] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 14:56:38,578] [views.py:236] [views:index] [INFO]- 缓存中的key为：a323c7e20f7c11eba3a85800e3fb0696----浏览器中的key为:94f2cf640f7c11ebbabb5800e3fb0696
+[2020-10-16 14:56:38,593] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-16 14:56:38,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 14:56:38,666] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2383
+[2020-10-16 15:02:14,396] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 15:02:14,463] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2736
+[2020-10-16 15:02:14,823] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 15:02:14,880] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2404
+[2020-10-16 15:02:19,347] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 15:02:19,422] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2667
+[2020-10-16 15:02:30,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.15907449965438802 HTTP/1.1" 200 2606
+[2020-10-16 15:02:32,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.30312178877378115 HTTP/1.1" 200 2398
+[2020-10-16 15:02:33,423] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.23068909262334159 HTTP/1.1" 200 2608
+[2020-10-16 15:02:37,979] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 15:02:37,999] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:02:38,003] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:02:38,945] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:02:38,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:02:39,496] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:02:39,498] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:02:39,983] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:02:39,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:02:56,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.3524921263632965 HTTP/1.1" 200 2868
+[2020-10-16 15:03:01,615] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 15:03:01,632] [views.py:236] [views:index] [INFO]- 缓存中的key为：85648d640f7d11eb9c955800e3fb0696----浏览器中的key为:85648d640f7d11eb9c955800e3fb0696
+[2020-10-16 15:03:01,635] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:02,963] [views.py:236] [views:index] [INFO]- 缓存中的key为：85648d640f7d11eb9c955800e3fb0696----浏览器中的key为:85648d640f7d11eb9c955800e3fb0696
+[2020-10-16 15:03:02,966] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:03,507] [views.py:236] [views:index] [INFO]- 缓存中的key为：85648d640f7d11eb9c955800e3fb0696----浏览器中的key为:85648d640f7d11eb9c955800e3fb0696
+[2020-10-16 15:03:03,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:04,020] [views.py:236] [views:index] [INFO]- 缓存中的key为：85648d640f7d11eb9c955800e3fb0696----浏览器中的key为:85648d640f7d11eb9c955800e3fb0696
+[2020-10-16 15:03:04,024] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:16,600] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:03:16,604] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:17,788] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:03:17,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:21,836] [views.py:236] [views:index] [INFO]- 缓存中的key为：85648d640f7d11eb9c955800e3fb0696----浏览器中的key为:85648d640f7d11eb9c955800e3fb0696
+[2020-10-16 15:03:21,842] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:23,780] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:03:23,784] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 15:03:25,186] [views.py:236] [views:index] [INFO]- 缓存中的key为：8816ec520f7d11ebabe05800e3fb0696----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 15:03:25,188] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2583
+[2020-10-16 16:00:26,757] [views.py:230] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:8816ec520f7d11ebabe05800e3fb0696
+[2020-10-16 16:00:26,769] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-16 16:00:26,787] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:00:26,829] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2990
+[2020-10-16 16:00:28,248] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:00:28,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2672
+[2020-10-16 16:00:33,338] [base.py:93] [base:get_response] [WARNING]- Not Found: /userindex
+[2020-10-16 16:00:33,338] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /userindex HTTP/1.1" 404 2078
+[2020-10-16 16:00:38,448] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /user/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\user\views.py", line 229, in index
+    liulanqi_key = cache.get('liulanqi:' + user.uid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-10-16 16:00:38,569] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /user/index HTTP/1.1" 500 74906
+[2020-10-16 16:00:50,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:00:50,671] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2810
+[2020-10-16 16:01:10,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 16:01:10,919] [views.py:230] [views:index] [INFO]- 缓存中的key为：b4f6bf520f8511ebaa185800e3fb0696----浏览器中的key为:b4f6bf520f8511ebaa185800e3fb0696
+[2020-10-16 16:01:10,922] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 16:01:45,258] [views.py:230] [views:index] [INFO]- 缓存中的key为：b4f6bf520f8511ebaa185800e3fb0696----浏览器中的key为:b4f6bf520f8511ebaa185800e3fb0696
+[2020-10-16 16:01:45,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 16:03:00,288] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 16:03:00,296] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:03:00,334] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2681
+[2020-10-16 16:03:04,801] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 16:03:04,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:03:04,844] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2771
+[2020-10-16 16:03:06,968] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:03:07,002] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2315
+[2020-10-16 16:03:11,463] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:03:11,500] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2253
+[2020-10-16 16:03:14,989] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:03:15,024] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2386
+[2020-10-16 16:05:14,878] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 16:05:14,891] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:05:14,928] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2573
+[2020-10-16 16:05:28,679] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 16:05:28,693] [views.py:230] [views:index] [INFO]- 缓存中的key为：527d710c0f8611eba6925800e3fb0696----浏览器中的key为:527d710c0f8611eba6925800e3fb0696
+[2020-10-16 16:05:28,695] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 16:05:31,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 16:05:31,101] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4793
+[2020-10-16 16:05:31,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2541
+[2020-10-16 16:05:56,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4768
+[2020-10-16 16:05:56,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2700
+[2020-10-16 16:06:57,229] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4768
+[2020-10-16 16:06:57,275] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2808
+[2020-10-16 16:06:59,862] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4768
+[2020-10-16 16:06:59,912] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2555
+[2020-10-16 16:07:00,347] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4768
+[2020-10-16 16:07:00,406] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2835
+[2020-10-16 16:07:00,780] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4768
+[2020-10-16 16:07:00,830] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2830
+[2020-10-16 16:07:40,470] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:07:40,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2372
+[2020-10-16 16:07:43,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6470
+[2020-10-16 16:08:36,039] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:08:36,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2569
+[2020-10-16 16:08:38,385] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6470
+[2020-10-16 16:08:44,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:08:44,950] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2778
+[2020-10-16 16:09:49,432] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:09:49,494] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2800
+[2020-10-16 16:09:51,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6408
+[2020-10-16 16:18:53,470] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6470
+[2020-10-16 16:19:00,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6470
+[2020-10-16 16:19:30,195] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:19:30,270] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2647
+[2020-10-16 16:19:32,880] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6470
+[2020-10-16 16:20:57,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6235
+[2020-10-16 16:21:00,799] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:21:00,848] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2977
+[2020-10-16 16:21:02,053] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:21:02,157] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2490
+[2020-10-16 16:21:02,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:21:03,061] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2612
+[2020-10-16 16:21:03,718] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:21:03,784] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2484
+[2020-10-16 16:21:05,490] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6235
+[2020-10-16 16:22:32,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6296
+[2020-10-16 16:22:34,766] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:22:34,831] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2701
+[2020-10-16 16:22:41,104] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:22:41,162] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2635
+[2020-10-16 16:23:30,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6296
+[2020-10-16 16:23:34,798] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:23:34,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2453
+[2020-10-16 16:23:48,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 16:23:48,829] [views.py:232] [views:index] [INFO]- 缓存中的key为：e215b49e0f8811eb80b65800e3fb0696----浏览器中的key为:e215b49e0f8811eb80b65800e3fb0696
+[2020-10-16 16:23:48,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589
+[2020-10-16 16:23:51,338] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-10-16 16:23:51,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 16:23:51,392] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2533
+[2020-10-16 16:24:02,878] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 6296
+[2020-10-16 17:41:31,332] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-16 17:41:31,376] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2437
+[2020-10-16 17:41:46,705] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-16 17:41:46,743] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2528
+[2020-10-16 17:41:57,759] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-16 17:41:57,774] [views.py:232] [views:index] [INFO]- 缓存中的key为：c584386c0f9311ebbc775800e3fb0696----浏览器中的key为:c584386c0f9311ebbc775800e3fb0696
+[2020-10-16 17:41:57,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2589

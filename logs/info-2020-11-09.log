@@ -1,0 +1,927 @@
+[2020-11-09 11:06:16,760] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 11:06:16,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2499
+[2020-11-09 11:06:16,964] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-09 11:06:16,965] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2305
+[2020-11-09 11:06:21,353] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 25, in index
+    liulanqi_key = cache.get('liulanqi:' + user.uid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 11:06:24,324] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 75071
+[2020-11-09 13:26:01,343] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 25, in index
+    liulanqi_key = cache.get('liulanqi:' + user.uid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 13:26:01,384] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 75206
+[2020-11-09 13:38:41,605] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 156, in show_bookrack
+    mybookrack = MyBookrack.objects.filter(user_id=user.uid, is_delete=0).all()
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 13:38:41,756] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 75672
+[2020-11-09 13:39:10,132] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 156, in show_bookrack
+    mybookrack = MyBookrack.objects.filter(user_id=user.uid, is_delete=0).all()
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 13:39:10,245] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 75807
+[2020-11-09 13:39:25,931] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:39:25,977] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2455
+[2020-11-09 13:39:35,869] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 13:39:35,883] [views.py:26] [views:index] [INFO]- 缓存中的key为：ed9ddd64224d11ebb9115800e3fb0696----浏览器中的key为:ed9ddd64224d11ebb9115800e3fb0696
+[2020-11-09 13:39:36,059] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 13:39:36,101] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,103] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,129] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,129] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,135] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,139] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,145] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,149] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,154] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,158] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,168] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:36,168] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 304 0
+[2020-11-09 13:39:41,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-09 13:39:41,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:39:41,328] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2727
+[2020-11-09 13:39:52,321] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 156, in show_bookrack
+    mybookrack = MyBookrack.objects.filter(user_id=user.uid, is_delete=0).all()
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 13:39:52,380] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 75672
+[2020-11-09 13:40:50,569] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 13:40:50,586] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:40:50,632] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2656
+[2020-11-09 13:40:59,667] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 13:40:59,676] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:40:59,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2814
+[2020-11-09 13:41:28,257] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:41:28,307] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2713
+[2020-11-09 13:41:31,704] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 13:41:31,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:41:31,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2414
+[2020-11-09 13:41:44,906] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-09 13:41:44,939] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2569
+[2020-11-09 13:41:53,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 13:41:53,799] [views.py:26] [views:index] [INFO]- 缓存中的key为：3896ccdc224e11eba2de5800e3fb0696----浏览器中的key为:3896ccdc224e11eba2de5800e3fb0696
+[2020-11-09 13:41:53,965] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 13:41:56,135] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 13:41:56,144] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:41:56,183] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2601
+[2020-11-09 13:42:28,884] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 13:42:28,899] [views.py:26] [views:index] [INFO]- 缓存中的key为：4726a44c224e11eba4ca5800e3fb0696----浏览器中的key为:4726a44c224e11eba4ca5800e3fb0696
+[2020-11-09 13:42:29,064] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 13:42:30,235] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 13:42:30,245] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:42:30,286] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2700
+[2020-11-09 13:48:55,403] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:48:55,446] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2518
+[2020-11-09 13:49:06,466] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 13:49:06,481] [views.py:26] [views:index] [INFO]- 缓存中的key为：410c7958224f11ebbfcb5800e3fb0696----浏览器中的key为:410c7958224f11ebbfcb5800e3fb0696
+[2020-11-09 13:49:06,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 13:49:07,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 13:49:07,912] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:49:07,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2519
+[2020-11-09 13:50:50,873] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:50:50,924] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2769
+[2020-11-09 13:51:00,062] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-09 13:51:00,100] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2459
+[2020-11-09 13:51:08,444] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-09 13:51:08,487] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2614
+[2020-11-09 13:51:19,713] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 13:51:19,727] [views.py:26] [views:index] [INFO]- 缓存中的key为：85dff3de224f11eb83b95800e3fb0696----浏览器中的key为:85dff3de224f11eb83b95800e3fb0696
+[2020-11-09 13:51:19,899] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 13:51:21,208] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 13:51:21,218] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:51:21,260] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2152
+[2020-11-09 13:53:31,979] [views.py:26] [views:index] [INFO]- 缓存中的key为：85dff3de224f11eb83b95800e3fb0696----浏览器中的key为:97f5f9ca224f11ebad835800e3fb0696
+[2020-11-09 13:53:31,999] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-09 13:53:32,019] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:53:32,073] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2511
+[2020-11-09 13:53:42,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 13:53:42,246] [views.py:26] [views:index] [INFO]- 缓存中的key为：e5ecdb8c224f11eba3375800e3fb0696----浏览器中的key为:e5ecdb8c224f11eba3375800e3fb0696
+[2020-11-09 13:53:42,442] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 13:56:23,412] [views.py:26] [views:index] [INFO]- 缓存中的key为：e5ecdb8c224f11eba3375800e3fb0696----浏览器中的key为:e5ecdb8c224f11eba3375800e3fb0696
+[2020-11-09 13:56:23,636] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22804
+[2020-11-09 13:56:27,228] [views.py:26] [views:index] [INFO]- 缓存中的key为：e5ecdb8c224f11eba3375800e3fb0696----浏览器中的key为:e5ecdb8c224f11eba3375800e3fb0696
+[2020-11-09 13:56:27,330] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22804
+[2020-11-09 13:56:28,276] [views.py:26] [views:index] [INFO]- 缓存中的key为：e5ecdb8c224f11eba3375800e3fb0696----浏览器中的key为:e5ecdb8c224f11eba3375800e3fb0696
+[2020-11-09 13:56:28,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22804
+[2020-11-09 13:56:42,376] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-09 13:56:42,391] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:56:42,429] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2515
+[2020-11-09 13:56:46,685] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 25, in index
+    liulanqi_key = cache.get('liulanqi:' + user.uid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 13:56:46,741] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 75069
+[2020-11-09 13:57:18,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 13:57:18,570] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2680
+[2020-11-09 13:57:22,649] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 25, in index
+    liulanqi_key = cache.get('liulanqi:' + user.uid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 13:57:22,704] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 75069
+[2020-11-09 13:59:41,527] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22323
+[2020-11-09 14:02:25,619] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:03:52,543] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:03:53,190] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:03:53,426] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:04:05,071] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:04:08,146] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:04:08,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:04:12,785] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:04:13,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:04:13,635] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2579
+[2020-11-09 14:04:24,830] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:04:27,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:04:27,521] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2762
+[2020-11-09 14:04:29,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:04:29,601] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2459
+[2020-11-09 14:04:32,988] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:04:34,243] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 14:04:34,254] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:04:34,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2616
+[2020-11-09 14:04:43,360] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 14:04:43,376] [views.py:28] [views:index] [INFO]- 缓存中的key为：70a5d466225111eba49a5800e3fb0696----浏览器中的key为:70a5d466225111eba49a5800e3fb0696
+[2020-11-09 14:04:43,477] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 14:04:44,891] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 14:04:44,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:04:44,961] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2749
+[2020-11-09 14:05:03,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 14:05:03,165] [views.py:28] [views:index] [INFO]- 缓存中的key为：76fec752225111ebbd685800e3fb0696----浏览器中的key为:76fec752225111ebbd685800e3fb0696
+[2020-11-09 14:05:03,266] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 14:05:34,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 14:05:34,915] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:05:34,969] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2519
+[2020-11-09 14:05:40,280] [views.py:28] [views:index] [INFO]- 缓存中的key为：76fec752225111ebbd685800e3fb0696----浏览器中的key为:94cde4d4225111eb848c5800e3fb0696
+[2020-11-09 14:05:40,309] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-09 14:05:40,321] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:05:41,492] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:05:44,530] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:05:44,577] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2545
+[2020-11-09 14:05:54,333] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-09 14:05:54,379] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2921
+[2020-11-09 14:06:03,202] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-09 14:06:03,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2669
+[2020-11-09 14:06:11,317] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.17543059262244665 HTTP/1.1" 200 2847
+[2020-11-09 14:06:15,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 14:06:15,557] [views.py:28] [views:index] [INFO]- 缓存中的key为：9a88bf52225111ebafda5800e3fb0696----浏览器中的key为:9a88bf52225111ebafda5800e3fb0696
+[2020-11-09 14:06:15,654] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22328
+[2020-11-09 14:07:21,002] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 14:07:21,017] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:07:21,083] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2485
+[2020-11-09 14:12:34,965] [views.py:28] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:d40bbcac225111ebbf925800e3fb0696
+[2020-11-09 14:12:34,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2020-11-09 14:12:35,006] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:12:35,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2710
+[2020-11-09 14:12:51,715] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:12:51,794] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:12:51,795] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:12:51,873] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:12:51,884] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:12:51,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 200 356232
+[2020-11-09 14:12:51,932] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 200 161173
+[2020-11-09 14:12:51,940] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:12:51,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:12:51,966] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 200 356232
+[2020-11-09 14:12:51,967] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:12:51,978] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:12:51,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:12:51,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:12:52,000] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 200 13525
+[2020-11-09 14:12:52,000] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:12:52,002] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:12:52,021] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:12:53,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:12:53,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2813
+[2020-11-09 14:13:01,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 14:13:01,830] [views.py:28] [views:index] [INFO]- 缓存中的key为：9a6c54fa225211eb8a1b5800e3fb0696----浏览器中的key为:9a6c54fa225211eb8a1b5800e3fb0696
+[2020-11-09 14:13:01,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22328
+[2020-11-09 14:13:02,001] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:13:02,007] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:13:02,092] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:13:02,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:13:02,133] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 200 161173
+[2020-11-09 14:13:02,136] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 200 356232
+[2020-11-09 14:13:02,154] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:13:02,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:13:02,177] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 200 356232
+[2020-11-09 14:13:02,190] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:13:02,199] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:13:02,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:13:02,209] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:13:02,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 200 13525
+[2020-11-09 14:13:02,257] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:13:02,267] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:13:02,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:13:04,300] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 158, in show_bookrack
+    mybookrack = MyBookrack.objects.filter(user_id=request.user, is_delete=0).all()
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\sql\query.py", line 1252, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\sql\query.py", line 1276, in _add_q
+    split_subq=split_subq,
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\sql\query.py", line 1186, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\sql\query.py", line 1052, in check_related_objects
+    for v in value:
+  File "D:\Envs\Django2020\lib\site-packages\django\utils\functional.py", line 216, in inner
+    return func(self._wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+[2020-11-09 14:13:04,438] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 115323
+[2020-11-09 14:17:01,937] [views.py:28] [views:index] [INFO]- 缓存中的key为：9a6c54fa225211eb8a1b5800e3fb0696----浏览器中的key为:9a6c54fa225211eb8a1b5800e3fb0696
+[2020-11-09 14:17:02,185] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22328
+[2020-11-09 14:17:02,234] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:17:02,238] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:17:02,271] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 200 335654
+[2020-11-09 14:17:02,277] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:17:02,310] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 200 161173
+[2020-11-09 14:17:02,356] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 200 356232
+[2020-11-09 14:17:02,367] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:17:02,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:17:02,431] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:17:02,432] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:17:02,433] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 200 356232
+[2020-11-09 14:17:02,434] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:17:02,444] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:17:02,450] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 200 13525
+[2020-11-09 14:17:02,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:17:02,482] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-09 14:17:02,486] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 200 138618
+[2020-11-09 14:17:03,916] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 6679
+[2020-11-09 14:17:30,784] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 6679
+[2020-11-09 14:17:31,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9706
+[2020-11-09 14:17:31,629] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_7bp9ebG.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:31,630] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:32,756] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8288
+[2020-11-09 14:17:32,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:33,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9199
+[2020-11-09 14:17:33,619] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:33,620] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:34,444] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8311
+[2020-11-09 14:17:34,464] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_YM8x2d4.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:35,283] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8343
+[2020-11-09 14:17:35,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_0H2be4N.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:36,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8345
+[2020-11-09 14:17:36,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_RiIsmEx.jpg HTTP/1.1" 304 0
+[2020-11-09 14:17:37,076] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 9622
+[2020-11-09 14:17:38,232] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9828
+[2020-11-09 14:18:15,139] [views.py:28] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:9a6c54fa225211eb8a1b5800e3fb0696
+[2020-11-09 14:18:15,149] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2020-11-09 14:18:15,164] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:18:15,218] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2499
+[2020-11-09 14:18:18,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:18:23,506] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9614
+[2020-11-09 14:18:29,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8196
+[2020-11-09 14:18:31,815] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9107
+[2020-11-09 14:18:32,898] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/11111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:18:32,951] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/11111111 HTTP/1.1" 500 76381
+[2020-11-09 14:18:41,620] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/1111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:18:41,673] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/1111111 HTTP/1.1" 500 76356
+[2020-11-09 14:19:25,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9107
+[2020-11-09 14:19:26,741] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/11111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:19:26,920] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/11111111 HTTP/1.1" 500 76380
+[2020-11-09 14:19:36,146] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/11111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:19:36,187] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/11111111 HTTP/1.1" 500 76381
+[2020-11-09 14:19:39,235] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9614
+[2020-11-09 14:19:52,206] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 302 0
+[2020-11-09 14:19:52,223] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:19:52,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2654
+[2020-11-09 14:19:59,322] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 14:20:00,941] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8219
+[2020-11-09 14:20:02,169] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/22222
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:20:02,226] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/22222 HTTP/1.1" 500 76323
+[2020-11-09 14:20:23,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 9530
+[2020-11-09 14:20:28,153] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:20:28,202] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 500 76770
+[2020-11-09 14:20:34,191] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9736
+[2020-11-09 14:20:39,480] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/a7ada7eb32d54d1da103480f1b7481dc
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:20:39,529] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/a7ada7eb32d54d1da103480f1b7481dc HTTP/1.1" 500 76767
+[2020-11-09 14:20:47,689] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 9530
+[2020-11-09 14:23:02,753] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/212121122
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 14:23:02,894] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/212121122 HTTP/1.1" 500 76391
+[2020-11-09 14:23:16,890] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 14:23:16,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2750
+[2020-11-09 14:23:25,566] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 14:23:25,583] [views.py:28] [views:index] [INFO]- 缓存中的key为：0dca6f58225411eb8a8f5800e3fb0696----浏览器中的key为:0dca6f58225411eb8a8f5800e3fb0696
+[2020-11-09 14:23:25,687] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 14:23:27,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 10182
+[2020-11-09 14:23:28,481] [views.py:87] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 解冻复生>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '4d254c268c1643db91cf66bddec905f1', 'request': <WSGIRequest: GET '/novels/detail/4d254c268c1643db91cf66bddec905f1'>}
+[2020-11-09 14:23:28,508] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 10180
+[2020-11-09 14:23:45,596] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8787
+[2020-11-09 14:23:48,384] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 10098
+[2020-11-09 14:23:49,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 10304
+[2020-11-09 14:23:49,591] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10068
+[2020-11-09 14:24:26,166] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-09 14:24:26,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_IEXM0i4.jpg HTTP/1.1" 304 0
+[2020-11-09 14:24:26,198] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s_BeqaKZW.jpg HTTP/1.1" 304 0
+[2020-11-09 14:24:26,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iuMjulY.jpg HTTP/1.1" 304 0
+[2020-11-09 14:24:42,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 6757
+[2020-11-09 14:24:42,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2020-11-09 14:24:42,890] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/themes/silver/theme.min.js HTTP/1.1" 304 0
+[2020-11-09 14:24:42,990] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/icons/default/icons.min.js HTTP/1.1" 304 0
+[2020-11-09 14:24:43,072] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/skin.min.css HTTP/1.1" 304 0
+[2020-11-09 14:24:43,225] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/content.min.css HTTP/1.1" 304 0
+[2020-11-09 14:24:43,227] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/content/default/content.min.css HTTP/1.1" 304 0
+[2020-11-09 15:33:48,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-09 15:33:48,798] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:33:48,840] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2656
+[2020-11-09 15:33:53,364] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:34:09,382] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 302 0
+[2020-11-09 15:34:09,394] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:34:09,439] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2483
+[2020-11-09 15:34:35,177] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:34:43,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:34:46,193] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/11111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 77, in novel_detail
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=gid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 15:34:46,242] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/11111111 HTTP/1.1" 500 76359
+[2020-11-09 15:36:40,536] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/11111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 79, in novel_detail
+    if hits_novel:
+UnboundLocalError: local variable 'hits_novel' referenced before assignment
+[2020-11-09 15:36:40,708] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/11111111 HTTP/1.1" 500 76538
+[2020-11-09 15:37:06,183] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'novel': <Novels: 海贼之文虎大将>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '11111111', 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-09 15:37:06,317] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 8844
+[2020-11-09 15:37:24,948] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novel_hits
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 214, in novel_hits
+    hits_novel = Hits.objects.filter(user_id=user.uid, novels_id=novel_uid)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 15:37:24,980] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 500 20172
+[2020-11-09 15:38:05,446] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:05,464] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:06,989] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'novel': <Novels: 海贼之文虎大将>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '11111111', 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-09 15:38:07,107] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 8844
+[2020-11-09 15:38:08,325] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:08,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:10,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:10,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:10,402] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:10,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:10,586] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:10,594] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:14,033] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:14,045] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:26,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:26,827] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:52,959] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 302 0
+[2020-11-09 15:38:52,970] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:38:55,516] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 111, in add_bookrack
+    mybookrack_novel = MyBookrack.objects.filter(user_id=user.uid, novels_id=uid, is_delete=0)
+AttributeError: 'NoneType' object has no attribute 'uid'
+[2020-11-09 15:38:55,540] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_bookrack?novelUid=11111111 HTTP/1.1" 500 20258
+[2020-11-09 15:40:00,677] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9614
+[2020-11-09 15:40:02,219] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 解冻复生>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 斗罗大陆4终极斗罗>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '4d254c268c1643db91cf66bddec905f1', 'request': <WSGIRequest: GET '/novels/detail/4d254c268c1643db91cf66bddec905f1'>}
+[2020-11-09 15:40:02,325] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 9612
+[2020-11-09 15:41:39,641] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 解冻复生>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 斗罗大陆4终极斗罗>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '4d254c268c1643db91cf66bddec905f1', 'request': <WSGIRequest: GET '/novels/detail/4d254c268c1643db91cf66bddec905f1'>}
+[2020-11-09 15:41:39,812] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 9612
+[2020-11-09 15:41:39,877] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 200 13525
+[2020-11-09 15:41:56,810] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:41:56,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2667
+[2020-11-09 15:42:03,167] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.11457741418333423 HTTP/1.1" 200 2503
+[2020-11-09 15:42:04,222] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.8653796763749138 HTTP/1.1" 200 2914
+[2020-11-09 15:42:08,181] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-09 15:42:08,225] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2623
+[2020-11-09 15:42:16,854] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 15:42:16,868] [views.py:28] [views:index] [INFO]- 缓存中的key为：0b14ec7a225f11ebb09d5800e3fb0696----浏览器中的key为:0b14ec7a225f11ebb09d5800e3fb0696
+[2020-11-09 15:42:16,972] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 15:42:21,516] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 海贼之文虎大将>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '11111111', 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-09 15:42:21,530] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 9412
+[2020-11-09 15:42:22,935] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view novels.views.add_bookrack didn't return an HttpResponse object. It returned None instead.
+[2020-11-09 15:42:22,955] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_bookrack?novelUid=11111111 HTTP/1.1" 500 19936
+[2020-11-09 15:42:24,556] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=11111111 HTTP/1.1" 200 17
+[2020-11-09 15:42:27,394] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 200 17
+[2020-11-09 15:42:28,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 200 17
+[2020-11-09 15:42:30,207] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=11111111 HTTP/1.1" 200 17
+[2020-11-09 15:42:34,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-09 15:42:34,825] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:42:34,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2466
+[2020-11-09 15:42:40,785] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:42:50,941] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 挂机死神就能变强>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '111111111111', 'request': <WSGIRequest: GET '/novels/detail/111111111111'>}
+[2020-11-09 15:42:50,953] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/111111111111 HTTP/1.1" 200 8965
+[2020-11-09 15:42:52,801] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 302 0
+[2020-11-09 15:42:52,812] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:42:53,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 302 0
+[2020-11-09 15:42:53,604] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:42:54,025] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 302 0
+[2020-11-09 15:42:54,035] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:42:54,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 302 0
+[2020-11-09 15:42:54,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:42:57,814] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 302 0
+[2020-11-09 15:42:57,826] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:42:58,000] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 302 0
+[2020-11-09 15:42:58,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:42:58,178] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 302 0
+[2020-11-09 15:42:58,186] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:47:14,748] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=111111111111 HTTP/1.1" 200 17
+[2020-11-09 15:47:14,780] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:47:14,822] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2566
+[2020-11-09 15:47:24,679] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:47:28,950] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  快捷快递放假就>, 'new_novels': <QuerySet [<Novels: 奋斗在蛮荒时代>]>, 'novel': <Novels: 奋斗在蛮荒时代>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '1111', 'request': <WSGIRequest: GET '/novels/detail/1111'>}
+[2020-11-09 15:47:28,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 9212
+[2020-11-09 15:47:30,642] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=1111 HTTP/1.1" 200 17
+[2020-11-09 15:47:30,661] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:47:30,707] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 3003
+[2020-11-09 15:52:07,654] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:52:10,102] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 9530
+[2020-11-09 15:52:11,992] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'novel': <Novels: 海贼之文虎大将>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '11111111', 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-09 15:52:12,009] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 8844
+[2020-11-09 15:52:16,879] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:52:22,149] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第三章 我们相爱啦>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '555555', 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-09 15:52:22,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9598
+[2020-11-09 15:52:22,189] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l.jpg HTTP/1.1" 200 161173
+[2020-11-09 15:52:25,707] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/12121221212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 100, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\12121221212第二章 我们相互相知啦.txt'
+[2020-11-09 15:52:25,759] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/12121221212 HTTP/1.1" 500 76860
+[2020-11-09 15:53:17,417] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第三章 我们相爱啦>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '555555', 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-09 15:53:17,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9598
+[2020-11-09 15:53:18,959] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/2112212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 100, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\2112212121212第三章 我们相爱啦.txt'
+[2020-11-09 15:53:19,016] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/2112212121212 HTTP/1.1" 500 76870
+[2020-11-09 15:53:29,937] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/12121221212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 100, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\12121221212第二章 我们相互相知啦.txt'
+[2020-11-09 15:53:29,990] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/12121221212 HTTP/1.1" 500 76859
+[2020-11-09 15:54:08,551] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 挂机死神就能变强>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '111111111111', 'request': <WSGIRequest: GET '/novels/detail/111111111111'>}
+[2020-11-09 15:54:08,568] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/111111111111 HTTP/1.1" 200 8965
+[2020-11-09 15:54:12,493] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 斗罗大陆4终极斗罗>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '1111212', 'request': <WSGIRequest: GET '/novels/detail/1111212'>}
+[2020-11-09 15:54:12,510] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111212 HTTP/1.1" 200 9012
+[2020-11-09 15:54:12,536] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iY8T35w.jpg HTTP/1.1" 200 161173
+[2020-11-09 15:54:15,298] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 自完美世界开始>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '12111', 'request': <WSGIRequest: GET '/novels/detail/12111'>}
+[2020-11-09 15:54:15,315] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12111 HTTP/1.1" 200 8876
+[2020-11-09 15:54:15,334] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l_ENR4gcI.jpg HTTP/1.1" 304 0
+[2020-11-09 15:54:18,398] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'novel': <Novels: 自完美世界开始>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '12111', 'request': <WSGIRequest: GET '/novels/detail/12111'>}
+[2020-11-09 15:54:18,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12111 HTTP/1.1" 200 8876
+[2020-11-09 15:54:23,493] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:54:23,552] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2603
+[2020-11-09 15:54:31,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 15:54:31,575] [views.py:28] [views:index] [INFO]- 缓存中的key为：c823e9a8226011ebb4585800e3fb0696----浏览器中的key为:c823e9a8226011ebb4585800e3fb0696
+[2020-11-09 15:54:31,677] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 15:54:33,335] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-09 15:54:36,273] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 6757
+[2020-11-09 15:54:56,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/author_add_capther/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 302 0
+[2020-11-09 15:54:56,389] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-09 15:55:02,443] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-09 15:55:02,456] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 15:55:02,494] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2887
+[2020-11-09 15:55:05,224] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 22236
+[2020-11-09 15:55:12,642] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 源纹12312312>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗2323>, <Novels: 寒门祸害>]>, 'novel': <Novels: 斗罗大陆4终极斗罗2323>, 'user': None, 'username': None, 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 'dbf1812a03b24fa79eb3c7f2ddf13539', 'request': <WSGIRequest: GET '/novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539'>}
+[2020-11-09 15:55:12,655] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 9176
+[2020-11-09 15:55:14,660] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14080
+[2020-11-09 15:55:55,915] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14080
+[2020-11-09 15:57:06,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14080
+[2020-11-09 15:57:48,823] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/734460.html
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 98, in novel_body
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 15:57:48,991] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/734460.html HTTP/1.1" 500 85258
+[2020-11-09 15:58:09,923] [base.py:93] [base:get_response] [WARNING]- Not Found: /0/111/
+[2020-11-09 15:58:09,924] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /0/111/ HTTP/1.1" 404 2276
+[2020-11-09 15:58:15,734] [base.py:93] [base:get_response] [WARNING]- Not Found: /0/111/
+[2020-11-09 15:58:15,734] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /0/111/ HTTP/1.1" 404 2276
+[2020-11-09 16:00:08,599] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14080
+[2020-11-09 16:00:13,741] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 16:00:13,782] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2723
+[2020-11-09 16:00:22,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 16:00:22,391] [views.py:28] [views:index] [INFO]- 缓存中的key为：98e7776e226111eb88565800e3fb0696----浏览器中的key为:98e7776e226111eb88565800e3fb0696
+[2020-11-09 16:00:22,588] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 16:00:30,999] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 源纹12312312>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗2323>, <Novels: 寒门祸害>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗2323>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 'dbf1812a03b24fa79eb3c7f2ddf13539', 'request': <WSGIRequest: GET '/novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539'>}
+[2020-11-09 16:00:31,012] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 9744
+[2020-11-09 16:00:34,565] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14648
+[2020-11-09 16:04:39,769] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14648
+[2020-11-09 16:05:27,676] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14198
+[2020-11-09 16:06:12,611] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 14198
+[2020-11-09 16:07:18,454] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13701
+[2020-11-09 16:07:19,204] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13701
+[2020-11-09 16:07:19,449] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13701
+[2020-11-09 16:07:19,660] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13701
+[2020-11-09 16:07:40,782] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13622
+[2020-11-09 16:07:42,096] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13622
+[2020-11-09 16:08:23,077] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13622
+[2020-11-09 16:09:46,091] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13651
+[2020-11-09 16:11:37,677] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13505
+[2020-11-09 16:12:03,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:12:32,659] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:12:33,447] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:12:33,777] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:17:46,775] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:17:47,828] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:19:44,288] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:19:46,543] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:20:14,110] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:20:15,428] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:20:16,371] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:20:18,061] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:20:19,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:21:03,990] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:21:06,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:21:08,526] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:21:11,367] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13513
+[2020-11-09 16:21:46,754] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13514
+[2020-11-09 16:25:34,238] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13475
+[2020-11-09 16:25:35,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13475
+[2020-11-09 16:25:36,245] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13475
+[2020-11-09 16:25:37,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13475
+[2020-11-09 16:25:37,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13475
+[2020-11-09 16:25:38,692] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13475
+[2020-11-09 16:25:39,483] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 200 13475
+[2020-11-09 16:26:33,626] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 98, in novel_body
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:26:33,782] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 500 85930
+[2020-11-09 16:26:35,201] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 98, in novel_body
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:26:35,253] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 500 85930
+[2020-11-09 16:26:36,109] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 98, in novel_body
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:26:36,170] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/7a3631f4198b43fa9e1ff50fd888a911 HTTP/1.1" 500 85930
+[2020-11-09 16:26:38,405] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 源纹12312312>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗2323>, <Novels: 寒门祸害>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗2323>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 'dbf1812a03b24fa79eb3c7f2ddf13539', 'request': <WSGIRequest: GET '/novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539'>}
+[2020-11-09 16:26:38,418] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 9733
+[2020-11-09 16:26:38,463] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_IEXM0i4.jpg HTTP/1.1" 200 13525
+[2020-11-09 16:26:42,387] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/736314198439150888911 HTTP/1.1" 200 13464
+[2020-11-09 16:26:46,626] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_chapter
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 130, in add_chapter
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:26:46,645] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_chapter?chapterUid=736314198439150900000 HTTP/1.1" 500 20556
+[2020-11-09 16:27:17,790] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 源纹12312312>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗2323>, <Novels: 寒门祸害>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗2323>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 'dbf1812a03b24fa79eb3c7f2ddf13539', 'request': <WSGIRequest: GET '/novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539'>}
+[2020-11-09 16:27:17,807] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 9733
+[2020-11-09 16:27:17,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_IEXM0i4.jpg HTTP/1.1" 200 13525
+[2020-11-09 16:27:20,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/736314198439150888911 HTTP/1.1" 200 13464
+[2020-11-09 16:27:26,611] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_chapter
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 130, in add_chapter
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:27:26,638] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_chapter?chapterUid=736314198439150900000 HTTP/1.1" 500 20556
+[2020-11-09 16:28:31,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-09 16:28:33,586] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-09 16:28:49,171] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-09 16:28:49,915] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-09 16:28:50,508] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-09 16:28:50,940] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-09 16:29:04,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7155
+[2020-11-09 16:29:05,154] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7155
+[2020-11-09 16:29:13,260] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-09 16:29:15,193] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-09 16:29:15,207] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 16:29:15,242] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2633
+[2020-11-09 16:29:24,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 16:29:24,762] [views.py:28] [views:index] [INFO]- 缓存中的key为：a6e6141a226511eba6045800e3fb0696----浏览器中的key为:a6e6141a226511eba6045800e3fb0696
+[2020-11-09 16:29:24,869] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22331
+[2020-11-09 16:29:26,774] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8054
+[2020-11-09 16:29:38,820] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  快捷快递放假就>, 'new_novels': <QuerySet [<Novels: 奋斗在蛮荒时代>]>, 'hits_novel': '已点赞', 'novel': <Novels: 奋斗在蛮荒时代>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '1111', 'request': <WSGIRequest: GET '/novels/detail/1111'>}
+[2020-11-09 16:29:38,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 9310
+[2020-11-09 16:29:41,252] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/44444444
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 100, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\44444444第一章  快捷快递放假就.txt'
+[2020-11-09 16:29:41,304] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/44444444 HTTP/1.1" 500 76835
+[2020-11-09 16:29:48,882] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-09 16:29:48,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-09 16:29:48,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2580
+[2020-11-09 16:29:58,555] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-09 16:29:58,572] [views.py:28] [views:index] [INFO]- 缓存中的key为：bafaaf7a226511eb9ace5800e3fb0696----浏览器中的key为:bafaaf7a226511eb9ace5800e3fb0696
+[2020-11-09 16:29:58,671] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-09 16:30:04,454] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗123>, <Novels: 斗罗大陆4终极斗罗>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗123>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 'a7ada7eb32d54d1da103480f1b7481dc', 'request': <WSGIRequest: GET '/novels/detail/a7ada7eb32d54d1da103480f1b7481dc'>}
+[2020-11-09 16:30:04,468] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/a7ada7eb32d54d1da103480f1b7481dc HTTP/1.1" 200 9436
+[2020-11-09 16:30:08,494] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-09 16:30:10,303] [views.py:88] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 源纹12312312>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗2323>, <Novels: 寒门祸害>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗2323>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 'dbf1812a03b24fa79eb3c7f2ddf13539', 'request': <WSGIRequest: GET '/novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539'>}
+[2020-11-09 16:30:10,313] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 9733
+[2020-11-09 16:30:12,315] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/736314198439150888911 HTTP/1.1" 200 13464
+[2020-11-09 16:30:14,062] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_chapter
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 130, in add_chapter
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:30:14,089] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_chapter?chapterUid=736314198439150900000 HTTP/1.1" 500 20499
+[2020-11-09 16:30:14,268] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_chapter
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 130, in add_chapter
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:30:14,284] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_chapter?chapterUid=736314198439150900000 HTTP/1.1" 500 20499
+[2020-11-09 16:30:14,457] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_chapter
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 130, in add_chapter
+    chapter = Chapter.objects.get(uid=uid)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+novels.models.DoesNotExist: Chapter matching query does not exist.
+[2020-11-09 16:30:14,478] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_chapter?chapterUid=736314198439150900000 HTTP/1.1" 500 20499
+[2020-11-09 16:31:07,433] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-09 16:31:08,617] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-09 16:31:09,101] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764

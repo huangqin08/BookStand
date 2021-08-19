@@ -1,0 +1,60 @@
+[2020-11-16 16:23:41,527] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 28, in index
+    logger.info('缓存中的key为：{}----浏览器中的key为:{}'.format(liulanqi_key, request.COOKIES['liulanqi_key']))
+KeyError: 'liulanqi_key'
+[2020-11-16 16:23:45,271] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 74786
+[2020-11-16 16:23:45,587] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-16 16:23:45,587] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2291
+[2020-11-16 16:24:17,319] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-16 16:24:17,377] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2496
+[2020-11-16 16:24:29,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-11-16 16:24:29,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2482
+[2020-11-16 16:24:38,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-16 16:24:38,057] [views.py:28] [views:index] [INFO]- 缓存中的key为：1e3c461427e511ebb3b45800e3fb0696----浏览器中的key为:1e3c461427e511ebb3b45800e3fb0696
+[2020-11-16 16:24:38,203] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-16 16:24:38,243] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,244] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,279] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,285] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,287] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,292] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,294] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,301] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,304] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,312] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,322] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,327] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,329] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:38,333] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:43,140] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7781
+[2020-11-16 16:24:45,410] [views.py:28] [views:index] [INFO]- 缓存中的key为：1e3c461427e511ebb3b45800e3fb0696----浏览器中的key为:1e3c461427e511ebb3b45800e3fb0696
+[2020-11-16 16:24:45,501] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-16 16:24:46,219] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 10182
+[2020-11-16 16:24:46,235] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:46,238] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_7bp9ebG.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:49,482] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 10188
+[2020-11-16 16:24:49,499] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iY8T35w.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:49,505] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l_ENR4gcI.jpg HTTP/1.1" 304 0
+[2020-11-16 16:24:53,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 10304
+[2020-11-16 16:25:08,797] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10068
+[2020-11-16 16:25:26,102] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-16 16:25:26,121] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s_BeqaKZW.jpg HTTP/1.1" 304 0
+[2020-11-16 16:25:26,122] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_IEXM0i4.jpg HTTP/1.1" 304 0
+[2020-11-16 16:25:26,132] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iuMjulY.jpg HTTP/1.1" 304 0
+[2020-11-16 16:31:41,137] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 6757
+[2020-11-16 16:31:41,154] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2020-11-16 16:31:41,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/themes/silver/theme.min.js HTTP/1.1" 304 0
+[2020-11-16 16:31:41,359] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/icons/default/icons.min.js HTTP/1.1" 304 0
+[2020-11-16 16:31:41,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/skin.min.css HTTP/1.1" 304 0
+[2020-11-16 16:31:41,556] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/content.min.css HTTP/1.1" 304 0
+[2020-11-16 16:31:41,559] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/content/default/content.min.css HTTP/1.1" 304 0

@@ -1,0 +1,531 @@
+[2020-11-03 09:19:09,670] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+[2020-11-03 09:19:09,768] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2020-11-03 09:19:16,974] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2020-11-03 09:19:17,040] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-03 09:19:17,043] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2020-11-03 09:19:17,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-03 09:19:17,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-03 09:19:17,227] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-11-03 09:19:17,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-11-03 09:19:17,268] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-03 09:19:17,270] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2191
+[2020-11-03 09:21:32,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-11-03 09:21:32,659] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8700
+[2020-11-03 09:21:32,687] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2020-11-03 09:21:32,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-11-03 09:21:32,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-11-03 09:21:32,777] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-11-03 09:21:37,263] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/ HTTP/1.1" 200 5588
+[2020-11-03 09:21:37,298] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2020-11-03 09:21:37,311] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-11-03 09:21:37,315] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:21:37,334] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2020-11-03 09:21:37,338] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2020-11-03 09:21:37,347] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2020-11-03 09:21:37,366] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-11-03 09:21:37,369] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2020-11-03 09:21:37,387] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-11-03 09:21:37,390] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-11-03 09:21:37,454] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2020-11-03 09:21:41,303] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5579
+[2020-11-03 09:21:41,335] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-11-03 09:21:41,339] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:21:41,345] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-11-03 09:21:41,351] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-11-03 09:21:41,355] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-11-03 09:22:59,002] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:22:59,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5817
+[2020-11-03 09:22:59,087] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:22:59,124] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2020-11-03 09:24:05,204] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:24:05,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5817
+[2020-11-03 09:24:05,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:24:32,489] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:24:32,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5817
+[2020-11-03 09:24:32,572] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:25:09,245] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:25:09,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5818
+[2020-11-03 09:25:09,328] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:25:32,492] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:25:32,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5818
+[2020-11-03 09:25:32,575] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:25:50,829] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:25:50,877] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5818
+[2020-11-03 09:25:50,909] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:26:26,363] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:26:26,432] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5818
+[2020-11-03 09:26:26,464] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:26:43,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:26:43,981] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/ HTTP/1.1" 200 5818
+[2020-11-03 09:26:44,015] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:27:41,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novelstype/add/ HTTP/1.1" 302 0
+[2020-11-03 09:27:41,859] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/ HTTP/1.1" 200 7808
+[2020-11-03 09:27:41,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 09:27:52,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-03 09:27:52,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2394
+[2020-11-03 09:28:03,130] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4346
+[2020-11-03 09:28:03,172] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2503
+[2020-11-03 09:28:11,895] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4334
+[2020-11-03 09:28:11,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2675
+[2020-11-03 09:28:22,547] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-03 09:28:22,564] [views.py:26] [views:index] [INFO]- 缓存中的key为：caba7a701d7311eb8e035800e3fb0696----浏览器中的key为:caba7a701d7311eb8e035800e3fb0696
+[2020-11-03 09:28:22,684] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 20188
+[2020-11-03 09:28:22,744] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 200 15649
+[2020-11-03 09:28:22,753] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 200 138618
+[2020-11-03 09:28:22,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 200 138618
+[2020-11-03 09:28:22,759] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 200 356232
+[2020-11-03 09:28:22,764] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 200 138618
+[2020-11-03 09:28:22,775] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 200 138618
+[2020-11-03 09:28:22,787] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 200 15649
+[2020-11-03 09:28:22,792] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 200 13525
+[2020-11-03 09:28:22,803] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 200 15649
+[2020-11-03 09:28:32,833] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9224
+[2020-11-03 09:28:36,554] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8223
+[2020-11-03 09:28:38,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9134
+[2020-11-03 09:28:38,909] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s.jpg HTTP/1.1" 304 0
+[2020-11-03 09:28:41,484] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8246
+[2020-11-03 09:28:41,500] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_YM8x2d4.jpg HTTP/1.1" 304 0
+[2020-11-03 09:28:44,005] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8278
+[2020-11-03 09:28:44,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_0H2be4N.jpg HTTP/1.1" 304 0
+[2020-11-03 09:28:45,485] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8280
+[2020-11-03 09:28:45,501] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_RiIsmEx.jpg HTTP/1.1" 304 0
+[2020-11-03 09:31:07,063] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8297
+[2020-11-03 09:31:08,331] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7785
+[2020-11-03 09:32:07,837] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8297
+[2020-11-03 09:32:08,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8295
+[2020-11-03 09:32:09,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7785
+[2020-11-03 09:32:14,678] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8297
+[2020-11-03 09:32:37,579] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8744
+[2020-11-03 09:33:11,061] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 潜龙>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 121212121212, 'request': <WSGIRequest: GET '/novels/detail/121212121212'>}
+[2020-11-03 09:33:11,106] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 9642
+[2020-11-03 09:33:30,180] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 潜龙>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 121212121212, 'request': <WSGIRequest: GET '/novels/detail/121212121212'>}
+[2020-11-03 09:33:30,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 9642
+[2020-11-03 09:33:31,192] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 潜龙>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 121212121212, 'request': <WSGIRequest: GET '/novels/detail/121212121212'>}
+[2020-11-03 09:33:31,202] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 9642
+[2020-11-03 09:33:31,802] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 潜龙>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 121212121212, 'request': <WSGIRequest: GET '/novels/detail/121212121212'>}
+[2020-11-03 09:33:31,812] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 9642
+[2020-11-03 09:33:32,129] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 潜龙>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 121212121212, 'request': <WSGIRequest: GET '/novels/detail/121212121212'>}
+[2020-11-03 09:33:32,140] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 9642
+[2020-11-03 09:33:32,376] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 潜龙>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 121212121212, 'request': <WSGIRequest: GET '/novels/detail/121212121212'>}
+[2020-11-03 09:33:32,386] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 9642
+[2020-11-03 09:33:33,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8744
+[2020-11-03 09:33:35,532] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 奋斗在蛮荒时代>]>, 'hits_novel': '已点赞', 'novel': <Novels: 奋斗在蛮荒时代>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 1111, 'request': <WSGIRequest: GET '/novels/detail/1111'>}
+[2020-11-03 09:33:35,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 9273
+[2020-11-03 09:33:48,489] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8744
+[2020-11-03 09:33:49,932] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 奋斗在蛮荒时代>]>, 'hits_novel': '已点赞', 'novel': <Novels: 奋斗在蛮荒时代>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 1111, 'request': <WSGIRequest: GET '/novels/detail/1111'>}
+[2020-11-03 09:33:49,942] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 9273
+[2020-11-03 09:34:01,469] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/44444444 HTTP/1.1" 200 13950
+[2020-11-03 09:34:21,732] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/search HTTP/1.1" 200 7757
+[2020-11-03 09:34:32,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/search HTTP/1.1" 200 7754
+[2020-11-03 09:34:35,361] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/search HTTP/1.1" 200 7754
+[2020-11-03 09:34:45,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/search HTTP/1.1" 200 7757
+[2020-11-03 15:30:27,203] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-03 15:30:27,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2935
+[2020-11-03 15:30:27,395] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-03 15:30:27,396] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2191
+[2020-11-03 15:30:36,812] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4334
+[2020-11-03 15:30:36,848] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2756
+[2020-11-03 15:30:44,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-03 15:30:44,320] [views.py:26] [views:index] [INFO]- 缓存中的key为：7190d2f61da611ebb8865800e3fb0696----浏览器中的key为:7190d2f61da611ebb8865800e3fb0696
+[2020-11-03 15:30:47,437] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 20205
+[2020-11-03 15:30:47,493] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,493] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,494] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,501] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,505] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,508] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,510] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,510] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,516] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:47,520] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 304 0
+[2020-11-03 15:30:50,020] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7498
+[2020-11-03 15:31:40,045] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7498
+[2020-11-03 15:33:50,208] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7498
+[2020-11-03 15:35:48,347] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7652
+[2020-11-03 15:45:53,354] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7652
+[2020-11-03 16:00:46,119] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:7190d2f61da611ebb8865800e3fb0696
+[2020-11-03 16:00:46,137] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-03 16:00:46,155] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-03 16:00:46,204] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2660
+[2020-11-03 16:00:56,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-03 16:00:56,253] [views.py:26] [views:index] [INFO]- 缓存中的key为：adbefb881daa11ebbacd5800e3fb0696----浏览器中的key为:adbefb881daa11ebbacd5800e3fb0696
+[2020-11-03 16:00:56,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 20205
+[2020-11-03 16:03:33,510] [views.py:26] [views:index] [INFO]- 缓存中的key为：adbefb881daa11ebbacd5800e3fb0696----浏览器中的key为:adbefb881daa11ebbacd5800e3fb0696
+[2020-11-03 16:03:33,601] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 20224
+[2020-11-03 16:03:34,559] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/ranking_list
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 224, in ranking_list
+    return render(request,'novel/ranking_list.html',locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-11-03 16:03:34,774] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/ranking_list HTTP/1.1" 500 190347
+[2020-11-03 16:05:32,342] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/ranking_list
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 224, in ranking_list
+    return render(request,'novel/ranking_list.html',locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-11-03 16:05:32,539] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/ranking_list HTTP/1.1" 500 190368
+[2020-11-03 16:08:54,184] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8223
+[2020-11-03 16:10:45,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8223
+[2020-11-03 16:10:46,701] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7666
+[2020-11-03 16:10:47,724] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8223
+[2020-11-03 16:11:10,108] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8231
+[2020-11-03 16:11:10,395] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8231
+[2020-11-03 16:11:11,537] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7674
+[2020-11-03 16:11:13,387] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8231
+[2020-11-03 16:11:13,998] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8311
+[2020-11-03 16:11:15,825] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8309
+[2020-11-03 16:11:16,843] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8277
+[2020-11-03 16:11:17,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9165
+[2020-11-03 16:11:17,619] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:18,452] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8254
+[2020-11-03 16:11:18,469] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:19,532] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9255
+[2020-11-03 16:11:19,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:37,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9263
+[2020-11-03 16:11:39,275] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9173
+[2020-11-03 16:11:39,927] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8262
+[2020-11-03 16:11:40,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9263
+[2020-11-03 16:11:41,294] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8763
+[2020-11-03 16:11:42,706] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:adbefb881daa11ebbacd5800e3fb0696
+[2020-11-03 16:11:42,716] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-03 16:11:42,727] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-03 16:11:42,756] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 3104
+[2020-11-03 16:11:52,434] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-03 16:11:52,452] [views.py:26] [views:index] [INFO]- 缓存中的key为：3517d6e61dac11ebb5255800e3fb0696----浏览器中的key为:3517d6e61dac11ebb5255800e3fb0696
+[2020-11-03 16:11:52,534] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 20224
+[2020-11-03 16:11:52,557] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,557] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,571] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,580] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,583] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:52,587] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 304 0
+[2020-11-03 16:11:54,304] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8763
+[2020-11-03 16:11:55,290] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9263
+[2020-11-03 16:11:55,914] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8262
+[2020-11-03 16:11:56,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9173
+[2020-11-03 16:11:57,470] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8285
+[2020-11-03 16:11:58,033] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8317
+[2020-11-03 16:11:58,835] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8319
+[2020-11-03 16:11:59,419] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8231
+[2020-11-03 16:12:00,234] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 7674
+[2020-11-03 16:12:03,924] [views.py:26] [views:index] [INFO]- 缓存中的key为：3517d6e61dac11ebb5255800e3fb0696----浏览器中的key为:3517d6e61dac11ebb5255800e3fb0696
+[2020-11-03 16:12:04,007] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 20224
+[2020-11-03 16:12:08,997] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8763
+[2020-11-03 16:12:10,291] [views.py:26] [views:index] [INFO]- 缓存中的key为：3517d6e61dac11ebb5255800e3fb0696----浏览器中的key为:3517d6e61dac11ebb5255800e3fb0696
+[2020-11-03 16:12:10,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 20224
+[2020-11-03 16:12:33,838] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 潜龙123>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 12121456, 'request': <WSGIRequest: GET '/novels/detail/12121456'>}
+[2020-11-03 16:12:33,949] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12121456 HTTP/1.1" 200 9200
+[2020-11-03 16:12:39,782] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:12:39,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9117
+[2020-11-03 16:12:42,086] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:12:42,098] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9117
+[2020-11-03 16:12:48,379] [views.py:82] [views:novel_detail] [INFO]- {'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:12:48,389] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9117
+[2020-11-03 16:17:03,754] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:03,855] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9263
+[2020-11-03 16:17:05,045] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:05,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9263
+[2020-11-03 16:17:05,614] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:05,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9263
+[2020-11-03 16:17:06,110] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:06,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9263
+[2020-11-03 16:17:06,318] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:06,328] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9263
+[2020-11-03 16:17:47,188] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:47,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:48,429] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:48,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:49,256] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:49,267] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:49,943] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:49,953] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:50,712] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:50,722] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:51,408] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:51,418] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:51,950] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:51,961] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:52,198] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:52,209] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:52,431] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:52,442] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:52,924] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:52,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:53,429] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:53,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:53,666] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:53,677] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:53,895] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:53,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:54,381] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:54,392] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:54,613] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:54,623] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:54,827] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:54,839] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:55,394] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:55,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:55,592] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:55,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:55,827] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:55,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:56,317] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:56,328] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:56,527] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:56,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:56,716] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:56,726] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:56,893] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:56,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:57,366] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:57,376] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:17:57,561] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  我们认识啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:17:57,572] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9431
+[2020-11-03 16:18:12,186] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 我们相互相知啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:18:12,286] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9436
+[2020-11-03 16:18:13,310] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 我们相互相知啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:18:13,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9436
+[2020-11-03 16:18:54,123] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第三章 我们相爱啦>, 'new_novels': <QuerySet [<Novels: 潜龙123>, <Novels: 叶辰孙怡夏若雪>]>, 'hits_novel': '已点赞', 'novel': <Novels: 叶辰孙怡夏若雪>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 555555, 'request': <WSGIRequest: GET '/novels/detail/555555'>}
+[2020-11-03 16:18:54,135] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 9594
+[2020-11-03 16:19:04,991] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=555555 HTTP/1.1" 200 17
+[2020-11-03 16:19:06,652] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novel_hits?novelUid=555555 HTTP/1.1" 200 17
+[2020-11-03 16:19:12,877] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=555555 HTTP/1.1" 200 17
+[2020-11-03 16:19:15,960] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 9490
+[2020-11-03 16:20:36,309] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 9489
+[2020-11-03 16:20:37,493] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 9489
+[2020-11-03 16:21:05,706] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9263
+[2020-11-03 16:21:07,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8262
+[2020-11-03 16:21:09,644] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第一章  快捷快递放假就>, 'new_novels': <QuerySet [<Novels: 奋斗在蛮荒时代>]>, 'hits_novel': '已点赞', 'novel': <Novels: 奋斗在蛮荒时代>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 1111, 'request': <WSGIRequest: GET '/novels/detail/1111'>}
+[2020-11-03 16:21:09,655] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 9281
+[2020-11-03 16:21:12,565] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9173
+[2020-11-03 16:21:14,207] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'hits_novel': '已点赞', 'novel': <Novels: 海贼之文虎大将>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 11111111, 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-03 16:21:14,218] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 8905
+[2020-11-03 16:21:54,248] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'hits_novel': '已点赞', 'novel': <Novels: 海贼之文虎大将>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 11111111, 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-03 16:21:54,250] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/11111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 87, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 663, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 723, in args_check
+    (name, alen - dlen, plen))
+django.template.exceptions.TemplateSyntaxError: default requires 2 arguments, 1 provided
+[2020-11-03 16:21:54,365] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/11111111 HTTP/1.1" 500 190695
+[2020-11-03 16:22:32,847] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 海贼之文虎大将>, <Novels: 万族之劫>]>, 'hits_novel': '已点赞', 'novel': <Novels: 海贼之文虎大将>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 11111111, 'request': <WSGIRequest: GET '/novels/detail/11111111'>}
+[2020-11-03 16:22:32,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 8913
+[2020-11-03 16:23:09,412] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8262
+[2020-11-03 16:23:11,860] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2?page=1 HTTP/1.1" 200 8262
+[2020-11-03 16:23:12,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2?page=1 HTTP/1.1" 200 8262
+[2020-11-03 16:23:13,414] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9263
+[2020-11-03 16:23:15,799] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 8351
+[2020-11-03 16:23:18,647] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 9263
+[2020-11-03 16:23:20,512] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 9263
+[2020-11-03 16:23:21,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 8351
+[2020-11-03 16:23:26,384] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9263
+[2020-11-03 16:32:13,466] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2020-11-03 16:32:13,550] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2020-11-03 16:32:19,667] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-11-03 16:32:19,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8546
+[2020-11-03 16:32:21,304] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 6380
+[2020-11-03 16:32:21,355] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:32:23,578] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/add/ HTTP/1.1" 200 9168
+[2020-11-03 16:32:23,616] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:33:28,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novels/add/ HTTP/1.1" 302 0
+[2020-11-03 16:33:28,981] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 6809
+[2020-11-03 16:33:29,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:33:31,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/add/ HTTP/1.1" 200 9168
+[2020-11-03 16:33:31,490] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:34:06,080] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novels/add/ HTTP/1.1" 302 0
+[2020-11-03 16:34:06,173] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 7072
+[2020-11-03 16:34:06,206] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:34:08,014] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/add/ HTTP/1.1" 200 9168
+[2020-11-03 16:34:08,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:34:43,178] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novels/add/ HTTP/1.1" 302 0
+[2020-11-03 16:34:43,252] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 7310
+[2020-11-03 16:34:43,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:34:52,626] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': None, 'new_novels': <QuerySet [<Novels: 自完美世界开始>, <Novels: 斗罗大陆4终极斗罗>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 潜龙123>, 'user': <User: admin222>, 'username': 'admin222', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': 12121456, 'request': <WSGIRequest: GET '/novels/detail/12121456'>}
+[2020-11-03 16:34:52,635] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12121456 HTTP/1.1" 200 9183
+[2020-11-03 16:34:58,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9502
+[2020-11-03 16:34:58,617] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iY8T35w.jpg HTTP/1.1" 200 161173
+[2020-11-03 16:34:58,630] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l_ENR4gcI.jpg HTTP/1.1" 200 335654
+[2020-11-03 16:35:01,571] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 9365
+[2020-11-03 16:35:01,591] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_IvTRqgU.jpg HTTP/1.1" 200 161173
+[2020-11-03 16:35:03,532] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=3 HTTP/1.1" 200 9445
+[2020-11-03 16:35:06,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=3 HTTP/1.1" 200 9445
+[2020-11-03 16:35:10,434] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/add/ HTTP/1.1" 200 9168
+[2020-11-03 16:35:10,472] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:35:40,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novels/add/ HTTP/1.1" 302 0
+[2020-11-03 16:35:40,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 7554
+[2020-11-03 16:35:40,686] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-03 16:35:44,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9594
+[2020-11-03 16:35:44,142] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l_ENR4gcI.jpg HTTP/1.1" 304 0
+[2020-11-03 16:35:44,160] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_7bp9ebG.jpg HTTP/1.1" 200 138618
+[2020-11-03 16:35:46,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=4 HTTP/1.1" 200 8641
+[2020-11-03 16:35:50,491] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=3 HTTP/1.1" 200 9592
+[2020-11-03 16:35:52,068] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 9643
+[2020-11-03 16:35:52,084] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_IvTRqgU.jpg HTTP/1.1" 304 0
+[2020-11-03 16:35:52,086] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iY8T35w.jpg HTTP/1.1" 304 0
+[2020-11-03 16:35:53,215] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 9594
+[2020-11-03 16:35:53,234] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l_ENR4gcI.jpg HTTP/1.1" 304 0
+[2020-11-03 16:35:53,236] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_7bp9ebG.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:28,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-03 18:02:28,686] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2478
+[2020-11-03 18:02:38,412] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4334
+[2020-11-03 18:02:38,443] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2789
+[2020-11-03 18:02:46,430] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4334
+[2020-11-03 18:02:46,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2772
+[2020-11-03 18:02:54,509] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-03 18:02:54,533] [views.py:26] [views:index] [INFO]- 缓存中的key为：ae5b584c1dbb11eb9b0b5800e3fb0696----浏览器中的key为:ae5b584c1dbb11eb9b0b5800e3fb0696
+[2020-11-03 18:02:54,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 21357
+[2020-11-03 18:02:54,738] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,739] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,755] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,765] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,768] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,769] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,770] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,774] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,785] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,790] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,794] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,797] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:54,798] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 304 0
+[2020-11-03 18:02:56,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 8852
+[2020-11-03 18:02:58,796] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9058
+[2020-11-03 18:07:01,427] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9058

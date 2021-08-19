@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block title %}
+    全部小说
+{% endblock %}
+{% block content %}
+    <div class="MessageDiv">
+        <b>提示：本站收录的全部小说均在此页， 推荐使用Ctrl+F 来查找小说。</b>
+    </div>
+    <div id="main">
+        <div class="novellist">
+            <h2>奇幻、玄幻小说大全列表</h2>
+            {% for novel in novels1 %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.name }}</a>/{{ novel.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+        <div class="novellist">
+            <h2>武侠、仙侠、修真小说大全列表</h2>
+            {% for novel in novels2 %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.name }}</a>/{{ novel.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+        <div class="novellist">
+            <h2>言情、都市小说大全列表</h2>
+            {% for novel in novels3 %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.name }}</a>/{{ novel.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+        <div class="novellist">
+            <h2>历史、军事、穿越小说大全列表</h2>
+            {% for novel in novels4 %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.name }}</a>/{{ novel.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+        <div class="novellist">
+            <h2>游戏、竞技、网游小说大全列表</h2>
+            {% for novel in novels5 %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.name }}</a>/{{ novel.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+        <div class="novellist">
+            <h2>异灵、科幻小说大全列表</h2>
+            {% for novel in novels6 %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.name }}</a>/{{ novel.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+    </div>
+{% endblock %}

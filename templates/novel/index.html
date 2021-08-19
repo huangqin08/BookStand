@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% block title %}
+    首页
+{% endblock %}
+{% block content %}
+    <div class="clear"></div>
+    <div class="item">
+        <h2>类别</h2>
+        <ul>
+            {% for type in types %}
+                <li><a>{{ type.typename }}</a><img src="{{ MEDIA_URL }}{{ type.image }}" alt="" style="width: 30px;height: 40px
+"></li>
+            {% endfor %}
+        </ul>
+
+    </div>
+    <div class="clear"></div>
+
+    <div class="item">
+        <h3>推荐</h3>
+        {% for indexnoel in indexnovels %}
+            <div class="image"><a href="{% url 'novels:detail' indexnoel.novels.uid %}"><img height="150" width="120"
+                                                                                             src="
+                                                                                                 {{ MEDIA_URL }}{{ indexnoel.image }}"
+                                                                                             alt="{{ indexnoel.novels.novel_name }}"></a>
+            </div>
+            <dl>
+                <dt><span>作者：{{ indexnoel.novels.author }}</span><a
+                    href="{% url 'novels:detail' indexnoel.novels_id %}">书名：{{ indexnoel.novels.novel_name }}</a></dt>
+                <dd> {{ indexnoel.novels.desc }}</dd>
+            </dl>
+        {% endfor %}
+        <div class="clear"></div>
+    </div>
+    <div class="r">
+        <h2>公告牌</h2>
+        <ul>
+            <li><span class="s1">[公告]</span><span class="s2"><a>笔趣库备用站biquku.la</a></span></li>
+        </ul>
+        <h2>上期强推</h2>
+        <ul>
+            <li><span class="s1">[玄幻]</span><span class="s2"><a
+                href="#">斗罗大陆4终极斗罗</a></span><span class="s5">唐家三少</span></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+
+    <div class="novelslist">
+        <div class="content">
+            <h2>全部小说列表</h2>
+            {% for type in types %}
+                <h3>{{ type.typename }}小说</h3>
+                {% for novel in type.novels_set.all %}
+                    <ul>
+                        <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.novel_name }}</a>/著：{{ novel.author }}</li>
+                    </ul>
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="newscontent">
+        <div class="l">
+            <h2>最近更新小说列表</h2>
+            {% for novel in update_novels %}
+                <ul>
+                    <li><span class="s1">[{{ novel.type.typename }}小说]</span><span class="s2"><a
+                        href="{% url 'novels:detail' novel.uid %}">{{ novel.novel_name }}</a></span><span class="s3">
+                        <a href="#" target="_blank">[{{ novel.chapter_set.last | default:'暂无更新' }}]</a></span>
+                        <span class="s4">{{ novel.author }}</span><span class="s5">{{ novel.update_time }}</span></li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="r">
+            <h2>最新添加小说</h2>
+            {% for novel in add_novels %}
+                <ul>
+                    <li><span class="s1">[{{ novel.type.typename }}]</span><span class="s2"><a
+                        href="{% url 'novels:detail' novel.uid %}">{{ novel.novel_name }}</a></span><span
+                        class="s5">{{ novel.author }}</span></li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footer_link"></div>
+    </div>
+    </div>
+{% endblock %}

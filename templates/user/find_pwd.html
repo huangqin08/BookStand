@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}
+    找回密码
+{% endblock %}
+{% block navigation %}
+{% endblock %}
+{% block content %}
+    <form action="{% url 'user:find_pwd' %}" id="form1" class="well"
+          style="width: 30em; margin: auto; margin-top: 100px;" method="post">
+        {% csrf_token %}
+        <h3>找回密码</h3>
+        <div class=" input-group input-group-md">
+              <span class="input-group-addon" id="sizing-addon1"><i
+                  class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+            <input id="userName" name="userName" type="text" class="form-control" placeholder="用户名"
+                   aria-describedby="sizing-addon1"/>
+        </div>
+        <br/>
+        <div class=" input-group input-group-md">
+              <span class="input-group-addon" id="sizing-addon1"><i
+                  class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+            <input id="email" name="email" type="text" class="form-control" placeholder="邮箱"
+                   aria-describedby="sizing-addon1"/>
+        </div>
+        <br/>
+
+        <p style="color: #ff461f">{{ msg }}</p>
+
+        <button type="submit" class="btn btn-success btn-block">发送密码到邮箱</button>
+        <a class="btn btn-sm btn-white btn-block" style="text-align: right;" th:href="@{register}"
+           href="{% url 'user:login' %}"><h6>返回</h6></a>
+    </form>
+{% endblock %}
+{% block search %}
+{% endblock %}

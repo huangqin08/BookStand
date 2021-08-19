@@ -1,0 +1,1943 @@
+[2020-11-06 09:52:26,604] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 09:52:26,678] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2934
+[2020-11-06 09:52:26,842] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-06 09:52:26,843] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2191
+[2020-11-06 09:52:40,416] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 09:52:40,432] [views.py:26] [views:index] [INFO]- 缓存中的key为：b8a0584c1fd211ebb7015800e3fb0696----浏览器中的key为:b8a0584c1fd211ebb7015800e3fb0696
+[2020-11-06 09:52:43,665] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22049
+[2020-11-06 09:52:43,721] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,729] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,729] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,731] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,741] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,743] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,745] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:43,750] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:52,333] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7863
+[2020-11-06 09:52:52,350] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iuMjulY.jpg HTTP/1.1" 304 0
+[2020-11-06 09:52:53,855] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6556
+[2020-11-06 09:52:53,875] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2020-11-06 09:53:04,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-06 09:53:05,957] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9728
+[2020-11-06 09:53:07,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/ranking_list HTTP/1.1" 200 9522
+[2020-11-06 09:53:09,818] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7863
+[2020-11-06 10:03:41,738] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6556
+[2020-11-06 10:03:43,137] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6556
+[2020-11-06 10:03:43,794] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6556
+[2020-11-06 10:03:44,221] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6556
+[2020-11-06 10:03:44,445] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6556
+[2020-11-06 10:04:10,153] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6556
+[2020-11-06 10:08:53,753] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:08:53,823] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:08:53,891] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:08:54,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:08:54,651] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:08:55,185] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:08:55,243] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:08:56,303] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:08:56,356] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:08:56,931] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:08:56,981] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:08:57,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:08:57,190] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:09:08,654] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:09:08,713] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:09:09,368] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:09:09,420] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:09:09,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:09:09,952] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:09:10,460] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:09:10,514] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:09:10,740] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:09:10,781] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:15:18,266] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:15:18,301] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:15:18,604] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:15:19,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:15:19,262] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:15:19,448] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:15:20,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:15:20,122] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:15:20,410] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:15:21,168] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:15:21,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:15:21,377] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:15:21,745] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:15:21,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:15:21,960] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:20,270] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:20,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:20,517] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:21,068] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:21,096] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:21,270] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:21,691] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:21,719] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:21,898] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:22,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:22,484] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:22,690] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:23,160] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:23,189] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:23,386] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:23,749] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:23,783] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:24,049] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:31,700] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:31,725] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:31,933] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:32,429] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:32,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:32,667] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:33,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:33,077] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:33,328] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:33,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:33,673] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:33,901] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:34,309] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:34,337] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:34,529] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:35,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:35,173] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:35,342] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:17:36,195] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:17:36,227] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:17:36,427] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:22:46,486] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+[2020-11-06 10:22:46,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2020-11-06 10:22:46,729] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2020-11-06 10:22:46,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-06 10:22:46,774] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2020-11-06 10:22:46,775] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-06 10:22:46,796] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-06 10:22:46,819] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-11-06 10:22:46,854] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-11-06 10:22:52,456] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-11-06 10:22:52,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8583
+[2020-11-06 10:22:52,547] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-06 10:22:52,570] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-06 10:22:52,571] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-06 10:22:52,593] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2020-11-06 10:22:52,623] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-11-06 10:22:52,635] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-11-06 10:22:52,656] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-11-06 10:22:52,662] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-11-06 10:22:52,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-11-06 10:22:54,493] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/ HTTP/1.1" 200 7080
+[2020-11-06 10:22:54,526] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-06 10:22:54,552] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2020-11-06 10:22:54,568] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:22:54,593] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-11-06 10:22:54,600] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-06 10:22:54,607] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2020-11-06 10:22:54,611] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-06 10:22:54,643] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2020-11-06 10:22:54,650] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2020-11-06 10:22:54,676] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2020-11-06 10:22:54,691] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-11-06 10:22:54,693] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-11-06 10:22:54,697] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-11-06 10:22:54,820] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-11-06 10:22:54,823] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-11-06 10:22:54,824] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-11-06 10:22:54,833] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2020-11-06 10:22:59,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10418
+[2020-11-06 10:22:59,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-11-06 10:22:59,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:22:59,134] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 200 2311
+[2020-11-06 10:22:59,151] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-11-06 10:22:59,154] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-11-06 10:22:59,156] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-11-06 10:22:59,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/themes/silver/theme.min.js HTTP/1.1" 200 407577
+[2020-11-06 10:22:59,565] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 200 2431
+[2020-11-06 10:22:59,572] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/advlist/plugin.min.js HTTP/1.1" 200 3749
+[2020-11-06 10:22:59,577] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/langs/zh_TW.js HTTP/1.1" 200 17674
+[2020-11-06 10:22:59,599] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 200 27121
+[2020-11-06 10:22:59,608] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/link/plugin.min.js HTTP/1.1" 200 16271
+[2020-11-06 10:22:59,630] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/print/plugin.min.js HTTP/1.1" 200 847
+[2020-11-06 10:22:59,635] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 200 11994
+[2020-11-06 10:22:59,637] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/image/plugin.min.js HTTP/1.1" 200 21497
+[2020-11-06 10:22:59,668] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 200 2151
+[2020-11-06 10:22:59,675] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 200 2784
+[2020-11-06 10:22:59,696] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 200 14940
+[2020-11-06 10:22:59,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 200 1443
+[2020-11-06 10:22:59,708] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/icons/default/icons.min.js HTTP/1.1" 200 59776
+[2020-11-06 10:22:59,746] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/code/plugin.min.js HTTP/1.1" 200 1148
+[2020-11-06 10:22:59,749] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 200 12669
+[2020-11-06 10:22:59,751] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 200 2985
+[2020-11-06 10:22:59,793] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/help/plugin.min.js HTTP/1.1" 200 13398
+[2020-11-06 10:22:59,795] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/media/plugin.min.js HTTP/1.1" 200 17356
+[2020-11-06 10:22:59,821] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/paste/plugin.min.js HTTP/1.1" 200 21911
+[2020-11-06 10:22:59,832] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 200 12267
+[2020-11-06 10:22:59,869] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/table/plugin.min.js HTTP/1.1" 200 129830
+[2020-11-06 10:22:59,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/skins/ui/oxide/skin.min.css HTTP/1.1" 200 59353
+[2020-11-06 10:23:00,124] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/skins/content/default/content.min.css HTTP/1.1" 200 1399
+[2020-11-06 10:23:00,172] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/skins/ui/oxide/content.min.css HTTP/1.1" 200 21770
+[2020-11-06 10:23:30,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 10:23:31,039] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2629
+[2020-11-06 10:23:42,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4334
+[2020-11-06 10:23:42,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2663
+[2020-11-06 10:23:56,991] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4334
+[2020-11-06 10:23:57,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2488
+[2020-11-06 10:24:07,092] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 10:24:07,106] [views.py:26] [views:index] [INFO]- 缓存中的key为：0fe0e7f01fd711eb92e45800e3fb0696----浏览器中的key为:0fe0e7f01fd711eb92e45800e3fb0696
+[2020-11-06 10:24:07,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22049
+[2020-11-06 10:24:09,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7863
+[2020-11-06 10:24:10,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:24:10,354] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:24:19,980] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:24:20,047] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:24:39,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:39,326] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:39,409] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:42,668] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:42,693] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:42,754] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:44,185] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:44,211] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:44,271] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:51,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:51,633] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:51,733] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:52,535] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:52,565] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:52,617] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:53,169] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:53,195] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:53,247] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:53,795] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:53,826] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:53,881] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:54,396] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:54,421] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:54,470] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:54,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:54,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:55,039] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:55,481] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:55,507] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:55,560] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:56,086] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:56,113] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:56,167] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:56,655] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:56,680] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:56,733] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:24:57,599] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:24:57,626] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:24:57,676] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:25:06,100] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/ HTTP/1.1" 200 7080
+[2020-11-06 10:25:09,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/logout/ HTTP/1.1" 200 1216
+[2020-11-06 10:25:11,507] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2020-11-06 10:25:11,528] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2020-11-06 10:25:16,748] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-11-06 10:25:16,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8583
+[2020-11-06 10:25:18,527] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/ HTTP/1.1" 200 7080
+[2020-11-06 10:25:18,565] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:19,977] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:25:20,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:20,088] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:25:34,968] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:25:35,002] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:35,088] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:25:35,623] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:25:35,648] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:35,703] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:25:36,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:25:36,054] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:36,109] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:25:48,010] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:25:48,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:48,127] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:25:50,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/ HTTP/1.1" 200 4101
+[2020-11-06 10:25:52,110] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/ HTTP/1.1" 200 7080
+[2020-11-06 10:25:52,140] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:53,536] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:25:53,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:25:53,614] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:01,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/ HTTP/1.1" 200 7080
+[2020-11-06 10:26:03,300] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:03,328] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:03,398] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:05,876] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:05,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:05,961] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:06,540] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:06,566] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:06,623] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:07,199] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:07,225] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:07,276] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:07,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:07,783] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:07,833] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:07,988] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:08,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:08,065] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:08,215] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:08,242] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:08,291] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:08,422] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:08,454] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:08,528] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:52,805] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:52,850] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:52,967] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:53,360] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:53,385] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:53,446] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:26:53,628] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:26:53,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:26:53,718] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:30:49,811] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:30:49,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-11-06 10:30:49,871] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-06 10:30:49,880] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-11-06 10:30:49,888] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:30:49,890] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-11-06 10:30:49,895] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2020-11-06 10:30:49,900] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-06 10:30:49,907] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2020-11-06 10:30:49,910] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-11-06 10:30:49,911] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2020-11-06 10:30:49,917] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-06 10:30:49,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2020-11-06 10:30:49,927] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-11-06 10:30:49,934] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 200 2311
+[2020-11-06 10:30:49,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-11-06 10:30:49,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-11-06 10:30:49,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-11-06 10:30:49,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-11-06 10:30:49,991] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-11-06 10:30:50,031] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:30:50,137] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-11-06 10:30:50,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-11-06 10:30:50,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-11-06 10:30:50,197] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:31:06,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 10:31:06,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2638
+[2020-11-06 10:31:18,142] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4334
+[2020-11-06 10:31:18,177] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2733
+[2020-11-06 10:31:26,851] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 10:31:26,864] [views.py:26] [views:index] [INFO]- 缓存中的key为：1fa1bcd41fd811ebaddf5800e3fb0696----浏览器中的key为:1fa1bcd41fd811ebaddf5800e3fb0696
+[2020-11-06 10:31:26,952] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22049
+[2020-11-06 10:31:28,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7863
+[2020-11-06 10:31:30,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:31:30,093] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:32:09,763] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6561
+[2020-11-06 10:32:09,797] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:32:10,149] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/js/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1741
+[2020-11-06 10:33:07,662] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8583
+[2020-11-06 10:33:09,577] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/ HTTP/1.1" 200 7080
+[2020-11-06 10:33:09,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:33:12,068] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/44444444/change/ HTTP/1.1" 200 10758
+[2020-11-06 10:33:12,113] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:33:12,241] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:33:16,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/ HTTP/1.1" 200 7080
+[2020-11-06 10:33:16,231] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:33:17,228] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:33:17,252] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:33:17,308] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:33:26,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10458
+[2020-11-06 10:33:26,506] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-06 10:33:26,515] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-11-06 10:33:26,537] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-11-06 10:33:26,542] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:33:26,550] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2020-11-06 10:33:26,552] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-11-06 10:33:26,553] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-06 10:33:26,559] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-06 10:33:26,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-11-06 10:33:26,569] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2020-11-06 10:33:26,570] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2020-11-06 10:33:26,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2020-11-06 10:33:26,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-11-06 10:33:26,587] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-11-06 10:33:26,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 200 2311
+[2020-11-06 10:33:26,607] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:33:26,612] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-11-06 10:33:26,616] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-11-06 10:33:26,639] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-11-06 10:33:26,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-11-06 10:33:26,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-11-06 10:33:26,780] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-11-06 10:33:26,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-11-06 10:33:26,857] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advance/theme.min.js HTTP/1.1" 404 1729
+[2020-11-06 10:35:09,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10457
+[2020-11-06 10:35:09,092] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-11-06 10:35:09,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-06 10:35:09,103] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:35:09,106] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-11-06 10:35:09,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2020-11-06 10:35:09,117] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-06 10:35:09,119] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-11-06 10:35:09,130] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2020-11-06 10:35:09,130] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-06 10:35:09,135] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-11-06 10:35:09,144] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-11-06 10:35:09,157] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2020-11-06 10:35:09,158] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 200 2311
+[2020-11-06 10:35:09,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-11-06 10:35:09,165] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:35:09,173] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2020-11-06 10:35:09,177] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-11-06 10:35:09,181] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-11-06 10:35:09,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-11-06 10:35:09,209] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-11-06 10:35:10,242] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10457
+[2020-11-06 10:35:10,298] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2020-11-06 10:35:10,300] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-11-06 10:35:10,317] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-11-06 10:35:10,332] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:35:10,334] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2020-11-06 10:35:10,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-11-06 10:35:10,339] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2020-11-06 10:35:10,340] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-11-06 10:35:10,342] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-11-06 10:35:10,358] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2020-11-06 10:35:10,362] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2020-11-06 10:35:10,373] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2020-11-06 10:35:10,378] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-11-06 10:35:10,389] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-11-06 10:35:10,394] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 200 2311
+[2020-11-06 10:35:10,396] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-06 10:35:10,402] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-11-06 10:35:10,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-11-06 10:35:10,421] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-11-06 10:35:10,429] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-11-06 10:35:10,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-11-06 10:35:10,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-11-06 10:35:10,624] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-11-06 10:35:10,697] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/themes/silver/theme.min.js HTTP/1.1" 200 407577
+[2020-11-06 10:35:10,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/langs/zh_TW.js HTTP/1.1" 200 17674
+[2020-11-06 10:35:10,877] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/icons/default/icons.min.js HTTP/1.1" 200 59776
+[2020-11-06 10:35:10,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/advlist/plugin.min.js HTTP/1.1" 200 3749
+[2020-11-06 10:35:10,888] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 200 27121
+[2020-11-06 10:35:10,895] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 200 2431
+[2020-11-06 10:35:10,900] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/link/plugin.min.js HTTP/1.1" 200 16271
+[2020-11-06 10:35:10,916] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/image/plugin.min.js HTTP/1.1" 200 21497
+[2020-11-06 10:35:10,927] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 200 11994
+[2020-11-06 10:35:10,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/print/plugin.min.js HTTP/1.1" 200 847
+[2020-11-06 10:35:10,941] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 200 2151
+[2020-11-06 10:35:10,946] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 200 2784
+[2020-11-06 10:35:10,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 200 14940
+[2020-11-06 10:35:10,962] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 200 1443
+[2020-11-06 10:35:10,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/code/plugin.min.js HTTP/1.1" 200 1148
+[2020-11-06 10:35:10,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 200 12669
+[2020-11-06 10:35:10,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 200 2985
+[2020-11-06 10:35:10,980] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/media/plugin.min.js HTTP/1.1" 200 17356
+[2020-11-06 10:35:10,989] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/paste/plugin.min.js HTTP/1.1" 200 21911
+[2020-11-06 10:35:10,990] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/table/plugin.min.js HTTP/1.1" 200 129830
+[2020-11-06 10:35:10,995] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/help/plugin.min.js HTTP/1.1" 200 13398
+[2020-11-06 10:35:11,003] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 200 12267
+[2020-11-06 10:35:11,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/skins/ui/oxide/skin.min.css HTTP/1.1" 200 59353
+[2020-11-06 10:35:11,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/skins/content/default/content.min.css HTTP/1.1" 200 1399
+[2020-11-06 10:35:11,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/skins/ui/oxide/content.min.css HTTP/1.1" 200 21770
+[2020-11-06 10:36:05,237] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/chapter/add/ HTTP/1.1" 200 10457
+[2020-11-06 10:36:05,273] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-06 10:36:18,867] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 10:36:18,922] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2409
+[2020-11-06 10:36:38,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 10:36:38,848] [views.py:26] [views:index] [INFO]- 缓存中的key为：d993dc9a1fd811eba7f15800e3fb0696----浏览器中的key为:d993dc9a1fd811eba7f15800e3fb0696
+[2020-11-06 10:36:38,937] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22049
+[2020-11-06 10:36:40,693] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7863
+[2020-11-06 10:36:42,133] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6559
+[2020-11-06 10:36:42,414] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/themes/silver/theme.min.js HTTP/1.1" 200 407577
+[2020-11-06 10:36:42,524] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/icons/default/icons.min.js HTTP/1.1" 200 59776
+[2020-11-06 10:36:42,609] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/skin.min.css HTTP/1.1" 200 59353
+[2020-11-06 10:36:42,724] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/content/default/content.min.css HTTP/1.1" 200 1399
+[2020-11-06 10:36:42,779] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/content.min.css HTTP/1.1" 200 21770
+[2020-11-06 10:37:26,402] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6559
+[2020-11-06 10:38:52,404] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6559
+[2020-11-06 10:38:56,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6559
+[2020-11-06 10:48:52,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6559
+[2020-11-06 13:12:00,731] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6597
+[2020-11-06 13:15:21,539] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6626
+[2020-11-06 13:15:35,931] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6635
+[2020-11-06 13:15:47,268] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6609
+[2020-11-06 13:15:49,875] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6609
+[2020-11-06 13:16:00,071] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7863
+[2020-11-06 13:16:00,086] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iuMjulY.jpg HTTP/1.1" 304 0
+[2020-11-06 13:16:02,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6609
+[2020-11-06 13:18:01,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6583
+[2020-11-06 13:18:03,341] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6583
+[2020-11-06 14:01:34,428] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther
+[2020-11-06 14:01:34,429] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther HTTP/1.1" 404 5548
+[2020-11-06 14:01:36,087] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther
+[2020-11-06 14:01:36,087] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther HTTP/1.1" 404 5548
+[2020-11-06 14:01:36,829] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther
+[2020-11-06 14:01:36,829] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther HTTP/1.1" 404 5548
+[2020-11-06 14:01:37,120] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther
+[2020-11-06 14:01:37,120] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther HTTP/1.1" 404 5548
+[2020-11-06 14:01:42,639] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther
+[2020-11-06 14:01:42,640] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther HTTP/1.1" 404 5548
+[2020-11-06 14:02:52,879] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther
+[2020-11-06 14:02:52,880] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther HTTP/1.1" 404 5548
+[2020-11-06 14:02:53,692] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther
+[2020-11-06 14:02:53,693] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther HTTP/1.1" 404 5548
+[2020-11-06 14:02:56,982] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:d993dc9a1fd811eba7f15800e3fb0696
+[2020-11-06 14:02:57,005] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-06 14:02:57,025] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 14:02:57,065] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2817
+[2020-11-06 14:03:04,322] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 14:03:04,338] [views.py:26] [views:index] [INFO]- 缓存中的key为：b774714a1ff511eb989c5800e3fb0696----浏览器中的key为:b774714a1ff511eb989c5800e3fb0696
+[2020-11-06 14:03:04,514] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22049
+[2020-11-06 14:03:05,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7876
+[2020-11-06 14:03:06,976] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 300, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<n_uid>[^/]+)$']
+[2020-11-06 14:03:07,154] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 170710
+[2020-11-06 14:04:21,626] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 300, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<n_uid>[^/]+)$']
+[2020-11-06 14:04:21,706] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171963
+[2020-11-06 14:05:29,099] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 300, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<n_uid>[^/]+)$']
+[2020-11-06 14:05:29,424] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171967
+[2020-11-06 14:06:25,247] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7876
+[2020-11-06 14:06:27,363] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 300, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<n_uid>[^/]+)$']
+[2020-11-06 14:06:27,433] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171832
+[2020-11-06 14:07:33,748] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 300, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<n_uid>[^/]+)$']
+[2020-11-06 14:07:33,837] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171967
+[2020-11-06 14:07:34,562] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 300, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<n_uid>[^/]+)$']
+[2020-11-06 14:07:34,626] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171967
+[2020-11-06 14:07:37,095] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 300, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<n_uid>[^/]+)$']
+[2020-11-06 14:07:37,178] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171832
+[2020-11-06 14:08:57,103] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:08:57,304] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171731
+[2020-11-06 14:09:06,994] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7876
+[2020-11-06 14:09:09,779] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:09:09,850] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171763
+[2020-11-06 14:10:07,643] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:10:07,808] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 168578
+[2020-11-06 14:10:10,124] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 7876
+[2020-11-06 14:10:11,273] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:10:11,342] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 168443
+[2020-11-06 14:14:55,043] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-06 14:16:32,062] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/author_edit HTTP/1.1" 302 0
+[2020-11-06 14:16:32,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9245
+[2020-11-06 14:16:32,118] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 200 13525
+[2020-11-06 14:16:48,155] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:16:48,225] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 168823
+[2020-11-06 14:18:12,829] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:18:12,911] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 167844
+[2020-11-06 14:18:13,569] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:18:13,635] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 167843
+[2020-11-06 14:18:26,074] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:18:26,148] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 167844
+[2020-11-06 14:18:26,888] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:18:26,954] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 167843
+[2020-11-06 14:18:27,770] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:18:27,872] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 167844
+[2020-11-06 14:18:30,401] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html')
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<nuid>[^/]+)$']
+[2020-11-06 14:18:30,467] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 167709
+[2020-11-06 14:19:05,683] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+[2020-11-06 14:19:05,684] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 404 5629
+[2020-11-06 14:19:09,543] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+[2020-11-06 14:19:09,544] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 404 5629
+[2020-11-06 14:19:19,596] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+[2020-11-06 14:19:19,597] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 404 5629
+[2020-11-06 14:20:32,897] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther/111111111111
+[2020-11-06 14:20:32,898] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 404 5569
+[2020-11-06 14:20:50,091] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/author_add_capther/111111111111
+[2020-11-06 14:20:50,091] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 404 5569
+[2020-11-06 14:20:52,191] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:b774714a1ff511eb989c5800e3fb0696
+[2020-11-06 14:20:52,206] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-06 14:20:52,224] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 14:20:52,259] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2472
+[2020-11-06 14:21:01,608] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 14:21:01,621] [views.py:26] [views:index] [INFO]- 缓存中的key为：385302e41ff811eb89cf5800e3fb0696----浏览器中的key为:385302e41ff811eb89cf5800e3fb0696
+[2020-11-06 14:21:01,795] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22263
+[2020-11-06 14:21:04,060] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9199
+[2020-11-06 14:21:04,076] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-06 14:21:05,325] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_add_capther() missing 1 required positional argument: 'nuid'
+[2020-11-06 14:21:05,371] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther HTTP/1.1" 500 71501
+[2020-11-06 14:21:38,498] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6243
+[2020-11-06 14:23:25,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther HTTP/1.1" 200 6243
+[2020-11-06 14:23:32,657] [views.py:26] [views:index] [INFO]- 缓存中的key为：385302e41ff811eb89cf5800e3fb0696----浏览器中的key为:385302e41ff811eb89cf5800e3fb0696
+[2020-11-06 14:23:32,828] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22263
+[2020-11-06 14:23:34,218] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9251
+[2020-11-06 14:23:34,236] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-06 14:23:53,857] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther?id=4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6724
+[2020-11-06 14:29:36,388] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther?id=4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6724
+[2020-11-06 14:30:09,744] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_author_novels
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 284, in show_author_novels
+    return render(request, 'novel/show_author_novels.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('4d254c268c1643db91cf66bddec905f1',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther$']
+[2020-11-06 14:30:09,824] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_author_novels HTTP/1.1" 500 185710
+[2020-11-06 14:30:10,165] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_author_novels
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 284, in show_author_novels
+    return render(request, 'novel/show_author_novels.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('4d254c268c1643db91cf66bddec905f1',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther$']
+[2020-11-06 14:30:10,248] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_author_novels HTTP/1.1" 500 185710
+[2020-11-06 14:30:11,354] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_author_novels
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 284, in show_author_novels
+    return render(request, 'novel/show_author_novels.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('4d254c268c1643db91cf66bddec905f1',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther$']
+[2020-11-06 14:30:11,430] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_author_novels HTTP/1.1" 500 185710
+[2020-11-06 14:30:12,836] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_author_novels
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 284, in show_author_novels
+    return render(request, 'novel/show_author_novels.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('4d254c268c1643db91cf66bddec905f1',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther$']
+[2020-11-06 14:30:12,915] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_author_novels HTTP/1.1" 500 185710
+[2020-11-06 14:30:17,408] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_author_novels
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 284, in show_author_novels
+    return render(request, 'novel/show_author_novels.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('4d254c268c1643db91cf66bddec905f1',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther$']
+[2020-11-06 14:30:17,488] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_author_novels HTTP/1.1" 500 185710
+[2020-11-06 14:30:22,311] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_author_novels
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 284, in show_author_novels
+    return render(request, 'novel/show_author_novels.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with arguments '('4d254c268c1643db91cf66bddec905f1',)' not found. 1 pattern(s) tried: ['novels\\/author_add_capther$']
+[2020-11-06 14:30:22,385] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_author_novels HTTP/1.1" 500 185710
+[2020-11-06 14:31:06,775] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9245
+[2020-11-06 14:31:06,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-06 14:31:09,841] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_add_capther() got an unexpected keyword argument 'uid'
+[2020-11-06 14:31:09,895] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 72035
+[2020-11-06 14:31:32,362] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 301, in author_add_capther
+    return render(request, 'novel/author_add_capther.html',locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<uid>[^/]+)$']
+[2020-11-06 14:31:32,551] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 171724
+[2020-11-06 14:32:15,627] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 302, in author_add_capther
+    return render(request, 'novel/author_add_capther.html',locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<uid>[^/]+)$']
+[2020-11-06 14:32:15,799] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 172820
+[2020-11-06 14:32:59,982] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 298, in author_add_capther
+    return render(request, 'novel/author_add_capther.html',locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<uid>[^/]+)$']
+[2020-11-06 14:33:00,146] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 500 172738
+[2020-11-06 14:34:16,666] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_add_capther/111111111111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 298, in author_add_capther
+    return render(request, 'novel/author_add_capther.html',locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_add_capther' with no arguments not found. 1 pattern(s) tried: ['novels\\/author_add_capther\\/(?P<uid>[^/]+)$']
+[2020-11-06 14:34:16,801] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_add_capther/111111111111 HTTP/1.1" 500 171742
+[2020-11-06 14:35:02,253] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6757
+[2020-11-06 14:36:12,278] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6757
+[2020-11-06 14:36:35,627] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 302 0
+[2020-11-06 14:36:35,733] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9245
+[2020-11-06 14:36:35,751] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-06 14:36:44,132] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第五章 这只是个普通的孩子？>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗>, <Novels: 挂机死神就能变强>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '4d254c268c1643db91cf66bddec905f1', 'request': <WSGIRequest: GET '/novels/detail/4d254c268c1643db91cf66bddec905f1'>}
+[2020-11-06 14:36:44,160] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 9811
+[2020-11-06 14:36:56,766] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6757
+[2020-11-06 14:37:00,726] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第五章 这只是个普通的孩子？>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗>, <Novels: 挂机死神就能变强>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '4d254c268c1643db91cf66bddec905f1', 'request': <WSGIRequest: GET '/novels/detail/4d254c268c1643db91cf66bddec905f1'>}
+[2020-11-06 14:37:00,740] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 9811
+[2020-11-06 14:37:01,880] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/deb54a7c787c4ca49c54f87da0153171
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 97, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\deb54a7c787c4ca49c54f87da0153171.txt'
+[2020-11-06 14:37:01,934] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/deb54a7c787c4ca49c54f87da0153171 HTTP/1.1" 500 77201
+[2020-11-06 14:57:03,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9245
+[2020-11-06 14:57:03,473] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-06 14:57:06,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6757
+[2020-11-06 14:57:06,050] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2020-11-06 14:57:06,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/themes/silver/theme.min.js HTTP/1.1" 304 0
+[2020-11-06 14:57:06,244] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/icons/default/icons.min.js HTTP/1.1" 304 0
+[2020-11-06 14:57:06,303] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/skin.min.css HTTP/1.1" 304 0
+[2020-11-06 14:57:06,434] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/ui/oxide/content.min.css HTTP/1.1" 304 0
+[2020-11-06 14:57:06,436] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/tinymce/skins/content/default/content.min.css HTTP/1.1" 304 0
+[2020-11-06 14:57:21,252] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 302 0
+[2020-11-06 14:57:21,277] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9245
+[2020-11-06 14:58:18,127] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6757
+[2020-11-06 14:59:16,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 302 0
+[2020-11-06 14:59:16,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9245
+[2020-11-06 14:59:40,118] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 6757
+[2020-11-06 14:59:42,456] [views.py:85] [views:novel_detail] [INFO]- {'new_chapter': <Chapter: 第二章 解冻复生>, 'new_novels': <QuerySet [<Novels: 斗罗大陆4终极斗罗>, <Novels: 挂机死神就能变强>]>, 'hits_novel': <QuerySet []>, 'novel': <Novels: 斗罗大陆4终极斗罗>, 'user': <User: lijunhan77>, 'username': 'lijunhan77', 'types': <QuerySet [<NovelsType: 玄幻>, <NovelsType: 修真>, <NovelsType: 都市>, <NovelsType: 穿越>, <NovelsType: 网游>, <NovelsType: 科幻>, <NovelsType: 奇幻>, <NovelsType: 武侠>, <NovelsType: 仙侠>, <NovelsType: 言情>, <NovelsType: 历史>, <NovelsType: 军事>, <NovelsType: 游戏>, <NovelsType: 竞技>, <NovelsType: 异灵>]>, 'gid': '4d254c268c1643db91cf66bddec905f1', 'request': <WSGIRequest: GET '/novels/detail/4d254c268c1643db91cf66bddec905f1'>}
+[2020-11-06 14:59:42,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/4d254c268c1643db91cf66bddec905f1 HTTP/1.1" 200 10156
+[2020-11-06 14:59:45,014] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/ed2fbe5916bf4b98bcb634b68655d51c
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 97, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\ed2fbe5916bf4b98bcb634b68655d51c.txt'
+[2020-11-06 14:59:45,056] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/ed2fbe5916bf4b98bcb634b68655d51c HTTP/1.1" 500 77183
+[2020-11-06 15:00:25,676] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/ed2fbe5916bf4b98bcb634b68655d51c HTTP/1.1" 200 78814
+[2020-11-06 15:00:57,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/ed2fbe5916bf4b98bcb634b68655d51c HTTP/1.1" 200 63116
+[2020-11-06 16:01:42,573] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:385302e41ff811eb89cf5800e3fb0696
+[2020-11-06 16:01:42,588] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-06 16:01:42,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 16:01:42,641] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2624
+[2020-11-06 16:02:03,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 16:02:03,439] [views.py:26] [views:index] [INFO]- 缓存中的key为：4ea2035e200611eb863d5800e3fb0696----浏览器中的key为:4ea2035e200611eb863d5800e3fb0696
+[2020-11-06 16:02:03,600] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22376
+[2020-11-06 16:02:06,811] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-06 16:02:09,267] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 9245
+[2020-11-06 16:02:09,284] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_uSgAxsF.jpg HTTP/1.1" 304 0
+[2020-11-06 16:02:09,285] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_iuMjulY.jpg HTTP/1.1" 304 0
+[2020-11-06 16:02:35,592] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-06 16:02:58,769] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/author_edit HTTP/1.1" 302 0
+[2020-11-06 16:02:58,798] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 10494
+[2020-11-06 16:02:58,824] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s_BeqaKZW.jpg HTTP/1.1" 200 15649
+[2020-11-06 16:05:22,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10068
+[2020-11-06 16:05:48,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/author_edit HTTP/1.1" 302 0
+[2020-11-06 16:05:48,438] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_author_novels HTTP/1.1" 200 11764
+[2020-11-06 16:05:48,458] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s_BeqaKZW.jpg HTTP/1.1" 304 0
+[2020-11-06 16:05:48,472] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_IEXM0i4.jpg HTTP/1.1" 200 13525
+[2020-11-06 16:07:04,998] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_add_capther/dbf1812a03b24fa79eb3c7f2ddf13539 HTTP/1.1" 200 6757
+[2020-11-06 16:07:53,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8819
+[2020-11-06 16:07:56,345] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7155
+[2020-11-06 16:07:57,883] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:4ea2035e200611eb863d5800e3fb0696
+[2020-11-06 16:07:57,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-06 16:07:57,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 16:07:57,934] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2409
+[2020-11-06 16:08:03,845] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.22968453579661308 HTTP/1.1" 200 2543
+[2020-11-06 16:08:09,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-06 16:08:09,286] [views.py:26] [views:index] [INFO]- 缓存中的key为：2e53b34c200711ebb20f5800e3fb0696----浏览器中的key为:2e53b34c200711ebb20f5800e3fb0696
+[2020-11-06 16:08:09,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 22804
+[2020-11-06 16:23:29,728] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:2e53b34c200711ebb20f5800e3fb0696
+[2020-11-06 16:23:29,738] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-06 16:23:29,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-06 16:23:29,783] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2752

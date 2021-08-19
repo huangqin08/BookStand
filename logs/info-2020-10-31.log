@@ -1,0 +1,1059 @@
+[2020-10-31 13:06:08,724] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 13:06:08,822] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2590
+[2020-10-31 13:06:08,954] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-10-31 13:06:08,955] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2191
+[2020-10-31 13:06:17,820] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-10-31 13:06:17,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2625
+[2020-10-31 13:06:27,423] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 13:06:27,443] [views.py:24] [views:index] [INFO]- 缓存中的key为：c9787c5c1b3611eb80195800e3fb0696----浏览器中的key为:c9787c5c1b3611eb80195800e3fb0696
+[2020-10-31 13:06:30,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 13:06:34,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4747
+[2020-10-31 13:07:08,477] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4024
+[2020-10-31 13:07:18,311] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4747
+[2020-10-31 13:07:28,299] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4747
+[2020-10-31 13:07:30,770] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 3262
+[2020-10-31 13:07:30,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l.jpg HTTP/1.1" 304 0
+[2020-10-31 13:16:01,014] [views.py:24] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:c9787c5c1b3611eb80195800e3fb0696
+[2020-10-31 13:16:01,031] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 13:16:01,048] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 13:16:01,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2535
+[2020-10-31 13:16:11,228] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 13:16:11,247] [views.py:24] [views:index] [INFO]- 缓存中的key为：2a8606981b3811eb82855800e3fb0696----浏览器中的key为:2a8606981b3811eb82855800e3fb0696
+[2020-10-31 13:16:11,433] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 13:16:13,284] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 152, in show_bookrack
+    for chapter in Chapter.uid:
+TypeError: 'DeferredAttribute' object is not iterable
+[2020-10-31 13:16:13,365] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 76953
+[2020-10-31 13:18:48,115] [views.py:24] [views:index] [INFO]- 缓存中的key为：2a8606981b3811eb82855800e3fb0696----浏览器中的key为:2a8606981b3811eb82855800e3fb0696
+[2020-10-31 13:18:48,281] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 13:18:49,491] [views.py:24] [views:index] [INFO]- 缓存中的key为：2a8606981b3811eb82855800e3fb0696----浏览器中的key为:2a8606981b3811eb82855800e3fb0696
+[2020-10-31 13:18:49,558] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 13:18:50,278] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 152, in show_bookrack
+    for chapter in Chapter.uid:
+TypeError: 'DeferredAttribute' object is not iterable
+[2020-10-31 13:18:50,329] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 76767
+[2020-10-31 13:20:31,526] [views.py:24] [views:index] [INFO]- 缓存中的key为：2a8606981b3811eb82855800e3fb0696----浏览器中的key为:2a8606981b3811eb82855800e3fb0696
+[2020-10-31 13:20:31,739] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 13:20:32,484] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 153, in show_bookrack
+    if novel.chapters_uid in chapter:
+TypeError: argument of type 'Chapter' is not iterable
+[2020-10-31 13:20:32,535] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 76964
+[2020-10-31 13:20:57,790] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 153, in show_bookrack
+    if novel.chapters_uid in chapter:
+TypeError: argument of type 'Chapter' is not iterable
+[2020-10-31 13:20:57,832] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 77099
+[2020-10-31 13:20:58,748] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 153, in show_bookrack
+    if novel.chapters_uid in chapter:
+TypeError: argument of type 'Chapter' is not iterable
+[2020-10-31 13:20:58,792] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 77099
+[2020-10-31 13:21:47,002] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 153, in show_bookrack
+    if novel.chapters_uid in chapter.uid:
+TypeError: 'in <string>' requires string as left operand, not int
+[2020-10-31 13:21:47,122] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 77179
+[2020-10-31 13:21:57,711] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 153, in show_bookrack
+    if novel.chapters_uid in chapter:
+TypeError: argument of type 'Chapter' is not iterable
+[2020-10-31 13:21:57,828] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 77099
+[2020-10-31 13:23:52,379] [views.py:24] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:2a8606981b3811eb82855800e3fb0696
+[2020-10-31 13:23:52,395] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 13:23:52,413] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 13:23:52,447] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2769
+[2020-10-31 13:24:00,846] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 13:24:00,863] [views.py:24] [views:index] [INFO]- 缓存中的key为：437ac6ca1b3911ebbc245800e3fb0696----浏览器中的key为:437ac6ca1b3911ebbc245800e3fb0696
+[2020-10-31 13:24:01,010] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 13:24:02,197] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/show_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 153, in show_bookrack
+    if novel.chapters_uid in chapter:
+TypeError: argument of type 'Chapter' is not iterable
+[2020-10-31 13:24:02,252] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/show_bookrack HTTP/1.1" 500 76980
+[2020-10-31 13:24:36,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7274
+[2020-10-31 14:26:14,213] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4020
+[2020-10-31 14:26:14,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l.jpg HTTP/1.1" 304 0
+[2020-10-31 14:29:37,806] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with no arguments not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<cid>[0-9]+)$']
+[2020-10-31 14:29:41,088] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 133211
+[2020-10-31 15:11:31,684] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:437ac6ca1b3911ebbc245800e3fb0696
+[2020-10-31 15:11:31,710] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 15:11:31,774] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 15:11:31,839] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2633
+[2020-10-31 15:11:45,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-10-31 15:11:45,103] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2639
+[2020-10-31 15:11:52,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-10-31 15:11:52,280] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2318
+[2020-10-31 15:12:00,219] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 15:12:00,235] [views.py:25] [views:index] [INFO]- 缓存中的key为：4d8ecc641b4811eba70b5800e3fb0696----浏览器中的key为:4d8ecc641b4811eba70b5800e3fb0696
+[2020-10-31 15:12:00,407] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 15:12:00,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 304 0
+[2020-10-31 15:12:00,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 304 0
+[2020-10-31 15:12:02,345] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with no arguments not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<cid>[0-9]+)$']
+[2020-10-31 15:12:02,410] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 142475
+[2020-10-31 15:15:58,271] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with no arguments not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<cid>[0-9]+)$']
+[2020-10-31 15:15:58,342] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 142594
+[2020-10-31 15:15:59,817] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with no arguments not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<cid>[0-9]+)$']
+[2020-10-31 15:15:59,885] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 142594
+[2020-10-31 15:20:23,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7260
+[2020-10-31 15:20:24,830] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:4d8ecc641b4811eba70b5800e3fb0696
+[2020-10-31 15:20:24,839] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 15:20:24,849] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 15:20:24,882] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2752
+[2020-10-31 15:20:36,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 15:20:36,166] [views.py:25] [views:index] [INFO]- 缓存中的key为：8b4ba78a1b4911eb864c5800e3fb0696----浏览器中的key为:8b4ba78a1b4911eb864c5800e3fb0696
+[2020-10-31 15:20:36,232] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 15:20:39,164] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7260
+[2020-10-31 15:20:42,275] [views.py:25] [views:index] [INFO]- 缓存中的key为：8b4ba78a1b4911eb864c5800e3fb0696----浏览器中的key为:8b4ba78a1b4911eb864c5800e3fb0696
+[2020-10-31 15:20:42,349] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 15:20:44,535] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<cid>[0-9]+)$']
+[2020-10-31 15:20:44,607] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 143612
+[2020-10-31 15:20:53,085] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7260
+[2020-10-31 15:25:04,518] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7260
+[2020-10-31 15:25:08,119] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7260
+[2020-10-31 15:25:09,049] [views.py:25] [views:index] [INFO]- 缓存中的key为：8b4ba78a1b4911eb864c5800e3fb0696----浏览器中的key为:8b4ba78a1b4911eb864c5800e3fb0696
+[2020-10-31 15:25:09,114] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 15:25:18,079] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<cid>[0-9]+)$']
+[2020-10-31 15:25:18,152] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 133883
+[2020-10-31 15:36:57,151] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:36:57,281] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71559
+[2020-10-31 15:37:01,004] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:37:01,051] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:38:26,029] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:38:26,151] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:38:28,430] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:38:28,476] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71559
+[2020-10-31 15:38:28,914] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:38:28,965] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:39:06,065] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:39:06,116] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71559
+[2020-10-31 15:39:06,982] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:39:07,032] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71559
+[2020-10-31 15:39:07,676] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:39:07,718] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:39:08,267] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:39:08,315] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:39:08,536] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:39:08,580] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:39:09,285] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:39:09,334] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:39:09,457] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: category_show() got an unexpected keyword argument 'id'
+[2020-10-31 15:39:09,504] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 71560
+[2020-10-31 15:39:49,569] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 15:39:49,723] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 133947
+[2020-10-31 15:39:53,379] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7260
+[2020-10-31 15:49:30,849] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:8b4ba78a1b4911eb864c5800e3fb0696
+[2020-10-31 15:49:30,859] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 15:49:30,868] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 15:49:30,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2417
+[2020-10-31 15:49:38,580] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 15:49:38,594] [views.py:25] [views:index] [INFO]- 缓存中的key为：9c00fbdc1b4d11eb92905800e3fb0696----浏览器中的key为:9c00fbdc1b4d11eb92905800e3fb0696
+[2020-10-31 15:49:38,659] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 15:49:41,584] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 15:49:41,645] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 133967
+[2020-10-31 15:49:43,841] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/2
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 15:49:43,911] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/2 HTTP/1.1" 500 132708
+[2020-10-31 15:49:46,684] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/3
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 187, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 15:49:46,751] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/3 HTTP/1.1" 500 134005
+[2020-10-31 16:36:55,677] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:9c00fbdc1b4d11eb92905800e3fb0696
+[2020-10-31 16:36:55,692] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 16:36:55,709] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 16:36:55,750] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2461
+[2020-10-31 16:37:04,763] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 16:37:04,779] [views.py:25] [views:index] [INFO]- 缓存中的key为：3ba9795c1b5411ebb7fa5800e3fb0696----浏览器中的key为:3ba9795c1b5411ebb7fa5800e3fb0696
+[2020-10-31 16:37:04,915] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 16:37:04,943] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 304 0
+[2020-10-31 16:37:04,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 304 0
+[2020-10-31 16:37:04,957] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 304 0
+[2020-10-31 16:37:04,961] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 304 0
+[2020-10-31 16:37:04,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 304 0
+[2020-10-31 16:37:04,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 304 0
+[2020-10-31 16:37:06,412] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:37:06,473] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 133967
+[2020-10-31 16:37:30,429] [views.py:25] [views:index] [INFO]- 缓存中的key为：3ba9795c1b5411ebb7fa5800e3fb0696----浏览器中的key为:3ba9795c1b5411ebb7fa5800e3fb0696
+[2020-10-31 16:37:30,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 16:38:06,719] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:38:06,857] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 133813
+[2020-10-31 16:38:15,838] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:38:15,900] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1?page=1 HTTP/1.1" 500 134166
+[2020-10-31 16:39:32,026] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 4808
+[2020-10-31 16:39:32,046] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l.jpg HTTP/1.1" 304 0
+[2020-10-31 16:39:57,278] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:39:57,414] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1?page=1 HTTP/1.1" 500 131805
+[2020-10-31 16:40:22,167] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type},{'novels':novels})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:40:22,306] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1?page=1 HTTP/1.1" 500 131980
+[2020-10-31 16:40:24,458] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type},{'novels':novels})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:40:24,525] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1?page=1 HTTP/1.1" 500 131980
+[2020-10-31 16:40:29,327] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html', {"page_obj":page_obj},{'tpye':type},{'novels':novels})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:40:29,389] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 131645
+[2020-10-31 16:40:46,064] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html',{"page_obj":page_obj},{'tpye':type},{'novels':novels})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:40:46,204] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 131779
+[2020-10-31 16:40:58,972] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/category_show/1
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 188, in category_show
+    return render(request, 'novel/category_show.html',{'tpye':type},{'novels':novels})
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_show' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/category_show\\/(?P<tid>[0-9]+)$']
+[2020-10-31 16:40:59,118] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/category_show/1 HTTP/1.1" 500 131699
+[2020-10-31 16:41:19,006] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4808
+[2020-10-31 16:41:20,955] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4808
+[2020-10-31 16:41:38,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:40,355] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:40,917] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:41,155] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:41,722] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:42,020] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:42,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:42,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:43,110] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:41:49,187] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 4045
+[2020-10-31 16:42:05,302] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 3148
+[2020-10-31 16:42:12,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 3148
+[2020-10-31 16:42:14,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 4045
+[2020-10-31 16:42:22,099] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 3148
+[2020-10-31 16:42:25,017] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 3148
+[2020-10-31 16:43:10,715] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 3119
+[2020-10-31 16:45:00,562] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2642
+[2020-10-31 16:45:01,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2642
+[2020-10-31 16:45:02,226] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2642
+[2020-10-31 16:45:02,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2642
+[2020-10-31 16:45:03,007] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2642
+[2020-10-31 16:45:03,220] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2642
+[2020-10-31 16:45:03,420] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2642
+[2020-10-31 16:50:41,826] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2552
+[2020-10-31 16:50:42,827] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2552
+[2020-10-31 16:50:43,347] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2552
+[2020-10-31 16:51:00,181] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2555
+[2020-10-31 16:51:00,974] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2555
+[2020-10-31 16:51:01,258] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2555
+[2020-10-31 16:51:02,955] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3427
+[2020-10-31 16:51:05,845] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2555
+[2020-10-31 16:51:07,360] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3427
+[2020-10-31 16:51:09,187] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2555
+[2020-10-31 16:51:10,448] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3427
+[2020-10-31 16:51:11,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2555
+[2020-10-31 16:51:13,316] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3427
+[2020-10-31 16:53:57,518] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3430
+[2020-10-31 16:53:58,448] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3430
+[2020-10-31 16:53:58,672] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3430
+[2020-10-31 16:53:59,815] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2558
+[2020-10-31 16:54:03,407] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3430
+[2020-10-31 16:54:04,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3430
+[2020-10-31 16:54:05,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3430
+[2020-10-31 16:54:05,429] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3430
+[2020-10-31 16:54:06,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2558
+[2020-10-31 16:54:07,427] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2558
+[2020-10-31 16:56:32,518] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:33,364] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:33,783] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:34,037] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:34,263] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:34,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:35,104] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:35,277] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:56:37,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2617
+[2020-10-31 16:57:06,112] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:07,820] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:08,929] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:09,126] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:09,323] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:09,865] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:14,666] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3369
+[2020-10-31 16:57:18,476] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:21,026] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:22,108] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:22,790] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:23,072] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2501
+[2020-10-31 16:57:23,690] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3369
+[2020-10-31 16:57:23,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/555555 HTTP/1.1" 200 6993
+[2020-10-31 17:00:53,293] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3447
+[2020-10-31 17:00:54,854] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2579
+[2020-10-31 17:00:56,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3447
+[2020-10-31 17:00:57,400] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2579
+[2020-10-31 17:01:02,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 2579
+[2020-10-31 17:01:03,842] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 3447
+[2020-10-31 17:02:46,505] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 7752
+[2020-10-31 18:13:39,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 7752
+[2020-10-31 18:13:44,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 6840
+[2020-10-31 18:13:49,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=1 HTTP/1.1" 200 7752
+[2020-10-31 18:13:55,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1?page=2 HTTP/1.1" 200 6840
+[2020-10-31 18:14:03,423] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:3ba9795c1b5411ebb7fa5800e3fb0696
+[2020-10-31 18:14:03,430] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 18:14:03,442] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 18:14:03,476] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2906
+[2020-10-31 18:16:55,197] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 18:16:55,212] [views.py:25] [views:index] [INFO]- 缓存中的key为：cd42bb501b6111ebafde5800e3fb0696----浏览器中的key为:cd42bb501b6111ebafde5800e3fb0696
+[2020-10-31 18:16:55,279] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 18:21:54,013] [views.py:25] [views:index] [INFO]- 缓存中的key为：cd42bb501b6111ebafde5800e3fb0696----浏览器中的key为:cd42bb501b6111ebafde5800e3fb0696
+[2020-10-31 18:21:54,174] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 18:21:56,616] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8706
+[2020-10-31 18:22:33,529] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 7752
+[2020-10-31 18:22:47,859] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9198
+[2020-10-31 18:22:50,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/2 HTTP/1.1" 200 8197
+[2020-10-31 18:22:52,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/3 HTTP/1.1" 200 9108
+[2020-10-31 18:22:52,656] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s.jpg HTTP/1.1" 304 0
+[2020-10-31 18:22:52,662] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s.jpg HTTP/1.1" 200 13525
+[2020-10-31 18:22:55,064] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8220
+[2020-10-31 18:22:55,085] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/111s_YM8x2d4.jpg HTTP/1.1" 304 0
+[2020-10-31 18:22:57,551] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8252
+[2020-10-31 18:22:57,568] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l_0H2be4N.jpg HTTP/1.1" 304 0
+[2020-10-31 18:22:58,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/4 HTTP/1.1" 200 8220
+[2020-10-31 18:23:00,620] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/5 HTTP/1.1" 200 8252
+[2020-10-31 18:23:01,293] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/6 HTTP/1.1" 200 8254
+[2020-10-31 18:23:01,312] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_RiIsmEx.jpg HTTP/1.1" 200 161173
+[2020-10-31 18:23:05,133] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:cd42bb501b6111ebafde5800e3fb0696
+[2020-10-31 18:23:05,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-31 18:23:05,155] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-31 18:23:05,190] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2853
+[2020-10-31 18:59:38,047] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-31 18:59:38,062] [views.py:25] [views:index] [INFO]- 缓存中的key为：1025a5e81b6311ebb3105800e3fb0696----浏览器中的key为:1025a5e81b6311ebb3105800e3fb0696
+[2020-10-31 18:59:41,273] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 18:59:48,091] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /novels/search HTTP/1.1" 200 7719
+[2020-10-31 18:59:56,174] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8706
+[2020-10-31 18:59:58,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/category_show/1 HTTP/1.1" 200 9198
+[2020-10-31 19:00:00,966] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12121456 HTTP/1.1" 200 8523
+[2020-10-31 19:00:06,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12121456 HTTP/1.1" 200 8523
+[2020-10-31 19:00:14,870] [views.py:25] [views:index] [INFO]- 缓存中的key为：1025a5e81b6311ebb3105800e3fb0696----浏览器中的key为:1025a5e81b6311ebb3105800e3fb0696
+[2020-10-31 19:00:14,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 19:00:17,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8977
+[2020-10-31 19:00:18,942] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/333333 HTTP/1.1" 200 13851
+[2020-10-31 19:00:26,318] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8706
+[2020-10-31 19:00:27,531] [views.py:25] [views:index] [INFO]- 缓存中的key为：1025a5e81b6311ebb3105800e3fb0696----浏览器中的key为:1025a5e81b6311ebb3105800e3fb0696
+[2020-10-31 19:00:27,598] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 18298
+[2020-10-31 19:00:29,779] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 8616
+[2020-10-31 19:01:28,840] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 8610

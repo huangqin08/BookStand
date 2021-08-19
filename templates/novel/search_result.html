@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}
+    搜索结果页
+{% endblock %}
+{% block content %}
+    <table class="grid" width="80%" align="center">
+        <tbody>
+        <tr align="center">
+            <th width="21%">文章名称</th>
+            <th width="30%">最新章节</th>
+            <th width="7%">作者</th>
+            <th width="7%">更新时间</th>
+        </tr>
+        {% if novels_list %}
+            {% for novel in novels_list %}
+                <tr align="center">
+                    <td>
+                        <a href="#" target="_blank">{{ novel.name }}</a>
+                    </td>
+                    <td>
+                        <span><a href="#" target="_blank">第三百一十二章 一个传说（大结局）</a></span>
+                    </td>
+                    <td class="nowrap">{{ novel.author }}</td>
+                    <td>{{ novel.add_time }}</td>
+                </tr>
+            {% endfor %}
+        {% else %}
+            <p style="color: #ff461f">{{ msg }}</p>
+        {% endif %}
+        </tbody>
+    </table>
+{% endblock %}

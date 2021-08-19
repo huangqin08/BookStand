@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block title %}
+    添加小说页
+{% endblock %}
+{% block content %}
+    <form enctype="multipart/form-data" action="{% url 'novels:author_edit' %}" method="post" id="novels_form"
+          novalidate="">
+        {% csrf_token %}
+        <div>
+            <fieldset class="module aligned ">
+                <div class="form-row field-type">
+                    <div>
+                        <label class="required" for="id_type">小说类别:</label>
+                        <select name="type" required="" id="id_type">
+                            <option value="" selected="">---------</option>
+                            {% for type in types %}
+                                <option value="{{ type.id }}">{{ type.typename }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row field-name">
+                    <div>
+                        <label class="required" for="id_name">小说书名:</label>
+                        <input type="text" name="name" class="vTextField" maxlength="20" required="" id="id_name">
+                    </div>
+                </div>
+                <div class="form-row field-title">
+                    <div>
+                        <label class="required" for="id_title">小说标题:</label>
+                        <input type="text" name="title" class="vTextField" maxlength="50" required="" id="id_title">
+                    </div>
+                </div>
+                <div class="form-row field-desc">
+                    <div>
+                        <label class="required" for="id_desc">概述:</label>
+                        <textarea name="desc" cols="40" rows="10" class="vLargeTextField" required=""
+                                  id="id_desc"></textarea>
+                    </div>
+                </div>
+                <div class="form-row field-author">
+                    <div>
+                        <label class="required" for="id_author">作者:</label>
+                        <input type="text" name="author" class="vTextField" maxlength="20" required="" id="id_author">
+                    </div>
+                </div>
+                <div class="form-row field-image">
+                    <div>
+                        <label class="required" for="id_image">小说图片:</label>
+                        <input type="file" name="image" required="" id="id_image">
+                    </div>
+                </div>
+                <div class="form-row field-status">
+                </div>
+            </fieldset>
+            <div class="submit-row">
+                <input type="submit" value="保存" class="default" name="_save">
+            </div>
+        </div>
+    </form>
+{% endblock %}
+{% block search %}
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}
+    用户登录
+{% endblock %}
+{% block navigation %}
+{% endblock %}
+{% block content %}
+    <form action="{% url 'user:login' %}" id="form1" class="well"
+          style="width: 30em; margin: auto; margin-top: 100px;" method="post">
+        {% csrf_token %}
+        <h3>用户登录</h3>
+        <div class=" input-group input-group-md">
+              <span class="input-group-addon" id="sizing-addon1"><i
+                  class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+            <input id="userName" name="userName" type="text" class="form-control" placeholder="用户名"
+                   aria-describedby="sizing-addon1" value="{{ username }}"/>
+        </div>
+        <br/>
+        <div class="input-group input-group-md">
+              <span class="input-group-addon" id="sizing-addon1"><i
+                  class="glyphicon glyphicon-lock"></i></span>
+            <input type="password" id="password" name="password" class="form-control" placeholder="密码"
+                   aria-describedby="sizing-addon1"/>
+        </div>
+        <br/>
+        <div class=" input-group input-group-md">
+              <span class="input-group-addon" id="sizing-addon1"><i
+                  class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+            <input id="code" name="code" type="text" class="form-control" placeholder="验证码"
+                   aria-describedby="sizing-addon1" style="width: 200px; margin: auto;"/>
+            &nbsp&nbsp&nbsp&nbsp&nbsp<img src="{% url 'user:draw' %}" alt="" id="pic">
+        </div>
+        <br/>
+        <p style="color: #ff461f">{{ msg }}</p>
+        <div class="well well-sm" style="text-align: center;">
+            <input type="checkbox" name="rem_name"/> 记住用户名
+            <a href="{% url 'user:find_pwd' %}">忘记密码</a>
+        </div>
+        <button type="submit" class="btn btn-success btn-block">登录</button>
+        <a class="btn btn-sm btn-white btn-block" style="text-align: right;" th:href="@{register}"
+           href="{% url 'user:register' %}"><h6>还没有账户？前往注册</h6></a>
+    </form>
+{% endblock %}
+{% block myjs %}
+    <script>
+        $('#pic').click(function () {
+            path = '{% url 'user:draw' %}?ran=' + Math.random();
+            $(this).attr('src', path)
+        });
+    </script>
+{% endblock %}
+{% block search %}
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %}
+    修改密码
+{% endblock %}
+{% block navigation %}
+{% endblock %}
+{% block content %}
+    <form action="{% url 'user:modify_pwd' %}" id="form1" class="well"
+          style="width: 30em; margin: auto; margin-top: 150px;" method="post">
+        {% csrf_token %}
+        <h3>修改密码</h3>
+        <div class=" input-group input-group-md">
+              <span class="input-group-addon" id="sizing-addon1"><i
+                  class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+            <input id="password" name="password" type="password" class="form-control" placeholder="输入新密码"
+                   aria-describedby="sizing-addon1"/>
+        </div>
+        <br/>
+        <div class="input-group input-group-md">
+              <span class="input-group-addon" id="sizing-addon1"><i
+                  class="glyphicon glyphicon-lock"></i></span> <input type="password"
+                                                                      id="repassword" name="repassword"
+                                                                      class="form-control" placeholder="输入确认密码"
+                                                                      aria-describedby="sizing-addon1"/>
+        </div>
+        <input type="hidden" name="token" value="{{token}}">
+        <br/>
+
+        <button type="submit" class="btn btn-success btn-block">修改密码</button>
+    </form>
+{% endblock %}
+{% block search %}
+{% endblock %}

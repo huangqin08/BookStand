@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %}
+    小说章节详情页
+{% endblock %}
+{% block content %}
+    <div class="box_con">
+        <div class="con_top">
+            <div id="bdshare" class="bdshare_b" style="line-height: 12px;"></div>
+            <a href="/">琴香书阁库</a> &gt; {{ novel.type.typename }}小说 &gt; {{ novel.novel_name }}最新章节列表
+        </div>
+        <div id="maininfo">
+            <div id="info">
+                <h1>{{ novel.novel_name }}</h1>
+                <p>作&nbsp;&nbsp;&nbsp;&nbsp;者：{{ novel.author }}</p>
+                <p>动&nbsp;&nbsp;&nbsp;&nbsp;作：<a href="#" id="add_bookrack">加入书架</a>,
+                    <a href="#" id="novel_hit">{{ hits_novel | default:'点赞' }}</a>,
+                    <a href="#footer">直达底部</a></p>
+                <p>更新时间：{{ novel.update_time }}</p>
+                <p>最新章节：<a href="#" target="_blank">{{ new_chapter | default:'暂无更新'}}</a></p>
+            </div>
+            <div id="intro">
+                <p> 小说概述：{{ novel.desc }}</p>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div id="fmimg"><img alt="{{ novel.name }}" src="{{ MEDIA_URL }}{{ novel.image }}" width="120" height="150"
+                                 onerror="src=''{{ MEDIA_URL }}/novels/nocover.jpg"><span class="b"></span></div>
+        </div>
+        <div id="listtj">&nbsp;推荐阅读：
+            {% for novel in new_novels %}
+                <a href="{% url 'novels:detail' novel.uid %}" target="_blank">{{ novel.novel_name }}</a>、
+            {% endfor %}
+        </div>
+    </div>
+    <div class="box_con">
+        <div id="list">
+            {% for chapter in novel.chapter_set.all %}
+                <dl>
+                    <dd><a href="{% url 'novels:novelbody' chapter.uid %}">   {{ chapter.chaptername }}</a></dd>
+                </dl>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+{% block myjs %}
+    <script>
+        //加入书架
+        $("#add_bookrack").click(function () {
+            $.getJSON("{% url 'novels:add_bookrack' %}", {novelUid:{{novel.uid}}},
+                function (data) {
+                    if (data.status == '400') {
+                        location.href = "{% url 'user:login' %}"
+                    } else if (data.status == '200') {
+                        alert('加入书架成功')
+                    } else if (data.status == '402') {
+                        alert('已加入书架')
+                    }
+                })
+        });
+        //点赞
+        $("#novel_hit").click(function () {
+            $.getJSON("{% url 'novels:novel_hits' %}", {novelUid:{{novel.uid}}},
+                function (data) {
+                    if (data.status == '400') {
+                        location.href = "{% url 'user:login' %}"
+                    } else if (data.status == '200') {
+                        $("#novel_hit").text("已点赞")
+                    } else if (data.status == '402') {
+                        $("#novel_hit").text("点赞")
+                    }
+                    else{
+                        alert('点赞失败')
+                    }
+                })
+        })
+    </script>
+{% endblock %}

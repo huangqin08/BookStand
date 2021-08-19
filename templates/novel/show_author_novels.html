@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}
+    作者小说展示页面
+{% endblock %}
+{% block content %}
+    <div id="main">
+        <table class="grid" width="80%" align="center" border="1px">
+            <tbody>
+            <tr align="center">
+                <th width="5%">类别</th>
+                <th width="17%">文章名称</th>
+                <th width="30%">文章概述</th>
+                <th width="7%">作者</th>
+                <th width="7%">状态</th>
+                <th width="13%">封面图片</th>
+                <th width="10%">添加时间</th>
+                <th width="10%">操作</th>
+            </tr>
+            {% for novel in novels %}
+                <tr align="center">
+                    <td>
+                        <span>{{ novel.type.typename }}</span>
+                    </td>
+                    <td>
+                        <a href="{% url 'novels:detail' novel.uid %}">{{ novel.novel_name }}</a>
+                    </td>
+                    <td>
+                        <span>{{ novel.desc }}</span>
+                    </td>
+                    <td>
+                        <span>{{ novel.author }}</span>
+                    </td>
+                    <td>
+                        <span>{{ novel.get_status_display}}</span>
+                    </td>
+                    <td>
+                        <img src="{{ novel.image }}" alt="" style="width: 30px;height: 40px
+">
+                    </td>
+                    <td>{{ novel.add_time }}</td>
+                    <td class="nowrap">
+                        <a href="javascript:if(confirm('确实要将本书删除么？')) document.location='{% url 'novels:author_delete_novel' novel.uid %}';"
+                           id="del">删除</a>
+                        <a href="{% url 'novels:author_add_capther' novel.uid %}" id="add">新增章节</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+{% block search %}
+{% endblock %}

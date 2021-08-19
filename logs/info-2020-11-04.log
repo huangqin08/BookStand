@@ -1,0 +1,180 @@
+[2020-11-04 09:13:53,477] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 09:13:53,580] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2555
+[2020-11-04 09:13:53,716] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-11-04 09:13:53,718] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2191
+[2020-11-04 09:13:58,266] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5838
+[2020-11-04 09:14:06,849] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 09:14:06,890] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2923
+[2020-11-04 09:33:33,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 09:33:33,602] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2596
+[2020-11-04 09:33:34,974] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5985
+[2020-11-04 09:34:19,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5985
+[2020-11-04 12:27:49,466] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:27:55,153] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:27:56,096] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:27:56,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:27:57,652] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:27:58,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:27:58,431] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:27:59,666] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:31:02,426] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/send_code?phone=15810868968 HTTP/1.1" 200 53
+[2020-11-04 12:31:05,098] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/send_code?phone=15810868968 HTTP/1.1" 200 53
+[2020-11-04 12:31:35,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/send_code?phone=18601981564 HTTP/1.1" 200 53
+[2020-11-04 12:37:59,223] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:38:41,181] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 12:38:49,436] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/send_code?phone=15810868968 HTTP/1.1" 200 53
+[2020-11-04 13:12:54,497] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 13:13:12,929] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/register HTTP/1.1" 200 6211
+[2020-11-04 13:13:44,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/register HTTP/1.1" 200 12
+[2020-11-04 13:14:21,349] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/register HTTP/1.1" 200 12
+[2020-11-04 13:17:40,388] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-04 13:17:40,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 13:17:40,436] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2492
+[2020-11-04 13:17:42,404] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5986
+[2020-11-04 13:17:46,173] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 13:17:46,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2774
+[2020-11-04 13:18:06,158] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-04 13:18:06,172] [views.py:26] [views:index] [INFO]- 缓存中的key为：12d5c5ec1e5d11eb9ed85800e3fb0696----浏览器中的key为:12d5c5ec1e5d11eb9ed85800e3fb0696
+[2020-11-04 13:18:06,418] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 21632
+[2020-11-04 13:18:06,463] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,474] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l_Cb48EuQ.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,476] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_Nbhv7zS.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,486] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_8LDT5UV.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,491] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_wIyACGh.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,494] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l_uTwIBrp.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,495] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_VzPsWar.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,499] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/111s.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:06,501] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/8797s_aLIY1WH.jpg HTTP/1.1" 304 0
+[2020-11-04 13:18:10,708] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9333
+[2020-11-04 13:18:12,558] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9333
+[2020-11-04 13:18:13,880] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/logout HTTP/1.1" 302 0
+[2020-11-04 13:18:13,890] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 13:18:13,923] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2914
+[2020-11-04 13:18:25,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-04 13:18:25,479] [views.py:26] [views:index] [INFO]- 缓存中的key为：235b344c1e5d11eb86d35800e3fb0696----浏览器中的key为:235b344c1e5d11eb86d35800e3fb0696
+[2020-11-04 13:18:25,564] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 21388
+[2020-11-04 13:59:53,679] [views.py:26] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:235b344c1e5d11eb86d35800e3fb0696
+[2020-11-04 13:59:53,689] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-11-04 13:59:53,698] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 13:59:53,729] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 3000
+[2020-11-04 14:49:36,340] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2020-11-04 14:49:36,385] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2020-11-04 14:49:42,681] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1989
+[2020-11-04 14:49:46,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-11-04 14:49:46,641] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8583
+[2020-11-04 14:50:55,418] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 7366
+[2020-11-04 14:50:55,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-04 14:50:58,046] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/add/ HTTP/1.1" 200 9171
+[2020-11-04 14:50:58,079] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-04 15:48:23,380] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /user/login
+[2020-11-04 15:48:23,391] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /user/login HTTP/1.1" 403 2508
+[2020-11-04 15:48:56,192] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /user/login
+[2020-11-04 15:48:56,194] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /user/login HTTP/1.1" 403 2508
+[2020-11-04 15:48:58,942] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /user/login
+[2020-11-04 15:48:58,943] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /user/login HTTP/1.1" 403 2508
+[2020-11-04 15:49:28,512] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /user/login
+[2020-11-04 15:49:28,514] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /user/login HTTP/1.1" 403 2508
+[2020-11-04 15:49:31,603] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /user/login
+[2020-11-04 15:49:31,606] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /user/login HTTP/1.1" 403 2508
+[2020-11-04 15:50:12,682] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /user/login
+[2020-11-04 15:50:12,684] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /user/login HTTP/1.1" 403 2508
+[2020-11-04 15:50:13,804] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-11-04 15:50:13,860] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2784
+[2020-11-04 15:50:18,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.6010565638205916 HTTP/1.1" 200 2480
+[2020-11-04 15:50:23,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-11-04 15:50:23,425] [views.py:26] [views:index] [INFO]- 缓存中的key为：5f3f8f341e7211ebade25800e3fb0696----浏览器中的key为:5f3f8f341e7211ebade25800e3fb0696
+[2020-11-04 15:50:23,608] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 21632
+[2020-11-04 15:50:25,594] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9333
+[2020-11-04 15:50:57,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/all_novels HTTP/1.1" 200 9334
+[2020-11-04 15:50:59,002] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 12259
+[2020-11-04 15:51:04,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novelstype/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4609
+[2020-11-04 15:51:04,094] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-11-04 15:53:42,023] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10494
+[2020-11-04 16:01:29,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 12269
+[2020-11-04 16:25:28,121] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/author_edit
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 475, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 266, in author_edit
+    return render(request,'novel/author_edit.html',locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 477, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 533, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 71: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[2020-11-04 16:25:28,296] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/author_edit HTTP/1.1" 500 174631
+[2020-11-04 16:25:55,516] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 11034
+[2020-11-04 16:25:55,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 391215
+[2020-11-04 16:25:55,638] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1732
+[2020-11-04 16:26:38,733] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10538
+[2020-11-04 16:26:38,812] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1732
+[2020-11-04 16:27:05,087] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10538
+[2020-11-04 16:27:05,108] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2020-11-04 16:27:05,165] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1732
+[2020-11-04 16:34:19,052] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10764
+[2020-11-04 16:34:19,071] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2020-11-04 16:34:19,170] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1732
+[2020-11-04 16:34:20,039] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10764
+[2020-11-04 16:34:20,113] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/tinymce/themes/advanced/theme.min.js HTTP/1.1" 404 1732
+[2020-11-04 16:36:03,882] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10529
+[2020-11-04 16:37:29,992] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:31,689] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:32,339] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:32,591] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:32,807] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:33,310] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:33,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:34,154] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10704
+[2020-11-04 16:37:45,297] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10529
+[2020-11-04 16:38:38,235] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10290
+[2020-11-04 16:38:39,357] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10290
+[2020-11-04 16:39:14,522] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10200
+[2020-11-04 16:39:32,542] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-04 16:39:33,155] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-04 16:39:33,383] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-04 16:39:33,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-04 16:39:33,762] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-04 16:39:34,254] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-04 16:39:34,468] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062
+[2020-11-04 16:39:34,654] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/author_edit HTTP/1.1" 200 10062

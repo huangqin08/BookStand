@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+    小说文本发布页
+{% endblock %}
+{% block myjs %}
+    <script src="{% static 'js/tinymce/tinymce.min.js' %}"></script>
+    <script>
+        tinyMCE.init({
+            'mode': 'textareas',
+            'theme': 'silver',
+            'width': 600,
+            'height': 400
+        });
+    </script>
+{% endblock %}
+{% block content %}
+    <form action="{% url 'novels:author_add_capther' novel.uid %}" method="post">
+        {% csrf_token %}
+        <p>
+            章节名称：<input type="text" name="chaptername" placeholder="输入章节名">
+        </p>
+        <p>
+            内容：<textarea name="content"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="发表">
+        </p>
+    </form>
+{% endblock %}
+{% block search %}
+{% endblock %}

@@ -1,0 +1,1760 @@
+[2020-10-26 13:40:01,330] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 13:40:01,421] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2419
+[2020-10-26 13:40:02,296] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-10-26 13:40:02,297] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2191
+[2020-10-26 13:40:11,505] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 13:40:11,521] [views.py:25] [views:index] [INFO]- 缓存中的key为：b0eedf46174d11eba33c5800e3fb0696----浏览器中的key为:b0eedf46174d11eba33c5800e3fb0696
+[2020-10-26 13:40:14,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 15865
+[2020-10-26 13:40:14,946] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 200 335654
+[2020-10-26 13:40:14,975] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 200 335654
+[2020-10-26 13:40:14,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 200 335654
+[2020-10-26 13:40:15,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 200 138618
+[2020-10-26 13:40:15,019] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 200 161173
+[2020-10-26 13:40:15,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 200 356232
+[2020-10-26 13:40:15,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/111s.jpg HTTP/1.1" 200 13525
+[2020-10-26 13:40:15,036] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 200 15649
+[2020-10-26 13:40:41,360] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novelbody
+[2020-10-26 13:40:41,360] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novelbody?1121212 HTTP/1.1" 404 3022
+[2020-10-26 13:40:45,782] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novelbody
+[2020-10-26 13:40:45,783] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novelbody HTTP/1.1" 404 3014
+[2020-10-26 13:46:00,841] [base.py:93] [base:get_response] [WARNING]- Not Found: /novels/novelbody
+[2020-10-26 13:46:00,842] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /novels/novelbody?1121212 HTTP/1.1" 404 3022
+[2020-10-26 13:46:12,713] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/212121122 HTTP/1.1" 200 7513
+[2020-10-26 13:46:12,730] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57840l_RiIsmEx.jpg HTTP/1.1" 304 0
+[2020-10-26 13:46:31,876] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/1121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 80, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\1121212.txt'
+[2020-10-26 13:46:31,956] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/1121212 HTTP/1.1" 500 72699
+[2020-10-26 13:47:04,398] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/1121212 HTTP/1.1" 200 13522
+[2020-10-26 13:50:17,217] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/212121122 HTTP/1.1" 200 7513
+[2020-10-26 13:52:14,162] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/212121122
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 13:52:14,341] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/212121122 HTTP/1.1" 500 172297
+[2020-10-26 13:52:16,776] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/212121122
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 13:52:16,875] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/212121122 HTTP/1.1" 500 172297
+[2020-10-26 13:52:37,495] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/212121122 HTTP/1.1" 200 7618
+[2020-10-26 13:52:41,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/1121212 HTTP/1.1" 200 13531
+[2020-10-26 13:52:47,460] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/1121212 HTTP/1.1" 200 13531
+[2020-10-26 13:52:58,827] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/212121122 HTTP/1.1" 200 7618
+[2020-10-26 14:23:56,702] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:b0eedf46174d11eba33c5800e3fb0696
+[2020-10-26 14:23:56,716] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 14:23:56,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 14:23:56,771] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2468
+[2020-10-26 14:24:02,953] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.9345750773460417 HTTP/1.1" 200 2536
+[2020-10-26 14:24:06,156] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.5751167361271103 HTTP/1.1" 200 2621
+[2020-10-26 14:24:07,696] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.8152789682148338 HTTP/1.1" 200 2659
+[2020-10-26 14:24:12,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 14:24:12,219] [views.py:25] [views:index] [INFO]- 缓存中的key为：d3c1e200175311eba2bd5800e3fb0696----浏览器中的key为:d3c1e200175311eba2bd5800e3fb0696
+[2020-10-26 14:24:12,256] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 12417
+[2020-10-26 15:18:27,065] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:d3c1e200175311eba2bd5800e3fb0696
+[2020-10-26 15:18:27,080] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 15:18:27,096] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:18:27,130] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2560
+[2020-10-26 15:18:34,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 15:18:34,963] [views.py:25] [views:index] [INFO]- 缓存中的key为：710b5476175b11eba4665800e3fb0696----浏览器中的key为:710b5476175b11eba4665800e3fb0696
+[2020-10-26 15:18:34,996] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 47, in index
+    return render(request, 'novel/index.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-10-26 15:18:35,232] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 203518
+[2020-10-26 15:23:23,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:23:24,010] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2633
+[2020-10-26 15:23:24,332] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:23:31,810] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4337
+[2020-10-26 15:23:31,842] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2579
+[2020-10-26 15:23:40,699] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 15:23:40,714] [views.py:25] [views:index] [INFO]- 缓存中的key为：223605fa175c11ebadfa5800e3fb0696----浏览器中的key为:223605fa175c11ebadfa5800e3fb0696
+[2020-10-26 15:23:40,744] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 47, in index
+    return render(request, 'novel/index.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-10-26 15:23:40,944] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 197717
+[2020-10-26 15:28:17,005] [views.py:25] [views:index] [INFO]- 缓存中的key为：223605fa175c11ebadfa5800e3fb0696----浏览器中的key为:223605fa175c11ebadfa5800e3fb0696
+[2020-10-26 15:28:17,050] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 47, in index
+    return render(request, 'novel/index.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-10-26 15:28:17,250] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 197713
+[2020-10-26 15:30:34,370] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:223605fa175c11ebadfa5800e3fb0696
+[2020-10-26 15:30:34,386] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 15:30:34,402] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:30:34,437] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2713
+[2020-10-26 15:30:43,586] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4325
+[2020-10-26 15:30:43,621] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2487
+[2020-10-26 15:30:49,546] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.32241960782617896 HTTP/1.1" 200 2633
+[2020-10-26 15:30:55,667] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4337
+[2020-10-26 15:30:55,709] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2841
+[2020-10-26 15:31:05,001] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 15:31:05,014] [views.py:25] [views:index] [INFO]- 缓存中的key为：228d8174175d11ebaf235800e3fb0696----浏览器中的key为:228d8174175d11ebaf235800e3fb0696
+[2020-10-26 15:31:05,041] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 48, in index
+    return render(request, 'novel/index.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-10-26 15:31:05,270] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 200298
+[2020-10-26 15:33:01,583] [views.py:25] [views:index] [INFO]- 缓存中的key为：228d8174175d11ebaf235800e3fb0696----浏览器中的key为:228d8174175d11ebaf235800e3fb0696
+[2020-10-26 15:33:01,631] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 49, in index
+    return render(request, 'novel/index.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-10-26 15:33:01,861] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 200299
+[2020-10-26 15:33:11,149] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.5933342350399515 HTTP/1.1" 200 2530
+[2020-10-26 15:33:15,699] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 15:33:15,714] [views.py:25] [views:index] [INFO]- 缓存中的key为：228d8174175d11ebaf235800e3fb0696----浏览器中的key为:228d8174175d11ebaf235800e3fb0696
+[2020-10-26 15:33:15,740] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 49, in index
+    return render(request, 'novel/index.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-10-26 15:33:15,872] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 200300
+[2020-10-26 15:34:49,751] [views.py:25] [views:index] [INFO]- 缓存中的key为：228d8174175d11ebaf235800e3fb0696----浏览器中的key为:228d8174175d11ebaf235800e3fb0696
+[2020-10-26 15:34:49,752] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 41, in index
+    update_novels=update_chapter.all().order_by('-add_time')[:10]
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 1012, in order_by
+    "Cannot reorder a query once a slice has been taken."
+AssertionError: Cannot reorder a query once a slice has been taken.
+[2020-10-26 15:34:49,893] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 78504
+[2020-10-26 15:34:52,501] [views.py:25] [views:index] [INFO]- 缓存中的key为：228d8174175d11ebaf235800e3fb0696----浏览器中的key为:228d8174175d11ebaf235800e3fb0696
+[2020-10-26 15:34:52,502] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 41, in index
+    update_novels=update_chapter.all().order_by('-add_time')[:10]
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 1012, in order_by
+    "Cannot reorder a query once a slice has been taken."
+AssertionError: Cannot reorder a query once a slice has been taken.
+[2020-10-26 15:34:52,546] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 78503
+[2020-10-26 15:34:55,791] [views.py:25] [views:index] [INFO]- 缓存中的key为：228d8174175d11ebaf235800e3fb0696----浏览器中的key为:228d8174175d11ebaf235800e3fb0696
+[2020-10-26 15:34:55,792] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 41, in index
+    update_novels=update_chapter.all().order_by('-add_time')[:10]
+  File "D:\Envs\Django2020\lib\site-packages\django\db\models\query.py", line 1012, in order_by
+    "Cannot reorder a query once a slice has been taken."
+AssertionError: Cannot reorder a query once a slice has been taken.
+[2020-10-26 15:34:55,838] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 78504
+[2020-10-26 15:39:37,625] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:228d8174175d11ebaf235800e3fb0696
+[2020-10-26 15:39:37,641] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 15:39:37,656] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:39:37,691] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2983
+[2020-10-26 15:39:46,753] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 15:39:46,768] [views.py:25] [views:index] [INFO]- 缓存中的key为：665b5674175e11ebb7805800e3fb0696----浏览器中的key为:665b5674175e11ebb7805800e3fb0696
+[2020-10-26 15:39:46,794] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 49, in index
+    return render(request, 'novel/index.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['novels\\/detail\\/(?P<gid>[0-9]+)$']
+[2020-10-26 15:39:46,989] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 196899
+[2020-10-26 15:40:11,662] [views.py:25] [views:index] [INFO]- 缓存中的key为：665b5674175e11ebb7805800e3fb0696----浏览器中的key为:665b5674175e11ebb7805800e3fb0696
+[2020-10-26 15:40:11,663] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 44, in index
+    # print(update_chapter)
+NameError: name 'update_chapter' is not defined
+[2020-10-26 15:40:11,803] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 74291
+[2020-10-26 15:40:25,696] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:40:25,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2649
+[2020-10-26 15:40:31,484] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.12120060381547892 HTTP/1.1" 200 2351
+[2020-10-26 15:40:36,226] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 15:40:36,243] [views.py:25] [views:index] [INFO]- 缓存中的key为：82fd8e34175e11eba0fa5800e3fb0696----浏览器中的key为:82fd8e34175e11eba0fa5800e3fb0696
+[2020-10-26 15:40:36,243] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/index
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 44, in index
+    # print(update_chapter)
+NameError: name 'update_chapter' is not defined
+[2020-10-26 15:40:36,287] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/index HTTP/1.1" 500 74291
+[2020-10-26 15:41:18,729] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:41:18,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2314
+[2020-10-26 15:41:25,955] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 15:41:25,971] [views.py:25] [views:index] [INFO]- 缓存中的key为：a299ef08175e11eb99f85800e3fb0696----浏览器中的key为:a299ef08175e11eb99f85800e3fb0696
+[2020-10-26 15:41:26,110] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 15865
+[2020-10-26 15:41:29,324] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7191
+[2020-10-26 15:41:29,342] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l.jpg HTTP/1.1" 304 0
+[2020-10-26 15:41:32,171] [base.py:93] [base:get_response] [WARNING]- Not Found: /0/65/
+[2020-10-26 15:41:32,172] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /0/65/ HTTP/1.1" 404 2173
+[2020-10-26 15:43:01,652] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7204
+[2020-10-26 15:43:03,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7204
+[2020-10-26 15:43:05,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7204
+[2020-10-26 15:43:05,722] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7204
+[2020-10-26 15:43:12,988] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/212121122 HTTP/1.1" 200 7636
+[2020-10-26 15:43:17,075] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/212121122 HTTP/1.1" 200 7636
+[2020-10-26 15:43:25,873] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/1121212 HTTP/1.1" 200 13531
+[2020-10-26 15:43:28,858] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/232321111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 80, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\232321111.txt'
+[2020-10-26 15:43:28,904] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/232321111 HTTP/1.1" 500 72908
+[2020-10-26 15:43:44,259] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/232321111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 80, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\232321111.txt'
+[2020-10-26 15:43:44,297] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/232321111 HTTP/1.1" 500 72907
+[2020-10-26 15:44:32,933] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-10-26 15:44:32,934] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2140
+[2020-10-26 15:58:13,219] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:a299ef08175e11eb99f85800e3fb0696
+[2020-10-26 15:58:13,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 15:58:13,241] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4223
+[2020-10-26 15:58:13,276] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2761
+[2020-10-26 16:17:22,629] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 7235
+[2020-10-26 16:17:22,691] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2926
+[2020-10-26 16:17:41,800] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 16:17:41,848] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2506
+[2020-10-26 16:17:42,648] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 16:17:42,688] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2748
+[2020-10-26 16:17:42,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 16:17:42,910] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2640
+[2020-10-26 16:18:54,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 16:18:54,342] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2532
+[2020-10-26 16:18:55,414] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 16:18:55,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2493
+[2020-10-26 16:18:56,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 5815
+[2020-10-26 16:18:59,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 16:18:59,637] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2667
+[2020-10-26 16:19:01,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/find_pwd HTTP/1.1" 200 3443
+[2020-10-26 16:19:04,285] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 16:19:04,325] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2672
+[2020-10-26 16:19:10,602] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.42136750635947307 HTTP/1.1" 200 2658
+[2020-10-26 16:19:15,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 16:19:15,727] [views.py:25] [views:index] [INFO]- 缓存中的key为：e8fa48d2176311ebb2e85800e3fb0696----浏览器中的key为:e8fa48d2176311ebb2e85800e3fb0696
+[2020-10-26 16:19:15,788] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 16:19:24,412] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 16:19:24,510] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 186211
+[2020-10-26 16:19:28,848] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 10216
+[2020-10-26 16:20:08,928] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7205
+[2020-10-26 16:21:43,394] [views.py:25] [views:index] [INFO]- 缓存中的key为：e8fa48d2176311ebb2e85800e3fb0696----浏览器中的key为:e8fa48d2176311ebb2e85800e3fb0696
+[2020-10-26 16:21:43,458] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 16:21:44,767] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 16:21:44,863] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183603
+[2020-10-26 16:22:35,869] [views.py:25] [views:index] [INFO]- 缓存中的key为：e8fa48d2176311ebb2e85800e3fb0696----浏览器中的key为:e8fa48d2176311ebb2e85800e3fb0696
+[2020-10-26 16:22:35,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 16:22:36,519] [views.py:25] [views:index] [INFO]- 缓存中的key为：e8fa48d2176311ebb2e85800e3fb0696----浏览器中的key为:e8fa48d2176311ebb2e85800e3fb0696
+[2020-10-26 16:22:36,580] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 16:22:36,747] [views.py:25] [views:index] [INFO]- 缓存中的key为：e8fa48d2176311ebb2e85800e3fb0696----浏览器中的key为:e8fa48d2176311ebb2e85800e3fb0696
+[2020-10-26 16:22:36,806] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 16:22:36,960] [views.py:25] [views:index] [INFO]- 缓存中的key为：e8fa48d2176311ebb2e85800e3fb0696----浏览器中的key为:e8fa48d2176311ebb2e85800e3fb0696
+[2020-10-26 16:22:37,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 17:35:08,431] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:35:08,634] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183602
+[2020-10-26 17:36:03,529] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:e8fa48d2176311ebb2e85800e3fb0696
+[2020-10-26 17:36:03,537] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 17:36:03,567] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 17:36:03,624] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2645
+[2020-10-26 17:36:17,650] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 17:36:17,665] [views.py:25] [views:index] [INFO]- 缓存中的key为：aa48c794176e11ebb2d35800e3fb0696----浏览器中的key为:aa48c794176e11ebb2d35800e3fb0696
+[2020-10-26 17:36:17,732] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 17:36:19,668] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:36:19,750] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183603
+[2020-10-26 17:38:34,422] [views.py:25] [views:index] [INFO]- 缓存中的key为：aa48c794176e11ebb2d35800e3fb0696----浏览器中的key为:aa48c794176e11ebb2d35800e3fb0696
+[2020-10-26 17:38:34,490] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 17:38:36,382] [views.py:25] [views:index] [INFO]- 缓存中的key为：aa48c794176e11ebb2d35800e3fb0696----浏览器中的key为:aa48c794176e11ebb2d35800e3fb0696
+[2020-10-26 17:38:36,446] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16524
+[2020-10-26 17:38:38,063] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:38:38,147] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183602
+[2020-10-26 17:40:37,019] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:40:37,091] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183584
+[2020-10-26 17:40:42,554] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7205
+[2020-10-26 17:40:56,464] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:40:56,541] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183449
+[2020-10-26 17:41:08,736] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7205
+[2020-10-26 17:42:03,209] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 17:42:05,766] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/44444444
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 80, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\44444444.txt'
+[2020-10-26 17:42:05,810] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/44444444 HTTP/1.1" 500 72880
+[2020-10-26 17:42:40,471] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 17:42:41,884] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/44444444 HTTP/1.1" 200 12548
+[2020-10-26 17:42:47,669] [base.py:93] [base:get_response] [WARNING]- Not Found: /0/111/
+[2020-10-26 17:42:47,670] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /0/111/ HTTP/1.1" 404 2176
+[2020-10-26 17:42:55,493] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:aa48c794176e11ebb2d35800e3fb0696
+[2020-10-26 17:42:55,502] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 17:42:55,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 17:42:55,545] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2524
+[2020-10-26 17:43:04,162] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.5465206445784043 HTTP/1.1" 200 2407
+[2020-10-26 17:43:10,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 17:43:10,979] [views.py:25] [views:index] [INFO]- 缓存中的key为：9fd28238176f11eba7c35800e3fb0696----浏览器中的key为:9fd28238176f11eba7c35800e3fb0696
+[2020-10-26 17:43:11,046] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16544
+[2020-10-26 17:43:13,556] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:43:13,627] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183603
+[2020-10-26 17:43:25,609] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2020-10-26 17:43:25,713] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2020-10-26 17:43:25,742] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2020-10-26 17:43:25,746] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2020-10-26 17:43:30,108] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-10-26 17:43:30,161] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8700
+[2020-10-26 17:43:30,180] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2020-10-26 17:43:30,191] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2020-10-26 17:43:30,192] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2020-10-26 17:43:33,178] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 6142
+[2020-10-26 17:43:33,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2020-10-26 17:43:33,220] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,223] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,224] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,231] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,231] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,239] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,244] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,253] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-10-26 17:43:33,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2020-10-26 17:43:33,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2020-10-26 17:43:36,323] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/121212121212/change/ HTTP/1.1" 200 9707
+[2020-10-26 17:43:36,371] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-10-26 17:43:50,910] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/novels/novels/121212121212/change/ HTTP/1.1" 302 0
+[2020-10-26 17:43:50,990] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 6557
+[2020-10-26 17:43:51,025] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-10-26 17:45:28,810] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/121212121212/change/ HTTP/1.1" 200 9707
+[2020-10-26 17:45:30,788] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 6380
+[2020-10-26 17:45:34,666] [views.py:25] [views:index] [INFO]- 缓存中的key为：9fd28238176f11eba7c35800e3fb0696----浏览器中的key为:9fd28238176f11eba7c35800e3fb0696
+[2020-10-26 17:45:34,732] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:45:38,005] [views.py:25] [views:index] [INFO]- 缓存中的key为：9fd28238176f11eba7c35800e3fb0696----浏览器中的key为:9fd28238176f11eba7c35800e3fb0696
+[2020-10-26 17:45:38,068] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:45:38,559] [views.py:25] [views:index] [INFO]- 缓存中的key为：9fd28238176f11eba7c35800e3fb0696----浏览器中的key为:9fd28238176f11eba7c35800e3fb0696
+[2020-10-26 17:45:38,622] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:45:38,805] [views.py:25] [views:index] [INFO]- 缓存中的key为：9fd28238176f11eba7c35800e3fb0696----浏览器中的key为:9fd28238176f11eba7c35800e3fb0696
+[2020-10-26 17:45:38,869] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:47:11,136] [views.py:25] [views:index] [INFO]- 缓存中的key为：9fd28238176f11eba7c35800e3fb0696----浏览器中的key为:9fd28238176f11eba7c35800e3fb0696
+[2020-10-26 17:47:11,202] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:47:12,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 17:47:12,633] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2705
+[2020-10-26 17:47:24,646] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 17:47:24,661] [views.py:25] [views:index] [INFO]- 缓存中的key为：390d75d4177011eb813a5800e3fb0696----浏览器中的key为:390d75d4177011eb813a5800e3fb0696
+[2020-10-26 17:47:24,724] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:47:42,789] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12121456 HTTP/1.1" 200 7279
+[2020-10-26 17:47:42,810] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l.jpg HTTP/1.1" 304 0
+[2020-10-26 17:47:49,266] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:47:49,346] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183648
+[2020-10-26 17:48:01,269] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/12121456 HTTP/1.1" 200 7279
+[2020-10-26 17:49:52,756] [views.py:25] [views:index] [INFO]- 缓存中的key为：390d75d4177011eb813a5800e3fb0696----浏览器中的key为:390d75d4177011eb813a5800e3fb0696
+[2020-10-26 17:49:55,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:50:10,247] [views.py:25] [views:index] [INFO]- 缓存中的key为：390d75d4177011eb813a5800e3fb0696----浏览器中的key为:390d75d4177011eb813a5800e3fb0696
+[2020-10-26 17:50:10,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:51:25,877] [views.py:25] [views:index] [INFO]- 缓存中的key为：390d75d4177011eb813a5800e3fb0696----浏览器中的key为:390d75d4177011eb813a5800e3fb0696
+[2020-10-26 17:51:25,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17122
+[2020-10-26 17:51:27,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7364
+[2020-10-26 17:51:30,026] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:51:30,111] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183648
+[2020-10-26 17:52:21,971] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:52:22,044] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183648
+[2020-10-26 17:52:25,352] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:52:25,427] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183648
+[2020-10-26 17:53:08,841] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/11111111/change/ HTTP/1.1" 200 9473
+[2020-10-26 17:53:08,876] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-10-26 17:53:52,155] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:390d75d4177011eb813a5800e3fb0696
+[2020-10-26 17:53:52,167] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 17:53:52,177] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 17:53:52,211] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2733
+[2020-10-26 17:54:02,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4327
+[2020-10-26 17:54:02,239] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2598
+[2020-10-26 17:54:10,278] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 17:54:10,291] [views.py:25] [views:index] [INFO]- 缓存中的key为：2739ab46177111ebb7e55800e3fb0696----浏览器中的key为:2739ab46177111ebb7e55800e3fb0696
+[2020-10-26 17:54:10,362] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17953
+[2020-10-26 17:54:14,841] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 7015
+[2020-10-26 17:54:14,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/8797s.jpg HTTP/1.1" 304 0
+[2020-10-26 17:54:23,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 17:54:27,543] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:54:27,623] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183656
+[2020-10-26 17:54:52,587] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:54:52,666] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183791
+[2020-10-26 17:54:54,154] [views.py:25] [views:index] [INFO]- 缓存中的key为：2739ab46177111ebb7e55800e3fb0696----浏览器中的key为:2739ab46177111ebb7e55800e3fb0696
+[2020-10-26 17:54:54,219] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 16847
+[2020-10-26 17:54:56,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 7015
+[2020-10-26 17:54:59,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 17:55:18,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 302 0
+[2020-10-26 17:55:18,180] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/novels/novels/ HTTP/1.1" 200 1885
+[2020-10-26 17:55:24,060] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/novels/novels/ HTTP/1.1" 302 0
+[2020-10-26 17:55:24,131] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/ HTTP/1.1" 200 6380
+[2020-10-26 17:55:24,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-10-26 17:55:27,193] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/novels/novels/121212121212/change/ HTTP/1.1" 200 9707
+[2020-10-26 17:55:27,234] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2020-10-26 17:55:52,525] [views.py:25] [views:index] [INFO]- 缓存中的key为：2739ab46177111ebb7e55800e3fb0696----浏览器中的key为:2739ab46177111ebb7e55800e3fb0696
+[2020-10-26 17:55:52,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17955
+[2020-10-26 17:55:52,627] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 200 138618
+[2020-10-26 17:55:55,468] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 73, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:55:55,549] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 183648
+[2020-10-26 17:56:58,467] [views.py:25] [views:index] [INFO]- 缓存中的key为：2739ab46177111ebb7e55800e3fb0696----浏览器中的key为:2739ab46177111ebb7e55800e3fb0696
+[2020-10-26 17:56:58,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17955
+[2020-10-26 17:57:03,800] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 75, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 17:57:03,898] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 185250
+[2020-10-26 18:04:03,905] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:2739ab46177111ebb7e55800e3fb0696
+[2020-10-26 18:04:03,916] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 18:04:03,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 18:04:03,970] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2547
+[2020-10-26 18:04:08,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.866371400368964 HTTP/1.1" 200 2696
+[2020-10-26 18:04:14,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4327
+[2020-10-26 18:04:14,099] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2580
+[2020-10-26 18:04:20,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.6625587480187545 HTTP/1.1" 200 2310
+[2020-10-26 18:04:25,362] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 18:04:25,377] [views.py:25] [views:index] [INFO]- 缓存中的key为：93db2448177211ebb26f5800e3fb0696----浏览器中的key为:93db2448177211ebb26f5800e3fb0696
+[2020-10-26 18:04:25,443] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17955
+[2020-10-26 18:04:27,777] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 7015
+[2020-10-26 18:04:30,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 18:04:32,792] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/44444444 HTTP/1.1" 200 12548
+[2020-10-26 18:04:35,772] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 75, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 18:04:35,883] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 185259
+[2020-10-26 18:05:20,560] [views.py:25] [views:index] [INFO]- 缓存中的key为：93db2448177211ebb26f5800e3fb0696----浏览器中的key为:93db2448177211ebb26f5800e3fb0696
+[2020-10-26 18:05:20,642] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17955
+[2020-10-26 18:05:22,276] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 7015
+[2020-10-26 18:05:25,021] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 18:05:28,247] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/detail/121212121212
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 75, in novel_detail
+    return render(request, 'novel/detail.html', locals())
+  File "D:\Envs\Django2020\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Envs\Django2020\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Envs\Django2020\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Envs\Django2020\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'novelbody' with arguments '('q111111',)' not found. 1 pattern(s) tried: ['novels\\/novelbody\\/(?P<uid>[0-9]+)$']
+[2020-10-26 18:05:28,328] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/detail/121212121212 HTTP/1.1" 500 185259
+[2020-10-26 18:06:34,183] [views.py:25] [views:index] [INFO]- 缓存中的key为：93db2448177211ebb26f5800e3fb0696----浏览器中的key为:93db2448177211ebb26f5800e3fb0696
+[2020-10-26 18:06:34,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17961
+[2020-10-26 18:06:36,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 18:06:38,825] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 7688
+[2020-10-26 18:06:42,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 7688
+[2020-10-26 18:06:46,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 7015
+[2020-10-26 18:06:48,321] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 18:06:51,170] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 7359
+[2020-10-26 18:06:55,531] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/11111111 HTTP/1.1" 200 7015
+[2020-10-26 18:07:45,979] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 7688
+[2020-10-26 18:07:48,836] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/111111 HTTP/1.1" 200 12462
+[2020-10-26 18:07:52,637] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/novelbody/232311111
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\xinxi\PycharmProjects\Qinxiangshuge\novels\views.py", line 82, in novel_body
+    with open(file_name, encoding='utf-8') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\novels\\232311111.txt'
+[2020-10-26 18:07:52,680] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/novelbody/232311111 HTTP/1.1" 500 74501
+[2020-10-26 18:08:11,210] [views.py:25] [views:index] [INFO]- 缓存中的key为：93db2448177211ebb26f5800e3fb0696----浏览器中的key为:93db2448177211ebb26f5800e3fb0696
+[2020-10-26 18:08:11,276] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17961
+[2020-10-26 18:18:15,229] [views.py:25] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:93db2448177211ebb26f5800e3fb0696
+[2020-10-26 18:18:15,245] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-26 18:18:15,260] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4225
+[2020-10-26 18:18:15,294] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2923
+[2020-10-26 18:18:23,723] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-26 18:18:23,739] [views.py:25] [views:index] [INFO]- 缓存中的key为：8f4a67c6177411eb9c575800e3fb0696----浏览器中的key为:8f4a67c6177411eb9c575800e3fb0696
+[2020-10-26 18:18:23,803] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17973
+[2020-10-26 18:18:25,239] [views.py:25] [views:index] [INFO]- 缓存中的key为：8f4a67c6177411eb9c575800e3fb0696----浏览器中的key为:8f4a67c6177411eb9c575800e3fb0696
+[2020-10-26 18:18:25,307] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17973
+[2020-10-26 18:18:25,920] [views.py:25] [views:index] [INFO]- 缓存中的key为：8f4a67c6177411eb9c575800e3fb0696----浏览器中的key为:8f4a67c6177411eb9c575800e3fb0696
+[2020-10-26 18:18:25,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17973
+[2020-10-26 18:18:26,509] [views.py:25] [views:index] [INFO]- 缓存中的key为：8f4a67c6177411eb9c575800e3fb0696----浏览器中的key为:8f4a67c6177411eb9c575800e3fb0696
+[2020-10-26 18:18:26,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17973

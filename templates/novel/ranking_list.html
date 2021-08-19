@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}
+    排行榜单
+{% endblock %}
+{% block content %}
+    <div class="MessageDiv">
+        <b>本栏目为本月内最受欢迎的 200 部网络小说 + 1500 部最新小说!</b>
+    </div>
+    <div id="main">
+        <div class="novellist">
+            <h2>小说推荐列表</h2>
+             {% for novel in indexnovels %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.novels.uid %}">{{ novel.novels.name }}</a>/{{ novel.novels.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+        <div class="novellist">
+            <h2>最近更新小说列表</h2>
+           {% for novel in update_novels %}
+                <ul>
+                    <li><a href="{% url 'novels:detail' novel.uid %}">{{ novel.name }}</a>/{{ novel.author }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+    </div>
+{% endblock %}

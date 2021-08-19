@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block title %}
+    小说章节详情页
+{% endblock %}
+{% block content %}
+    <div class="main">
+        <div id="centerl">
+            <div id="content">
+                <div id="main">
+                    <div id="hotcontent">
+                        <div class="listdht">
+                            <div class="listdht_top">
+                                <a href="{% url 'novels:index' %}">琴香书阁库</a> &gt; {{ type.typename }}小说 &gt; 列表
+                            </div>
+                        </div>
+                        <div class="ll">
+                            {% for novel in page_obj.object_list %}
+                                <div class="item">
+                                    <div class="image"><a href="{% url 'novels:detail' novel.uid %}">
+                                        <img src="{{ MEDIA_URL }}{{ novel.image }}" alt="{{ novel.name }}" width="120"
+                                             height="150"></a></div>
+                                    <dl>
+                                        <dt><span>作者：{{ novel.author }}</span>&nbsp&nbsp<a
+                                            href="{% url 'novels:detail' novel.uid %}">书名：{{ novel.name }}</a></dt>
+                                        <dd> {{ novel.title }}</dd>
+                                    </dl>
+                                    <div class="clear"></div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="pages" style="padding-top:5px">
+                        <div class="pagelink" id="pagelink">
+                            {% if page_obj.has_previous %}
+                                <a href="{% url 'novels:category_show' type.id %}?page={{ page_obj.previous_page_number }}"
+                                   class="pgroup">&lt;上一页</a>
+                            {% else %}
+                                <a href="{% url 'novels:category_show' type.id %}?page=1" class="pgroup">上一页</a>
+                            {% endif %}
+                            {% for i in page_obj.paginator.page_range %}
+                                <a href="{% url 'novels:category_show' type.id %}?page={{ i }}"
+                                    {% if page_obj.number == i %} style="font-weight:bolder" {% endif %}>{{ i }}</a>
+                            {% endfor %}
+                            {% if page_obj.has_next %}
+                                <a href="{% url 'novels:category_show' type.id %}?page={{ page_obj.next_page_number }}"
+                                   class="next">下一页&gt;</a>
+                            {% else %}
+                                <a href="{% url 'novels:category_show' type.id %}?page={{ page_obj.paginator.num_pages }}"
+                                   class="next">下一页</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

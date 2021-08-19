@@ -1,0 +1,196 @@
+[2020-10-19 10:15:06,290] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 10:15:06,369] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2837
+[2020-10-19 10:15:06,544] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-10-19 10:15:06,545] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2084
+[2020-10-19 10:15:16,717] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.9293648771364493 HTTP/1.1" 200 2957
+[2020-10-19 10:15:22,005] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 10:15:22,020] [views.py:232] [views:index] [INFO]- 缓存中的key为：e7a0939411b011ebb15e5800e3fb0696----浏览器中的key为:e7a0939411b011ebb15e5800e3fb0696
+[2020-10-19 10:15:22,023] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3258
+[2020-10-19 10:16:46,171] [views.py:232] [views:index] [INFO]- 缓存中的key为：e7a0939411b011ebb15e5800e3fb0696----浏览器中的key为:e7a0939411b011ebb15e5800e3fb0696
+[2020-10-19 10:16:46,224] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 646073
+[2020-10-19 10:19:34,801] [views.py:232] [views:index] [INFO]- 缓存中的key为：e7a0939411b011ebb15e5800e3fb0696----浏览器中的key为:e7a0939411b011ebb15e5800e3fb0696
+[2020-10-19 10:19:34,805] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2594
+[2020-10-19 10:21:26,508] [views.py:232] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:e7a0939411b011ebb15e5800e3fb0696
+[2020-10-19 10:21:26,519] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-19 10:21:26,527] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 10:21:26,561] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2581
+[2020-10-19 10:21:28,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 10:21:28,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2931
+[2020-10-19 10:21:37,723] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 10:21:37,738] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:21:37,741] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 7620
+[2020-10-19 10:22:39,356] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:22:39,359] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3749
+[2020-10-19 10:22:58,504] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:22:58,508] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3513
+[2020-10-19 10:22:59,422] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:22:59,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3513
+[2020-10-19 10:22:59,811] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:22:59,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3513
+[2020-10-19 10:23:00,072] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:23:00,076] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3513
+[2020-10-19 10:23:00,563] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:23:00,566] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3513
+[2020-10-19 10:23:04,443] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-10-19 10:23:04,444] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2033
+[2020-10-19 10:23:19,527] [views.py:232] [views:index] [INFO]- 缓存中的key为：cb7dd6c211b111eb9b3f5800e3fb0696----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:23:19,530] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3749
+[2020-10-19 10:41:48,030] [views.py:232] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:cb7dd6c211b111eb9b3f5800e3fb0696
+[2020-10-19 10:41:48,037] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-19 10:41:48,047] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 10:41:48,085] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2807
+[2020-10-19 10:42:02,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 10:42:02,904] [views.py:232] [views:index] [INFO]- 缓存中的key为：a258ea8611b411eb8ae35800e3fb0696----浏览器中的key为:a258ea8611b411eb8ae35800e3fb0696
+[2020-10-19 10:42:02,907] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2652
+[2020-10-19 10:45:28,008] [views.py:232] [views:index] [INFO]- 缓存中的key为：a258ea8611b411eb8ae35800e3fb0696----浏览器中的key为:a258ea8611b411eb8ae35800e3fb0696
+[2020-10-19 10:45:28,010] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2663
+[2020-10-19 10:45:28,793] [views.py:232] [views:index] [INFO]- 缓存中的key为：a258ea8611b411eb8ae35800e3fb0696----浏览器中的key为:a258ea8611b411eb8ae35800e3fb0696
+[2020-10-19 10:45:28,795] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2663
+[2020-10-19 10:45:29,018] [views.py:232] [views:index] [INFO]- 缓存中的key为：a258ea8611b411eb8ae35800e3fb0696----浏览器中的key为:a258ea8611b411eb8ae35800e3fb0696
+[2020-10-19 10:45:29,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2663
+[2020-10-19 10:50:26,382] [views.py:232] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:a258ea8611b411eb8ae35800e3fb0696
+[2020-10-19 10:50:26,401] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-19 10:50:26,412] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 10:50:26,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2455
+[2020-10-19 10:50:36,991] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 10:50:37,005] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:50:37,007] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3197
+[2020-10-19 10:51:39,171] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:51:39,174] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2802
+[2020-10-19 10:51:39,968] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:51:39,972] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2802
+[2020-10-19 10:51:40,243] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:51:40,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2802
+[2020-10-19 10:51:40,452] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:51:40,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2802
+[2020-10-19 10:52:20,881] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:20,884] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:22,035] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:22,037] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:22,277] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:22,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:22,502] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:22,504] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:23,017] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:23,019] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:23,258] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:23,260] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:23,495] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:23,499] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:23,988] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:23,992] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:52:24,226] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:52:24,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 2860
+[2020-10-19 10:53:40,373] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:53:40,376] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3637
+[2020-10-19 10:53:41,703] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:53:41,709] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3637
+[2020-10-19 10:53:41,983] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:53:41,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3637
+[2020-10-19 10:53:42,228] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:53:42,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3637
+[2020-10-19 10:54:37,878] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:54:37,881] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3847
+[2020-10-19 10:54:42,201] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:54:42,204] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3847
+[2020-10-19 10:55:10,692] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:55:10,695] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3742
+[2020-10-19 10:55:11,333] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:55:11,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3742
+[2020-10-19 10:55:11,519] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:55:11,522] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3742
+[2020-10-19 10:55:20,754] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:55:20,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3699
+[2020-10-19 10:55:21,519] [views.py:232] [views:index] [INFO]- 缓存中的key为：d7515b0611b511eb81045800e3fb0696----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:55:21,522] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3699
+[2020-10-19 10:56:09,658] [views.py:232] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:d7515b0611b511eb81045800e3fb0696
+[2020-10-19 10:56:09,667] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-19 10:56:09,678] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 10:56:09,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2590
+[2020-10-19 10:56:16,074] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.5373866855848146 HTTP/1.1" 200 2512
+[2020-10-19 10:56:20,851] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 10:56:20,868] [views.py:232] [views:index] [INFO]- 缓存中的key为：a3eb7e4011b611eb9f3a5800e3fb0696----浏览器中的key为:a3eb7e4011b611eb9f3a5800e3fb0696
+[2020-10-19 10:56:20,870] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3569
+[2020-10-19 10:56:41,576] [views.py:232] [views:index] [INFO]- 缓存中的key为：a3eb7e4011b611eb9f3a5800e3fb0696----浏览器中的key为:a3eb7e4011b611eb9f3a5800e3fb0696
+[2020-10-19 10:56:41,579] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3509
+[2020-10-19 10:56:42,394] [views.py:232] [views:index] [INFO]- 缓存中的key为：a3eb7e4011b611eb9f3a5800e3fb0696----浏览器中的key为:a3eb7e4011b611eb9f3a5800e3fb0696
+[2020-10-19 10:56:42,397] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3509
+[2020-10-19 10:56:42,641] [views.py:232] [views:index] [INFO]- 缓存中的key为：a3eb7e4011b611eb9f3a5800e3fb0696----浏览器中的key为:a3eb7e4011b611eb9f3a5800e3fb0696
+[2020-10-19 10:56:42,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3509
+[2020-10-19 13:24:03,497] [views.py:232] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:a3eb7e4011b611eb9f3a5800e3fb0696
+[2020-10-19 13:24:03,505] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-19 13:24:03,515] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 13:24:03,551] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2419
+[2020-10-19 13:24:12,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-19 13:24:12,755] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2538
+[2020-10-19 13:24:25,090] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4808
+[2020-10-19 13:24:25,127] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2598
+[2020-10-19 13:24:33,938] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 13:24:33,953] [views.py:232] [views:index] [INFO]- 缓存中的key为：4d239b5c11cb11ebbc295800e3fb0696----浏览器中的key为:4d239b5c11cb11ebbc295800e3fb0696
+[2020-10-19 13:24:33,955] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 3034
+[2020-10-19 13:25:57,827] [views.py:232] [views:index] [INFO]- 缓存中的key为：4d239b5c11cb11ebbc295800e3fb0696----浏览器中的key为:4d239b5c11cb11ebbc295800e3fb0696
+[2020-10-19 13:25:57,831] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 5673
+[2020-10-19 13:25:59,831] [views.py:232] [views:index] [INFO]- 缓存中的key为：4d239b5c11cb11ebbc295800e3fb0696----浏览器中的key为:4d239b5c11cb11ebbc295800e3fb0696
+[2020-10-19 13:25:59,834] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 5673
+[2020-10-19 13:26:00,381] [views.py:232] [views:index] [INFO]- 缓存中的key为：4d239b5c11cb11ebbc295800e3fb0696----浏览器中的key为:4d239b5c11cb11ebbc295800e3fb0696
+[2020-10-19 13:26:00,384] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 5673
+[2020-10-19 13:26:00,606] [views.py:232] [views:index] [INFO]- 缓存中的key为：4d239b5c11cb11ebbc295800e3fb0696----浏览器中的key为:4d239b5c11cb11ebbc295800e3fb0696
+[2020-10-19 13:26:00,609] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 5673
+[2020-10-19 13:26:54,729] [views.py:232] [views:index] [INFO]- 缓存中的key为：4d239b5c11cb11ebbc295800e3fb0696----浏览器中的key为:4d239b5c11cb11ebbc295800e3fb0696
+[2020-10-19 13:26:54,732] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 5663
+[2020-10-19 13:29:34,930] [views.py:232] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:4d239b5c11cb11ebbc295800e3fb0696
+[2020-10-19 13:29:34,940] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-19 13:29:34,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 13:29:34,992] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2920
+[2020-10-19 13:29:44,500] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 13:29:44,514] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:29:44,516] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:12,634] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:12,639] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:13,401] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:13,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:13,834] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:13,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:14,345] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:14,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:14,686] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:14,689] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:14,969] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:14,972] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:15,216] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:15,219] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:16,113] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:16,117] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:16,587] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:16,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:17,509] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:17,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:18,054] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:18,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:31:18,286] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:31:18,288] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4274
+[2020-10-19 13:34:18,671] [views.py:232] [views:index] [INFO]- 缓存中的key为：12b1ec3611cc11eba1695800e3fb0696----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:34:18,674] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4645
+[2020-10-19 13:35:28,872] [views.py:232] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:12b1ec3611cc11eba1695800e3fb0696
+[2020-10-19 13:35:28,880] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 302 0
+[2020-10-19 13:35:28,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4706
+[2020-10-19 13:35:28,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2499
+[2020-10-19 13:35:36,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.5749449210003166 HTTP/1.1" 200 2438
+[2020-10-19 13:35:40,961] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-19 13:35:40,975] [views.py:232] [views:index] [INFO]- 缓存中的key为：e5a76b1c11cc11eb8c575800e3fb0696----浏览器中的key为:e5a76b1c11cc11eb8c575800e3fb0696
+[2020-10-19 13:35:40,978] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 5240
+[2020-10-19 13:35:40,997] [base.py:93] [base:get_response] [WARNING]- Not Found: /images/logo-text-only.png
+[2020-10-19 13:35:40,997] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /images/logo-text-only.png HTTP/1.1" 404 2126
+[2020-10-19 13:37:11,962] [views.py:232] [views:index] [INFO]- 缓存中的key为：e5a76b1c11cc11eb8c575800e3fb0696----浏览器中的key为:e5a76b1c11cc11eb8c575800e3fb0696
+[2020-10-19 13:37:11,965] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4645
+[2020-10-19 13:37:17,137] [views.py:232] [views:index] [INFO]- 缓存中的key为：e5a76b1c11cc11eb8c575800e3fb0696----浏览器中的key为:e5a76b1c11cc11eb8c575800e3fb0696
+[2020-10-19 13:37:17,140] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4645
+[2020-10-19 13:37:17,870] [views.py:232] [views:index] [INFO]- 缓存中的key为：e5a76b1c11cc11eb8c575800e3fb0696----浏览器中的key为:e5a76b1c11cc11eb8c575800e3fb0696
+[2020-10-19 13:37:17,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4645
+[2020-10-19 13:37:18,130] [views.py:232] [views:index] [INFO]- 缓存中的key为：e5a76b1c11cc11eb8c575800e3fb0696----浏览器中的key为:e5a76b1c11cc11eb8c575800e3fb0696
+[2020-10-19 13:37:18,133] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4645
+[2020-10-19 13:37:18,361] [views.py:232] [views:index] [INFO]- 缓存中的key为：e5a76b1c11cc11eb8c575800e3fb0696----浏览器中的key为:e5a76b1c11cc11eb8c575800e3fb0696
+[2020-10-19 13:37:18,365] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4645
+[2020-10-19 13:37:18,553] [views.py:232] [views:index] [INFO]- 缓存中的key为：e5a76b1c11cc11eb8c575800e3fb0696----浏览器中的key为:e5a76b1c11cc11eb8c575800e3fb0696
+[2020-10-19 13:37:18,555] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/index HTTP/1.1" 200 4645
+[2020-10-19 14:40:45,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 4

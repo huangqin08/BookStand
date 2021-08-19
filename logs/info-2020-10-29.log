@@ -1,0 +1,101 @@
+[2020-10-29 09:32:09,153] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-29 09:32:09,219] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2799
+[2020-10-29 09:32:09,347] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-10-29 09:32:09,349] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2191
+[2020-10-29 09:32:20,639] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-10-29 09:32:20,671] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2385
+[2020-10-29 09:32:29,551] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-29 09:32:29,564] [views.py:24] [views:index] [INFO]- 缓存中的key为：8fa9bffe198611ebb1f45800e3fb0696----浏览器中的key为:8fa9bffe198611ebb1f45800e3fb0696
+[2020-10-29 09:32:32,717] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17963
+[2020-10-29 09:32:32,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/57304l.jpg HTTP/1.1" 304 0
+[2020-10-29 09:32:32,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/banner/8797s.jpg HTTP/1.1" 304 0
+[2020-10-29 09:32:34,713] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8388
+[2020-10-29 09:32:39,479] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/delete_collect/11111111 HTTP/1.1" 200 15
+[2020-10-29 09:33:06,313] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/delete_collect/1111 HTTP/1.1" 200 15
+[2020-10-29 11:05:26,593] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7658
+[2020-10-29 11:05:27,707] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7658
+[2020-10-29 11:05:48,527] [views.py:24] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:8fa9bffe198611ebb1f45800e3fb0696
+[2020-10-29 11:05:48,535] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-29 11:05:48,544] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-29 11:05:48,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2597
+[2020-10-29 11:05:56,217] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-10-29 11:05:56,252] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2571
+[2020-10-29 11:06:03,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-29 11:06:03,363] [views.py:24] [views:index] [INFO]- 缓存中的key为：a51524f6199311eba88b5800e3fb0696----浏览器中的key为:a51524f6199311eba88b5800e3fb0696
+[2020-10-29 11:06:03,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17963
+[2020-10-29 11:06:03,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_5kfSspN.jpg HTTP/1.1" 304 0
+[2020-10-29 11:06:03,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l.jpg HTTP/1.1" 304 0
+[2020-10-29 11:06:03,475] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/58950l_O9lXQZR.jpg HTTP/1.1" 304 0
+[2020-10-29 11:06:03,477] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57304l.jpg HTTP/1.1" 304 0
+[2020-10-29 11:06:03,482] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/57840l.jpg HTTP/1.1" 304 0
+[2020-10-29 11:06:03,488] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/type/59178l.jpg HTTP/1.1" 304 0
+[2020-10-29 11:06:09,065] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:06:09,084] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/57304l.jpg HTTP/1.1" 200 138618
+[2020-10-29 11:06:12,996] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=121212121212 HTTP/1.1" 200 17
+[2020-10-29 11:06:20,151] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7658
+[2020-10-29 11:08:33,640] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7658
+[2020-10-29 11:08:40,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/232311111 HTTP/1.1" 200 13901
+[2020-10-29 11:08:43,043] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=121212121212 HTTP/1.1" 200 17
+[2020-10-29 11:08:47,626] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:10:10,040] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:10:11,716] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=121212121212 HTTP/1.1" 200 17
+[2020-10-29 11:10:15,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8379
+[2020-10-29 11:18:14,206] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8379
+[2020-10-29 11:18:14,524] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8379
+[2020-10-29 11:18:18,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/delete_collect/121212121212 HTTP/1.1" 200 15
+[2020-10-29 11:18:22,309] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8379
+[2020-10-29 11:18:22,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8379
+[2020-10-29 11:18:38,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/delete_collect/121212121212 HTTP/1.1" 200 15
+[2020-10-29 11:18:40,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/delete_collect/121212121212 HTTP/1.1" 200 15
+[2020-10-29 11:19:42,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/delete_collect/121212121212 HTTP/1.1" 302 0
+[2020-10-29 11:19:42,674] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 8379
+[2020-10-29 11:20:02,392] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7658
+[2020-10-29 11:20:03,000] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7658
+[2020-10-29 11:20:03,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7658
+[2020-10-29 11:20:05,535] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/delete_collect/11111111 HTTP/1.1" 302 0
+[2020-10-29 11:20:05,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 6940
+[2020-10-29 11:20:08,718] [views.py:24] [views:index] [INFO]- 缓存中的key为：None----浏览器中的key为:a51524f6199311eba88b5800e3fb0696
+[2020-10-29 11:20:08,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 302 0
+[2020-10-29 11:20:08,738] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/login HTTP/1.1" 200 4227
+[2020-10-29 11:20:08,774] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2667
+[2020-10-29 11:20:20,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4341
+[2020-10-29 11:20:20,815] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2748
+[2020-10-29 11:20:26,999] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw?ran=0.9446628350121218 HTTP/1.1" 200 2920
+[2020-10-29 11:20:31,303] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 200 4329
+[2020-10-29 11:20:31,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /user/draw HTTP/1.1" 200 2747
+[2020-10-29 11:20:39,519] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /user/login HTTP/1.1" 302 0
+[2020-10-29 11:20:39,533] [views.py:24] [views:index] [INFO]- 缓存中的key为：a5cc1c0c199511ebbc7a5800e3fb0696----浏览器中的key为:a5cc1c0c199511ebbc7a5800e3fb0696
+[2020-10-29 11:20:39,598] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17963
+[2020-10-29 11:20:45,043] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:20:47,329] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /novels/add_bookrack
+Traceback (most recent call last):
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Envs\Django2020\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view novels.views.add_bookrack didn't return an HttpResponse object. It returned None instead.
+[2020-10-29 11:20:47,377] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /novels/add_bookrack?novelUid=121212121212 HTTP/1.1" 500 19927
+[2020-10-29 11:20:49,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=121212121212 HTTP/1.1" 200 17
+[2020-10-29 11:20:53,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_bookrack?novelUid=121212121212 HTTP/1.1" 200 17
+[2020-10-29 11:20:58,161] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7670
+[2020-10-29 11:23:42,988] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7670
+[2020-10-29 11:23:50,564] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 8273
+[2020-10-29 11:23:50,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/media/novels/58950l.jpg HTTP/1.1" 200 335654
+[2020-10-29 11:23:53,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:23:55,812] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/333333 HTTP/1.1" 200 13508
+[2020-10-29 11:23:57,379] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_chapter?chapterUid=333333 HTTP/1.1" 200 17
+[2020-10-29 11:24:04,530] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7667
+[2020-10-29 11:24:10,330] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:24:14,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/111111 HTTP/1.1" 200 13484
+[2020-10-29 11:24:15,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/add_chapter?chapterUid=111111 HTTP/1.1" 200 17
+[2020-10-29 11:24:17,521] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7667
+[2020-10-29 11:24:24,264] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7667
+[2020-10-29 11:24:29,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:24:31,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/show_bookrack HTTP/1.1" 200 7667
+[2020-10-29 11:25:03,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/121212121212 HTTP/1.1" 200 8634
+[2020-10-29 11:25:07,172] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/111111 HTTP/1.1" 200 13492
+[2020-10-29 11:25:18,124] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/novelbody/111111 HTTP/1.1" 200 13492
+[2020-10-29 11:25:21,163] [views.py:24] [views:index] [INFO]- 缓存中的key为：a5cc1c0c199511ebbc7a5800e3fb0696----浏览器中的key为:a5cc1c0c199511ebbc7a5800e3fb0696
+[2020-10-29 11:25:21,312] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/index HTTP/1.1" 200 17963
+[2020-10-29 11:25:23,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 8281
+[2020-10-29 12:32:01,957] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /novels/detail/1111 HTTP/1.1" 200 8281

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}
+    小说章节详情页
+{% endblock %}
+{% block content %}
+    <div id="main">
+        <div class="gridtop" align="center">
+            目前：书架有{{ count | default:'0' }}本；
+            {% if count == 0 or None%}
+            <p style="color: #ff461f">还没有小说，快去加入吧!</p>
+            {% endif %}
+        </div>
+        <table class="grid" width="80%" align="center" border="1px">
+            <tbody>
+            <tr align="center">
+                <th width="21%">文章名称</th>
+                <th width="30%">最新章节</th>
+                <th width="30%">书签</th>
+                <th width="7%">添加时间</th>
+                <th width="7%">操作</th>
+            </tr>
+            {% for mybookrack,novel_list in dabao %}
+                <tr align="center">
+                    <td>
+                        <a href="{% url 'novels:detail' mybookrack.novels.uid %}">{{ mybookrack.novels.name }}</a>
+                    </td>
+                    <td>
+                        <span><a href="#">{{ novel_list|default:'暂无更新' }}</a></span>
+                    </td>
+                    <td>
+                        <span><a href="#">{{ mybookrack.chapters_uid|default:'' }}</a></span>
+                    </td>
+                    <td>{{ mybookrack.add_time }}</td>
+                    <td class="nowrap">
+                        <a href="javascript:if(confirm('确实要将本书移出书架么？')) document.location='{% url 'novels:delete_collect' mybookrack.novels.uid %}';" id="del">删除</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
